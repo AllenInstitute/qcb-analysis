@@ -10,5 +10,5 @@ __pycache__/
 *checkpoint.ipynb
 
 # Static imgs
-#engine/app//static/imgs/
+engine/app/static/imgs/
 
