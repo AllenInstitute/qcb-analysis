@@ -100,8 +100,8 @@ function updateImgs() {
 				var img_name = myTable.data[0].cells.values[0][j]
 				var img = document.createElement("IMG");
 				img.setAttribute("width", "128");
-				//img.setAttribute("src","static/imgs/"+img_name+".jpg");
-				img.setAttribute("src","https://cran.r-project.org/web/packages/plotly/readme/man/figures/plotly.png");
+				img.setAttribute("src","static/imgs/"+img_name+".jpg");
+				//img.setAttribute("src","https://cran.r-project.org/web/packages/plotly/readme/man/figures/plotly.png");
 				img.setAttribute("title",img_name);
 				document.getElementById('myDivImgs').appendChild(img);
 		}

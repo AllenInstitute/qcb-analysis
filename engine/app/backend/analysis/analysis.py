@@ -39,6 +39,8 @@ print('TABLE',TABLE.shape)
 for col_id, col in enumerate(TABLE.columns.tolist()):
 	print(col_id, col)
 
+TABLE = TABLE[TABLE['mitosis']==0]
+
 #
 # Save
 #
