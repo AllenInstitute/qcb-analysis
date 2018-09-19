@@ -47,7 +47,7 @@ TABLE = TABLE[TABLE['mitosis']==0]
 
 DATA = []
 
-factor_name = 'mitosis'
+factor_name = 'structure_name'
 
 factor = np.unique(TABLE[factor_name].values)
 
@@ -64,8 +64,8 @@ for fac in factor:
 	subDATA = dict()
 	subDATA['x'] = TABLE['cell_seg_vol'][ids].values.tolist()
 	subDATA['y'] = TABLE['dna_seg_vol'][ids].values.tolist()
-	subDATA['label'] = [fac.astype(str)] * ncells
-	subDATA['name']  = fac.astype(str)
+	subDATA['label'] = [fac] * ncells
+	subDATA['name']  = fac
 	subDATA['id']  = TABLE['cell_id'][ids].values.tolist()
 
 	DATA.append(subDATA)

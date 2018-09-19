@@ -27,6 +27,7 @@ if __name__ == '__main__':
 
 	APP.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 
+	#APP.run(host='10.128.62.73', port=8080, debug=True)
 	APP.run(port=8080, debug=True)
  
 
