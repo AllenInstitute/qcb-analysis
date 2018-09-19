@@ -1,0 +1,11 @@
+{
+	"ntypes": 2,
+	"data":
+			{
+				"prefix": ["IMG_HR_", "IMG_LR_"],
+
+				"type": ["image3d", "image3d"],
+
+				"dim":	[[240,240,180], [60,60,45]]
+			}
+}

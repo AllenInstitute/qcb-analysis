@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewer</title>
+    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/css/styles.css">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+<center>
+    <div style="background-color:white; padding:0; margin:0; width: 600px;">
+        <p>Loading the variable from Python...</p>
+        <script>
+
+            var NAME = {{PythonVars['name'] | safe}};
+            var DATA = {{PythonVars['data'] | safe}};
+
+        </script>
+    </div>
+</center>
+
+<center>
+    <div style="background-color:white; padding:0; margin:0; width: 600px;">
+        <button class="btn btn-primary" onclick="updateImgs()" class="button-primary">Add</button>
+        <button class="btn btn-primary" onclick="clearImgs()" class="button-primary">Clear</button>
+        <br>
+    </div>
+</center>
+
+<center>
+    <div id="myDivPlot" style="background-color:white; width: 600px; height: 500px; padding:0; margin:0;"></div>
+</center>
+
+<center>
+    <p>Images:</p>
+    <div id="myDivImgs" style="background-color:white; padding:0; margin:0; width: 600px;"></div>
+</center>
+
+<center>
+    <div id="myDivTable" style="background-color:white; padding:0; margin:0; width: 600px;"></div>
+</center>
+
+    <script src="static/assets/js/jquery.min.js"></script>
+    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/plyfuncs.js"></script>
+
+</body>
+
+</html>
