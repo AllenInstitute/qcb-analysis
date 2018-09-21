@@ -19,7 +19,7 @@ def main_page():
 	with open('static/results/features.json', 'r') as fj:
 		DATA = json.load(fj)
 
-	Dict = {'data': DATA, 'name': {'name': 'QCB Analysis'}}
+	Dict = {'data': DATA['DATA'], 'labx': DATA['LABS'][0], 'laby': DATA['LABS'][1],'name': {'name': 'QCB Analysis'}}
 
 	return render_template('index.html', PythonVars=Dict)
 

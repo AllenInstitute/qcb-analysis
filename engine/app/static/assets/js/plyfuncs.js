@@ -43,11 +43,13 @@ for ( trace_id in DATA ) {
 
 	var layout = {
 		title: 'QCB Analysis',
-		xaxis: {title:'cell volume', range:[xmin,xmax]},
-		yaxis: {title:'dna volume', range:[ymin,ymax]},
+		xaxis: {title: LABX, range:[xmin,xmax]},
+		yaxis: {title: LABY, range:[ymin,ymax]},
+		hovermode: 'closest',
+		dragmode: 'lasso'
 	};
 
-	Plotly.plot(myPlot, [trace], layout, {dragmode: 'lasso', hovermode: 'closest'});
+	Plotly.plot(myPlot, [trace], layout);
 
 }
 

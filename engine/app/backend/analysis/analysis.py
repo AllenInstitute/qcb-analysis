@@ -47,6 +47,8 @@ TABLE = TABLE[TABLE['mitosis']==0]
 
 DATA = []
 
+xvar = 'cell_seg_vol'
+yvar = 'dna_seg_vol'
 factor_name = 'structure_name'
 
 factor = np.unique(TABLE[factor_name].values)
@@ -62,8 +64,8 @@ for fac in factor:
 	ncells = ids.sum()
 
 	subDATA = dict()
-	subDATA['x'] = TABLE['cell_seg_vol'][ids].values.tolist()
-	subDATA['y'] = TABLE['dna_seg_vol'][ids].values.tolist()
+	subDATA['x'] = TABLE[xvar][ids].values.tolist()
+	subDATA['y'] = TABLE[yvar][ids].values.tolist()
 	subDATA['label'] = [fac] * ncells
 	subDATA['name']  = fac
 	subDATA['id']  = TABLE['cell_id'][ids].values.tolist()
@@ -75,7 +77,10 @@ for fac in factor:
 #
 
 with open('../../static/results/features.json','w') as fj:
-	json.dump(DATA, fj, indent=4, sort_keys=True)
+	json.dump({'DATA': DATA, 'LABS': [xvar,yvar]}, fj, indent=4, sort_keys=True)
+
+os.system('rm ../../static/results/analysis.jpg')
+print('Rscript cond.R fix/free',xvar,yvar)
 
 #
 # Backup
