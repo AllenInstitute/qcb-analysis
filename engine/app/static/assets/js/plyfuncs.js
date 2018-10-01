@@ -30,7 +30,7 @@ for ( trace_id in DATA ) {
 
 for ( trace_id in DATA ) {
 
-	var trace = {
+	var trace_scatter = {
 		name: DATA[trace_id].name,
 		text: DATA[trace_id].label,
 		x: DATA[trace_id].x,
@@ -38,8 +38,20 @@ for ( trace_id in DATA ) {
 		ids: DATA[trace_id].id,
 		type: 'scatter',
 		mode: 'markers',
-		marker: {size:4}
+		marker: {size:3, opacity: 1.0}
 	};
+
+	var trace_density = {
+		x: DATA[trace_id].x,
+		y: DATA[trace_id].y,
+		name: 'density',
+		ncontours: 20,
+		colorscale: 'Hot',
+		reversescale: true,
+		showscale: false,
+		type: 'histogram2dcontour'
+	};
+
 
 	var layout = {
 		title: 'QCB Analysis',
@@ -47,9 +59,17 @@ for ( trace_id in DATA ) {
 		yaxis: {title: LABY, range:[ymin,ymax]},
 		hovermode: 'closest',
 		dragmode: 'lasso'
+		// shapes: [{
+		// 	type: 'line',
+		// 	x0: 0,
+		// 	y0: 0,
+		// 	x1: 2.0E6,
+		// 	y1: 0.4E6,
+		// 	line: {color:'rgb(128, 0, 128)', width:4, dash:'dot'}
+		// }]
 	};
 
-	Plotly.plot(myPlot, [trace], layout);
+	Plotly.plot(myPlot, [trace_scatter], layout);
 
 }
 
