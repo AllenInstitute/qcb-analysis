@@ -18,7 +18,7 @@
 				},
 				{
 					"structure_name": "tubulin",
-					"extra_features": [],
+					"extra_features": ["network"],
 					"save_as": "test_tmp_tub_drug_ds.pkl"
 				}
 			],

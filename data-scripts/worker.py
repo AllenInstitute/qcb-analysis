@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from skimage import io as skio
-from aicsimage import io, processing
 
 if __name__ == "__main__":
 
@@ -56,6 +55,8 @@ if __name__ == "__main__":
 
     if args["mode"] == "feature":
 
+        from aicsfeature.extractor import mem, dna, structure
+
         #
         # Loading metadata
         #
@@ -83,7 +84,13 @@ if __name__ == "__main__":
 
             print("\nImage Type:[", struct["structure_name"], "]\n")
 
-            df_meta_struct = df_meta.loc[df_meta.structure_name==struct["structure_name"]]
+            if struct["structure_name"] not in ["mem", "dna"]:
+
+                df_meta_struct = df_meta.loc[df_meta.structure_name==struct["structure_name"]]
+
+            else:
+
+                df_meta_struct = df_meta.copy()
 
             df_features = pd.DataFrame([])
             for row in tqdm(range(df_meta_struct.shape[0])):
@@ -97,7 +104,18 @@ if __name__ == "__main__":
                 # Feature extraction for each cell
                 #
 
-                df_features = df_features.append(structure.GetFeatures(None,seg=RAW[2,:,:,:]*SEG[2,:,:,:],
+                if struct["structure_name"] is "mem":
+
+                    df_features = df_features.append(mem.GetFeatures(None,seg=RAW[1,:,:,:]*SEG[1,:,:,:]),
+                                ignore_index=True)
+
+                elif struct["structure_name"] is "dna":
+
+                    df_features = df_features.append(dna.GetFeatures(None,seg=RAW[0,:,:,:]*SEG[0,:,:,:]),
+                                ignore_index=True)
+                else:
+
+                    df_features = df_features.append(structure.GetFeatures(None,seg=RAW[2,:,:,:]*SEG[2,:,:,:],
                                 extra_features=struct["extra_features"]),
                                 ignore_index=True)
 
@@ -109,3 +127,4 @@ if __name__ == "__main__":
 
             with open(os.path.join("../data-raw/",struct["save_as"]), "wb") as fp:
                 pickle.dump(df_features,fp)
+
