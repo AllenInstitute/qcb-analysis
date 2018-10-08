@@ -1,45 +1,50 @@
 import os
 import sys
 import json
+import pickle
 import argparse
 import numpy as np
 import pandas as pd
-from uuid import getnode
-from keras.models import Model, load_model
 from sklearn.manifold import TSNE
 
-sys.path.insert(0,'../aux/')
-from auxFunctions import loadData, myGenerator, backupFiles
+sys.path.insert(0,"../aux/")
+from auxFunctions import backupFiles
 
-pd.set_option('display.max_columns', None)
+pd.set_option("display.max_columns", None)
 np.set_printoptions(threshold=np.nan)
 
 #
 # Arguments
 #
 
-parser = argparse.ArgumentParser(description='Exploration of QCB data')
-parser.add_argument('-p','--path', help='Path to tables', required=True)
+parser = argparse.ArgumentParser(description="Exploration of QCB data")
+parser.add_argument("-m","--meta", help="Path to metadata df", required=True)
+parser.add_argument("-1","--df1", help="Path to df 1", required=True)
+parser.add_argument("-2","--df2", help="Path to df 2", required=True)
+parser.add_argument("-x","--x", help="variable for x axis", required=True)
+parser.add_argument("-y","--y", help="variable for y axis", required=True)
+parser.add_argument("-c","--color", help="variable for color", required=True)
 args = vars(parser.parse_args())
 
 #
 # Feature extraction
 #
 
-METADATA = pd.read_csv(os.path.join(args['path'],'meta.csv'))
-FEATURES = pd.read_csv(os.path.join(args['path'],'features.csv'))
+with open(args["meta"], "rb") as fp:
+	df_meta = pickle.load(fp)
+with open(args["df1"], "rb") as fp:
+	df1 = pickle.load(fp)
+with open(args["df2"], "rb") as fp:
+	df2 = pickle.load(fp)
 
-print('METADATA',METADATA.shape)
-print('FEATURES',FEATURES.shape)
+df = df_meta.merge(df1.merge(df2, left_index=True, right_index=True), left_index=True, right_index=True)
 
-TABLE = METADATA.merge(FEATURES, on='cell_id', how='inner')
+print("Shapes:", df1.shape, df2.shape, df.shape)
 
-print('TABLE',TABLE.shape)
-
-for col_id, col in enumerate(TABLE.columns.tolist()):
+for col_id, col in enumerate(df.columns.tolist()):
 	print(col_id, col)
 
-TABLE = TABLE[TABLE['mitosis']==0]
+print(df.mem_volume[0],df.dna_volume[0])
 
 #
 # Save
@@ -47,11 +52,11 @@ TABLE = TABLE[TABLE['mitosis']==0]
 
 DATA = []
 
-xvar = 'cell_seg_vol'
-yvar = 'dna_seg_vol'
-factor_name = 'structure_name'
+xvar = args["x"]
+yvar = args["y"]
+factor_name = args["color"]
 
-factor = np.unique(TABLE[factor_name].values)
+factor = np.unique(df[factor_name].values)
 
 print(factor)
 
@@ -59,16 +64,16 @@ for fac in factor:
 
 	print(fac)
 
-	ids = TABLE[factor_name] == fac
+	ids = df[factor_name] == fac
 
 	ncells = ids.sum()
 
 	subDATA = dict()
-	subDATA['x'] = TABLE[xvar][ids].values.tolist()
-	subDATA['y'] = TABLE[yvar][ids].values.tolist()
-	subDATA['label'] = [fac] * ncells
-	subDATA['name']  = fac
-	subDATA['id']  = TABLE['cell_id'][ids].values.tolist()
+	subDATA["x"] = df[xvar][ids].values.tolist()
+	subDATA["y"] = df[yvar][ids].values.tolist()
+	subDATA["label"] = [fac] * ncells
+	subDATA["name"]  = fac
+	subDATA["id"]  = df["cell_id"][ids].values.tolist()
 
 	DATA.append(subDATA)
 
@@ -76,14 +81,14 @@ for fac in factor:
 # Save JSON
 #
 
-with open('../../static/results/features.json','w') as fj:
-	json.dump({'DATA': DATA, 'LABS': [xvar,yvar]}, fj, indent=4, sort_keys=True)
+with open("../../static/results/features.json","w") as fj:
+	json.dump({"DATA": DATA, "LABS": [xvar,yvar]}, fj, indent=4, sort_keys=True)
 
-os.system('rm ../../static/results/analysis.jpg')
-print('Rscript cond.R fix/free',xvar,yvar)
+os.system("rm ../../static/results/analysis.jpg")
+print("Rscript cond.R fix/free",xvar,yvar)
 
 #
 # Backup
 #
 
-#backupFiles('./featurex.py', 'featurex.py', '../../static/results/config-'+suffix+'.json')
+#backupFiles("./featurex.py", "featurex.py", "../../static/results/config-"+suffix+".json")
