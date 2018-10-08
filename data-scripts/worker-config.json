@@ -1,0 +1,26 @@
+{
+	"meta": "QCB_drug_cell_meta",
+	"id": "cell_id",
+	"cell_info": "/allen/aics/assay-dev/Analysis/QCB_DRUG_database/cell_info",
+	"raw_prefix": "raw.ome.tif",
+	"seg_prefix": "seg.ome.tif",
+	"run":
+			[
+				{
+					"structure_name": "mem",
+					"extra_features": [],
+					"save_as": "test_tmp_mem_drug_ds.pkl"
+				},
+				{
+					"structure_name": "dna",
+					"extra_features": [],
+					"save_as": "test_tmp_dna_drug_ds.pkl"
+				},
+				{
+					"structure_name": "tubulin",
+					"extra_features": [],
+					"save_as": "test_tmp_tub_drug_ds.pkl"
+				}
+			],
+	"database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"
+}
