@@ -136,6 +136,22 @@ if __name__ == "__main__":
 
     if args["mode"] == "image":
 
+        #
+        # Loading metadata
+        #
+
+        with open(os.path.join("../data-raw/",config_json["meta"]+".pkl"), "rb") as fp:
+            df_meta = pickle.load(fp)
+
+        df_meta = df_meta.set_index(config_json["id"])
+
+        """
+            Checking whether static/imgs exist
+        """
+
+        if not os.path.isdir("../engine/app/static/imgs/"):
+            os.makedirs("../engine/app/static/imgs/")
+
         """
             Creates an image with custom colors
         """
@@ -153,14 +169,14 @@ if __name__ == "__main__":
         """
 
         def get_cell_image(cell_img_path):
-            img = io.imread(cell_img_path)
+            img = skio.imread(cell_img_path)
             img = np.max(img,axis=1)
             img = np.swapaxes(img,0,2)
             img = img[:,:,:3]
-            img = fixColor(img)
+            img = fix_cell_color(img)
             return img
 
         for row in tqdm(range(df_meta.shape[0])):
-            cid = df_meta_struct.index[row]
-            img = get_cell_image(os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
+            cid = df_meta.index[row]
+            img = get_cell_image(os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"]))
             skio.imsave(os.path.join('../engine/app/static/imgs',cid+'.jpg'),img)
