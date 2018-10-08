@@ -9,17 +9,27 @@
 				{
 					"structure_name": "mem",
 					"extra_features": [],
-					"save_as": "test_tmp_mem_drug_ds.pkl"
+					"save_as": "QCB_DRUG_MEM_feature.pkl"
 				},
 				{
 					"structure_name": "dna",
 					"extra_features": [],
-					"save_as": "test_tmp_dna_drug_ds.pkl"
+					"save_as": "QCB_DRUG_DNA_feature.pkl"
 				},
 				{
 					"structure_name": "tubulin",
 					"extra_features": ["network"],
-					"save_as": "test_tmp_tub_drug_ds.pkl"
+					"save_as": "QCB_DRUG_TUBA1B_feature.pkl"
+				},
+				{
+					"structure_name": "er",
+					"extra_features": ["network"],
+					"save_as": "QCB_DRUG_SEC61B_feature.pkl"
+				},
+				{
+					"structure_name": "golgi",
+					"extra_features": [],
+					"save_as": "QCB_DRUG_ST6GAL_feature.pkl"
 				}
 			],
 	"database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"

@@ -1,0 +1,21 @@
+{
+	"meta": "QCB_cell_meta",
+	"id": "cell_id",
+	"cell_info": "/allen/aics/assay-dev/Analysis/QCB_database/cell_info",
+	"raw_prefix": "raw.ome.tif",
+	"seg_prefix": "seg.ome.tif",
+	"run":
+			[
+				{
+					"structure_name": "mem",
+					"extra_features": [],
+					"save_as": "QCB_MEM_feature.pkl"
+				},
+				{
+					"structure_name": "dna",
+					"extra_features": [],
+					"save_as": "QCB_DNA_feature.pkl"
+				}
+			],
+	"database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"
+}

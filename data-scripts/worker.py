@@ -14,7 +14,9 @@ if __name__ == "__main__":
     """
 
     parser = argparse.ArgumentParser(description="Interface for downloading/exploring data from database and extracting features for QCB")
-    parser.add_argument("-m", "--mode", help="Download (download metadata), feature (feature extraction)", required=True)
+    parser.add_argument("-m", "--mode", help="download (download metadata), \
+                                            feature (feature extraction) \
+                                            image (save cell images in static folder)", required=True)
     parser.add_argument("-c", "--config", help="Path to config json", required=True)
     args = vars(parser.parse_args())
 
@@ -128,3 +130,37 @@ if __name__ == "__main__":
             with open(os.path.join("../data-raw/",struct["save_as"]), "wb") as fp:
                 pickle.dump(df_features,fp)
 
+    """
+        If image mode
+    """
+
+    if args["mode"] == "image":
+
+        """
+            Creates an image with custom colors
+        """
+
+        def fix_cell_color(img):
+            for i in [2,0,1]:
+                for j in [2,0,1]:
+                    if i != j:
+                        img[img[:,:,i]>0,j] = 0
+            img[np.all(img==0,axis=2),:] = 255
+            return img
+
+        """
+            Load a given cell
+        """
+
+        def get_cell_image(cell_img_path):
+            img = io.imread(cell_img_path)
+            img = np.max(img,axis=1)
+            img = np.swapaxes(img,0,2)
+            img = img[:,:,:3]
+            img = fixColor(img)
+            return img
+
+        for row in tqdm(range(df_meta.shape[0])):
+            cid = df_meta_struct.index[row]
+            img = get_cell_image(os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
+            skio.imsave(os.path.join('../engine/app/static/imgs',cid+'.jpg'),img)
