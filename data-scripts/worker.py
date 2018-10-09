@@ -16,7 +16,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Interface for downloading/exploring data from database and extracting features for QCB")
     parser.add_argument("-m", "--mode", help="download (download metadata), \
                                             feature (feature extraction) \
-                                            image (save cell images in static folder)", required=True)
+                                            image (save cell images in static folder)\
+                                            check (check dataframe produced by feature extraction)", required=True)
     parser.add_argument("-c", "--config", help="Path to config json", required=True)
     args = vars(parser.parse_args())
 
@@ -184,3 +185,25 @@ if __name__ == "__main__":
             cid = df_meta.index[row]
             img = get_cell_image(os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"]))
             skio.imsave(os.path.join('../engine/app/static/imgs',cid+'.jpg'),img)
+
+    """
+        If check mode
+    """
+
+    if args["mode"] == "check":
+
+        #
+        # For each structure in the config file
+        #
+
+        for struct in config_json["run"]:
+
+            #
+            # Finding all cell with that structure
+            #
+
+            with open(os.path.join("../data-raw/",struct["save_as"]), "rb") as fp:
+                df = pickle.load(fp)
+
+            print("\n## "+struct["save_as"]+" ##\n")
+            print(df.head())
