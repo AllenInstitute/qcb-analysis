@@ -106,18 +106,22 @@ if __name__ == "__main__":
                 # Feature extraction for each cell
                 #
 
+                mem_ch = config_json["mem_channel"]
+                dna_ch = config_json["dna_channel"];
+                str_ch = config_json["str_channel"];
+
                 if struct["structure_name"] is "mem":
 
-                    df_features = df_features.append(mem.GetFeatures(None,seg=RAW[1,:,:,:]*SEG[1,:,:,:]),
+                    df_features = df_features.append(mem.GetFeatures(None,seg=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
                                 ignore_index=True)
 
                 elif struct["structure_name"] is "dna":
 
-                    df_features = df_features.append(dna.GetFeatures(None,seg=RAW[0,:,:,:]*SEG[0,:,:,:]),
+                    df_features = df_features.append(dna.GetFeatures(None,seg=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
                                 ignore_index=True)
                 else:
 
-                    df_features = df_features.append(structure.GetFeatures(None,seg=RAW[2,:,:,:]*SEG[2,:,:,:],
+                    df_features = df_features.append(structure.GetFeatures(None,seg=SEG[str_ch,:,:,:],
                                 extra_features=struct["extra_features"]),
                                 ignore_index=True)
 
