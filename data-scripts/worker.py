@@ -111,21 +111,18 @@ if __name__ == "__main__":
                 dna_ch = config_json["dna_channel"];
                 str_ch = config_json["str_channel"];
 
-                if struct["structure_name"] is "mem":
-
+                if struct["structure_name"] == "mem":
                     df_features = df_features.append(mem.GetFeatures(None,seg=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
                                 ignore_index=True)
 
-                elif struct["structure_name"] is "dna":
-
+                elif struct["structure_name"] == "dna":
                     df_features = df_features.append(dna.GetFeatures(None,seg=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
                                 ignore_index=True)
                 else:
-
                     df_features = df_features.append(structure.GetFeatures(None,seg=SEG[str_ch,:,:,:],
                                 extra_features=struct["extra_features"]),
                                 ignore_index=True)
-
+            
             df_features.index = df_meta_struct.index
 
             #
