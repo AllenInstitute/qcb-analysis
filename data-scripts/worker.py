@@ -17,7 +17,8 @@ if __name__ == "__main__":
     parser.add_argument("-m", "--mode", help="download (download metadata), \
                                             feature (feature extraction) \
                                             image (save cell images in static folder)\
-                                            check (check dataframe produced by feature extraction)", required=True)
+                                            check (check dataframe produced by feature extraction)\
+                                            process (process tables for further analyzes)", required=True)
     parser.add_argument("-c", "--config", help="Path to config json", required=True)
     args = vars(parser.parse_args())
 
@@ -207,3 +208,11 @@ if __name__ == "__main__":
             report.append("• "+struct["save_as"].replace(".pkl","")+"(rows = "+str(df.shape[0])+", cols = "+str(df.shape[1])+", "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
 
         print("\n".join(report))
+
+    """
+        If process mode
+    """
+
+    if args["mode"] == "process":
+
+        print("files goes to ../engine/data-processed")
