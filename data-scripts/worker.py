@@ -28,6 +28,10 @@ if __name__ == "__main__":
     with open(args["config"], "r") as fjson:
         config_json = json.load(fjson)
 
+                mem_ch = config_json["mem_channel"]
+                                dna_ch = config_json["dna_channel"]
+                                                str_ch = config_json["str_channel"]
+
     """
         If download mode
     """
@@ -108,18 +112,18 @@ if __name__ == "__main__":
                 #
 
                 mem_ch = config_json["mem_channel"]
-                dna_ch = config_json["dna_channel"];
-                str_ch = config_json["str_channel"];
+                dna_ch = config_json["dna_channel"]
+                str_ch = config_json["str_channel"]
 
                 if struct["structure_name"] == "mem":
-                    df_features = df_features.append(mem.GetFeatures(None,seg=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
+                    df_features = df_features.append(mem.get_features(img=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
                                 ignore_index=True)
 
                 elif struct["structure_name"] == "dna":
-                    df_features = df_features.append(dna.GetFeatures(None,seg=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
+                    df_features = df_features.append(dna.get_features(img=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
                                 ignore_index=True)
                 else:
-                    df_features = df_features.append(structure.GetFeatures(None,seg=SEG[str_ch,:,:,:],
+                    df_features = df_features.append(structure.get_features(img=RAW[str_ch,:,:,:]*SEG[str_ch,:,:,:],
                                 extra_features=struct["extra_features"]),
                                 ignore_index=True)
             
