@@ -28,9 +28,9 @@ if __name__ == "__main__":
     with open(args["config"], "r") as fjson:
         config_json = json.load(fjson)
 
-                mem_ch = config_json["mem_channel"]
-                                dna_ch = config_json["dna_channel"]
-                                                str_ch = config_json["str_channel"]
+    mem_ch = config_json["mem_channel"]
+    dna_ch = config_json["dna_channel"]
+    str_ch = config_json["str_channel"]
 
     """
         If download mode
@@ -111,10 +111,6 @@ if __name__ == "__main__":
                 # Feature extraction for each cell
                 #
 
-                mem_ch = config_json["mem_channel"]
-                dna_ch = config_json["dna_channel"]
-                str_ch = config_json["str_channel"]
-
                 if struct["structure_name"] == "mem":
                     df_features = df_features.append(mem.get_features(img=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
                                 ignore_index=True)
@@ -163,21 +159,17 @@ if __name__ == "__main__":
         """
 
         def fix_cell_color(img):
-            for i in [2,0,1]:
-                for j in [2,0,1]:
+            for i in [str_ch,dna_ch,mem_ch]:
+                for j in [str_ch,dna_ch,mem_ch]:
                     if i != j:
                         img[img[:,:,i]>0,j] = 0
-            img[np.all(img==0,axis=2),:] = 255
+            img[np.all(img==0,axis=str_ch),:] = 255
             return img
-
-        """
-            Load a given cell
-        """
 
         def get_cell_image(cell_img_path):
             img = skio.imread(cell_img_path)
-            img = np.max(img,axis=1)
-            img = np.swapaxes(img,0,2)
+            img = np.max(img,axis=mem_ch)
+            img = np.swapaxes(img,dna_ch,str_ch)
             img = img[:,:,:3]
             img = fix_cell_color(img)
             return img
@@ -193,10 +185,13 @@ if __name__ == "__main__":
 
     if args["mode"] == "check":
 
+        import datetime
+
         #
         # For each structure in the config file
         #
 
+        report = []
         for struct in config_json["run"]:
 
             #
@@ -208,3 +203,7 @@ if __name__ == "__main__":
 
             print("\n## "+struct["save_as"]+" ##\n")
             print(df.head())
+
+            report.append("• "+struct["save_as"].replace(".pkl","")+"(rows = "+str(df.shape[0])+", cols = "+str(df.shape[1])+", "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
+
+        print("\n".join(report))

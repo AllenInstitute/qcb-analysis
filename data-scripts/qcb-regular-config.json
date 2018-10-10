@@ -1,21 +1,54 @@
 {
-	"meta": "QCB_cell_meta",
-	"id": "cell_id",
-	"cell_info": "/allen/aics/assay-dev/Analysis/QCB_database/cell_info",
-	"raw_prefix": "raw.ome.tif",
-	"seg_prefix": "seg.ome.tif",
-	"run":
-			[
-				{
-					"structure_name": "mem",
-					"extra_features": [],
-					"save_as": "QCB_MEM_feature.pkl"
-				},
-				{
-					"structure_name": "dna",
-					"extra_features": [],
-					"save_as": "QCB_DNA_feature.pkl"
-				}
-			],
-	"database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"
+    "meta": "QCB_cell_meta",
+    "id": "cell_id",
+    "cell_info": "/allen/aics/assay-dev/Analysis/QCB_database/cell_info",
+    "raw_prefix": "raw.ome.tif",
+    "seg_prefix": "seg.ome.tif",
+    "mem_channel": 1,
+    "dna_channel": 0,
+    "str_channel": 2,
+    "run":
+            [
+                {
+                    "structure_name": "mem",
+                    "extra_features": [],
+                    "save_as": "QCB_MEM_feature.pkl"
+                },
+                {
+                    "structure_name": "dna",
+                    "extra_features": [],
+                    "save_as": "QCB_DNA_feature.pkl"
+                },
+                {
+                    "structure_name": "GOLGI",
+                    "extra_features": [],
+                    "save_as": "QCB_ST6GAL_feature.pkl"
+                },
+                {
+                    "structure_name": "TOM20",
+                    "extra_features": ["network"],
+                    "save_as": "QCB_TOM20_feature.pkl"
+                },
+                {
+                    "structure_name": "LAMP1",
+                    "extra_features": [],
+                    "save_as": "QCB_LAMP1_feature.pkl"
+                },
+                {
+                    "structure_name": "TUBA",
+                    "extra_features": ["network"],
+                    "save_as": "QCB_TUBA1B_feature.pkl"
+                },
+                                {
+                    "structure_name": "SEC61",
+                    "extra_features": ["network"],
+                    "save_as": "QCB_SEC61B_feature.pkl"
+                },
+                {
+                    "structure_name": "ZO1",
+                    "extra_features": ["network"],
+                    "save_as": "QCB_TJP1_feature.pkl"
+                }
+            ],
+    "database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"
 }
