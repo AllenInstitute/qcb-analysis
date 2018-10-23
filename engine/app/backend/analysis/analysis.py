@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.manifold import TSNE
 
 sys.path.insert(0,"../aux/")
-from auxFunctions import backupFiles
+# from auxFunctions import backupFiles
 
 pd.set_option("display.max_columns", None)
 np.set_printoptions(threshold=np.nan)
@@ -30,21 +30,24 @@ args = vars(parser.parse_args())
 # Feature extraction
 #
 
-with open(args["meta"], "rb") as fp:
+with open(os.path.join("../../../../data-raw",args["meta"]), "rb") as fp:
 	df_meta = pickle.load(fp)
-with open(args["df1"], "rb") as fp:
+with open(os.path.join("../../../../data-raw",args["df1"]), "rb") as fp:
 	df1 = pickle.load(fp)
-with open(args["df2"], "rb") as fp:
+with open(os.path.join("../../../../data-raw",args["df2"]), "rb") as fp:
 	df2 = pickle.load(fp)
 
-df = df_meta.merge(df1.merge(df2, left_index=True, right_index=True), left_index=True, right_index=True)
+df_meta = df_meta.reset_index(drop=False)
+df1 = df1.reset_index(drop=False)
+df2 = df2.reset_index(drop=False)
+
+df = pd.merge(df1, df2, on='cell_id', how='inner')
+df = pd.merge(df, df_meta, on='cell_id', how='inner')
 
 print("Shapes:", df1.shape, df2.shape, df.shape)
 
 for col_id, col in enumerate(df.columns.tolist()):
 	print(col_id, col)
-
-print(df.mem_volume[0],df.dna_volume[0])
 
 #
 # Save
