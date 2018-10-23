@@ -10,45 +10,75 @@
     "run":
             [
                 {
-                    "structure_name": "mem",
-                    "extra_features": [],
-                    "save_as": "QCB_MEM_feature.pkl"
+			"status": "on",
+                    	"structure_name": "cell",
+                    	"extra_features": [],
+			"description": "Cell features extracted from QCB images",
+                    	"save_as": "QCB_CELL_feature.pkl"
                 },
                 {
-                    "structure_name": "dna",
-                    "extra_features": [],
-                    "save_as": "QCB_DNA_feature.pkl"
+			"status": "off",
+                    	"structure_name": "dna",
+                    	"extra_features": [],
+			"description": "Nucleus features extracted from QCB images",
+                    	"save_as": "QCB_DNA_feature.pkl"
                 },
                 {
-                    "structure_name": "GOLGI",
-                    "extra_features": [],
-                    "save_as": "QCB_ST6GAL_feature.pkl"
+			"status": "off",
+                    	"structure_name": "GOLGI",
+                    	"extra_features": [],
+			"description": "Features extracted from QCB images of ST6GAL-tagged Golgi",
+                    	"save_as": "QCB_ST6GAL_feature.pkl"
                 },
                 {
-                    "structure_name": "TOM20",
-                    "extra_features": ["network"],
-                    "save_as": "QCB_TOM20_feature.pkl"
+			"status": "off",
+                    	"structure_name": "TOM20",
+                    	"extra_features": ["network"],
+			"description": "Features extracted from QCB images of TOM20-tagged mitochondria",
+                    	"save_as": "QCB_TOM20_feature.pkl"
                 },
                 {
-                    "structure_name": "LAMP1",
-                    "extra_features": [],
-                    "save_as": "QCB_LAMP1_feature.pkl"
+			"status": "off",
+                    	"structure_name": "LAMP1",
+                    	"extra_features": [],
+			"description": "Features extracted from QCB images of LAMP1-tagged lysosomes",
+                    	"save_as": "QCB_LAMP1_feature.pkl"
                 },
                 {
-                    "structure_name": "TUBA",
-                    "extra_features": ["network"],
-                    "save_as": "QCB_TUBA1B_feature.pkl"
-                },
-                                {
-                    "structure_name": "SEC61",
-                    "extra_features": ["network"],
-                    "save_as": "QCB_SEC61B_feature.pkl"
+			"status": "off",
+                    	"structure_name": "TUBA",
+                    	"extra_features": ["network"],
+			"description": "Features extracted from QCB images of TUBA1B-tagged microtubules",
+                    	"save_as": "QCB_TUBA1B_feature.pkl"
                 },
                 {
-                    "structure_name": "ZO1",
-                    "extra_features": ["network"],
-                    "save_as": "QCB_TJP1_feature.pkl"
-                }
+			"status": "off",
+                    	"structure_name": "SEC61",
+                    	"extra_features": ["network"],
+			"description": "Features extracted from QCB images of SEC61B-tagged ER",
+                    	"save_as": "QCB_SEC61B_feature.pkl"
+                },
+                {
+			"status": "off",
+                    	"structure_name": "ZO1",
+                    	"extra_features": ["network"],
+			"description": "Features extracted from QCB images of TJP1-tagged adherens junctions",
+                    	"save_as": "QCB_TJP1_feature.pkl"
+                },
+		{
+			"status": "off",
+			"structure_name": "FBL",
+			"extra_features": ["texture"],
+			"description": "Features extracted from QCB images of FBL-tagged DNA",
+			"save_as": "QCB_FBL_feature.pkl"
+		},
+		{
+			"status": "off",
+			"structure_name": "LMNB",
+			"extra_features": ["texture"],
+			"description": "Features extracted from QCB images of LMNB1-tagged nucleus",
+			"save_as": "QCB_LMNB1_feature.pkl"
+		}
             ],
     "database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"
 }

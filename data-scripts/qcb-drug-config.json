@@ -10,28 +10,38 @@
 	"run":
 			[
 				{
-					"structure_name": "mem",
+					"status": "on",
+					"structure_name": "cell",
 					"extra_features": [],
-					"save_as": "QCB_DRUG_MEM_feature.pkl"
+					"description": "Cell features extracted from QCB DRUG images",
+					"save_as": "QCB_DRUG_CELL_feature.pkl"
 				},
 				{
+					"status": "on",
 					"structure_name": "dna",
 					"extra_features": [],
+					"description": "Nucleus features extracted from QCB DRUG images",
 					"save_as": "QCB_DRUG_DNA_feature.pkl"
 				},
 				{
+					"status": "off",
 					"structure_name": "tubulin",
 					"extra_features": ["network"],
+					"description": "Features extracted from QCB DRUG images of TUBA1B-tagged microtubules",
 					"save_as": "QCB_DRUG_TUBA1B_feature.pkl"
 				},
 				{
+					"status": "off",
 					"structure_name": "sec61b",
 					"extra_features": ["network"],
+					"description": "Features extracted from QCB DRUG images of SEC61B-tagged ER",
 					"save_as": "QCB_DRUG_SEC61B_feature.pkl"
 				},
 				{
+					"status": "on",
 					"structure_name": "golgi",
 					"extra_features": [],
+					"description": "Features extracted from QCB DRUG images of ST6GAL-tagged Golgi",
 					"save_as": "QCB_DRUG_ST6GAL_feature.pkl"
 				}
 			],

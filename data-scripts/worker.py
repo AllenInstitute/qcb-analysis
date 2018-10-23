@@ -20,6 +20,7 @@ if __name__ == "__main__":
                                             check (check dataframe produced by feature extraction)\
                                             process (process tables for further analyzes)", required=True)
     parser.add_argument("-c", "--config", help="Path to config json", required=True)
+    parser.add_argument("-s", "--start", nargs="?", type=int, default=0, const=0, required=False)
     args = vars(parser.parse_args())
 
     """
@@ -63,7 +64,7 @@ if __name__ == "__main__":
 
     if args["mode"] == "feature":
 
-        from aicsfeature.extractor import mem, dna, structure
+        from aicsfeature.extractor import cell, dna, structure
 
         #
         # Loading metadata
@@ -86,52 +87,58 @@ if __name__ == "__main__":
 
         for struct in config_json["run"]:
 
-            #
-            # Finding all cell with that structure
-            #
 
-            print("\nImage Type:[", struct["structure_name"], "]\n")
-
-            if struct["structure_name"] not in ["mem", "dna"]:
-
-                df_meta_struct = df_meta.loc[df_meta.structure_name==struct["structure_name"]]
-
-            else:
-
-                df_meta_struct = df_meta.copy()
-
-            df_features = pd.DataFrame([])
-            for row in tqdm(range(df_meta_struct.shape[0])):
-                cid = df_meta_struct.index[row]
-                seg_path = os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
-                raw_path = os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
-                SEG = skio.imread(seg_path)
-                RAW = skio.imread(raw_path)
-
-                #
-                # Feature extraction for each cell
-                #
-
-                if struct["structure_name"] == "mem":
-                    df_features = df_features.append(mem.get_features(img=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
-                                ignore_index=True)
-
-                elif struct["structure_name"] == "dna":
-                    df_features = df_features.append(dna.get_features(img=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
-                                ignore_index=True)
-                else:
-                    df_features = df_features.append(structure.get_features(img=RAW[str_ch,:,:,:]*SEG[str_ch,:,:,:],
-                                extra_features=struct["extra_features"]),
-                                ignore_index=True)
+            if struct["status"] == "on":
             
-            df_features.index = df_meta_struct.index
+                #
+                # Finding all cell with that structure
+                #
 
-            #
-            # Save as pickle
-            #
+                print("\nImage Type:[", struct["structure_name"], "]\n")
 
-            with open(os.path.join("../data-raw/",struct["save_as"]), "wb") as fp:
-                pickle.dump(df_features,fp)
+                if struct["structure_name"] not in ["cell", "dna"]:
+
+                    df_meta_struct = df_meta.loc[df_meta.structure_name==struct["structure_name"]]
+
+                else:
+
+                    df_meta_struct = df_meta.copy()
+
+                df_features = pd.DataFrame([])
+                for row in tqdm(range(df_meta_struct.shape[0])):
+
+                    if row >= args["start"]:
+
+                        cid = df_meta_struct.index[row]
+                        seg_path = os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
+                        raw_path = os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
+                        SEG = skio.imread(seg_path)
+                        RAW = skio.imread(raw_path)
+
+                        #
+                        # Feature extraction for each cell
+                        #
+
+                        if struct["structure_name"] == "cell":
+                            df_features = df_features.append(cell.get_features(img=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
+                                ignore_index=True, sort=True)
+
+                        elif struct["structure_name"] == "dna":
+                            df_features = df_features.append(dna.get_features(img=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
+                                ignore_index=True, sort=True)
+                        else:
+                            df_features = df_features.append(structure.get_features(img=RAW[str_ch,:,:,:]*SEG[str_ch,:,:,:],
+                                extra_features=struct["extra_features"]),
+                                ignore_index=True, sort=True)
+            
+                df_features.index = df_meta_struct.index
+
+                #
+                # Save as pickle
+                #
+
+                with open(os.path.join("../data-raw/",struct["save_as"]), "wb") as fp:
+                    pickle.dump(df_features,fp)
 
     """
         If image mode
@@ -186,18 +193,20 @@ if __name__ == "__main__":
 
     if args["mode"] == "check":
 
-        import datetime
+        import time
 
         #
         # For each structure in the config file
         #
 
-        report = []
+        report = pd.DataFrame([])
         for struct in config_json["run"]:
 
             #
             # Finding all cell with that structure
             #
+
+            mod_date = time.ctime(os.path.getmtime(os.path.join("../data-raw/",struct["save_as"])))
 
             with open(os.path.join("../data-raw/",struct["save_as"]), "rb") as fp:
                 df = pickle.load(fp)
@@ -205,9 +214,10 @@ if __name__ == "__main__":
             print("\n## "+struct["save_as"]+" ##\n")
             print(df.head())
 
-            report.append("• "+struct["save_as"].replace(".pkl","")+"(rows = "+str(df.shape[0])+", cols = "+str(df.shape[1])+", "+datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
+            report = report.append({"name": struct["save_as"].replace(".pkl",""), "cols": df.shape[0], "rows": df.shape[1], "modified": mod_date}, sort=True, ignore_index=True)
 
-        print("\n".join(report))
+        report[["cols","rows"]] = report[["cols","rows"]].astype(np.int)
+        print(report[["name","cols","rows","modified"]])
 
     """
         If process mode
@@ -215,4 +225,29 @@ if __name__ == "__main__":
 
     if args["mode"] == "process":
 
-        print("files goes to ../engine/data-processed")
+        #
+        # Loading metadata
+        #
+
+        with open(os.path.join("../data-raw/",config_json["meta"]+".pkl"), "rb") as fp:
+            df_full = pickle.load(fp)
+
+        df_full = df_full.set_index(config_json["id"])
+
+        #
+        # Loading features
+        #
+
+        for struct in config_json["run"]:
+
+            if struct["status"] == "on":
+
+                #
+                # Finding all cell with that structure
+                #
+
+                with open(os.path.join("../data-raw/",struct["save_as"]), "rb") as fp:
+                    df_str_fea = pickle.load(fp)
+                    df_full = df_full.join(df_str_fea)
+
+        df_full.to_csv("../engine/data-processed/data.csv")
