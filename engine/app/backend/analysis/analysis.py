@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from sklearn.manifold import TSNE
 
-sys.path.insert(0,"../aux/")
+#sys.path.insert(0,"../aux/")
 # from auxFunctions import backupFiles
 
 pd.set_option("display.max_columns", None)
