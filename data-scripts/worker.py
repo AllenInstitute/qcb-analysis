@@ -214,7 +214,7 @@ if __name__ == "__main__":
             print("\n## "+struct["save_as"]+" ##\n")
             print(df.head())
 
-            report = report.append({"name": struct["save_as"].replace(".pkl",""), "cols": df.shape[0], "rows": df.shape[1], "modified": mod_date}, sort=True, ignore_index=True)
+            report = report.append({"name": struct["save_as"].replace(".pkl",""), "rows": df.shape[0], "cols": df.shape[1], "modified": mod_date}, sort=True, ignore_index=True)
 
         report[["cols","rows"]] = report[["cols","rows"]].astype(np.int)
         print(report[["name","cols","rows","modified"]])

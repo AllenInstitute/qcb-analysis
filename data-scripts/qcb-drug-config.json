@@ -24,26 +24,54 @@
 					"save_as": "QCB_DRUG_DNA_feature.pkl"
 				},
 				{
-					"status": "off",
+					"status": "on",
 					"structure_name": "tubulin",
 					"extra_features": ["network"],
 					"description": "Features extracted from QCB DRUG images of TUBA1B-tagged microtubules",
 					"save_as": "QCB_DRUG_TUBA1B_feature.pkl"
 				},
 				{
-					"status": "off",
+					"status": "on",
 					"structure_name": "sec61b",
-					"extra_features": ["network"],
+					"extra_features": ["network","intensity"],
 					"description": "Features extracted from QCB DRUG images of SEC61B-tagged ER",
 					"save_as": "QCB_DRUG_SEC61B_feature.pkl"
 				},
 				{
 					"status": "on",
 					"structure_name": "golgi",
-					"extra_features": [],
+					"extra_features": ["intensity"],
 					"description": "Features extracted from QCB DRUG images of ST6GAL-tagged Golgi",
 					"save_as": "QCB_DRUG_ST6GAL_feature.pkl"
-				}
+				},
+                                {
+                                        "status": "on",
+                                        "structure_name": "beta-actin",
+                                        "extra_features": ["intensity"],
+                                        "description": "Features extracted from QCB DRUG images of ACTB-tagged actin",
+                                        "save_as": "QCB_DRUG_ACTB_feature.pkl"
+                                },
+                                {
+                                        "status": "on",
+                                        "structure_name": "zo1",
+                                        "extra_features": ["intensity","network"],
+                                        "description": "Features extracted from QCB DRUG images of TJP1L-tagged adherens junctions",
+                                        "save_as": "QCB_DRUG_TJP1_feature.pkl"
+                                },
+                                {
+                                        "status": "on",
+                                        "structure_name": "myosin",
+                                        "extra_features": ["intensity"],
+                                        "description": "Features extracted from QCB DRUG images of MYH10-tagged myosin",
+                                        "save_as": "QCB_DRUG_MYH10_feature.pkl"
+                                },
+                                {
+                                        "status": "on",
+                                        "structure_name": "lamp1",
+                                        "extra_features": ["intensity"],
+                                        "description": "Features extracted from QCB DRUG images of LAMP1-tagged lysosome",
+                                        "save_as": "QCB_DRUG_LAMP1_feature.pkl"
+                                }
 			],
 	"database": "/allen/aics/assay-dev/Analysis/QCB_database/prod_config.json"
 }
