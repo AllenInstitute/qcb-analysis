@@ -1,0 +1,14 @@
+[
+    {
+        "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
+        "raw_name": "20181005_R01_001.czi",
+        "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
+        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01/shape/",
+ 		"ids_cell":
+ 		[
+			{"name": "20181005_R01_001-Scene-01-P14-A01_seg_0.ome.tif", "cell_id": [13,11]},
+			{"name": "20181005_R01_001-Scene-02-P15-A01_seg_0.ome.tif", "cell_id": [1,13]}
+		]
+	}
+]
+
