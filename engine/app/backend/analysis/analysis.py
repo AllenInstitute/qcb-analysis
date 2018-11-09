@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import pickle
 import argparse
 import numpy as np
 import pandas as pd
@@ -18,9 +17,7 @@ np.set_printoptions(threshold=np.nan)
 #
 
 parser = argparse.ArgumentParser(description="Exploration of QCB data")
-parser.add_argument("-m","--meta", help="Path to metadata df", required=True)
-parser.add_argument("-1","--df1", help="Path to df 1", required=True)
-parser.add_argument("-2","--df2", help="Path to df 2", required=True)
+parser.add_argument("-df","--df", help="Path to data frame", required=True)
 parser.add_argument("-x","--x", help="variable for x axis", required=True)
 parser.add_argument("-y","--y", help="variable for y axis", required=True)
 parser.add_argument("-c","--color", help="variable for color", required=True)
@@ -30,21 +27,7 @@ args = vars(parser.parse_args())
 # Feature extraction
 #
 
-with open(os.path.join("../../../../data-raw",args["meta"]), "rb") as fp:
-	df_meta = pickle.load(fp)
-with open(os.path.join("../../../../data-raw",args["df1"]), "rb") as fp:
-	df1 = pickle.load(fp)
-with open(os.path.join("../../../../data-raw",args["df2"]), "rb") as fp:
-	df2 = pickle.load(fp)
-
-df_meta = df_meta.reset_index(drop=False)
-df1 = df1.reset_index(drop=False)
-df2 = df2.reset_index(drop=False)
-
-df = pd.merge(df1, df2, on='cell_id', how='inner')
-df = pd.merge(df, df_meta, on='cell_id', how='inner')
-
-print("Shapes:", df1.shape, df2.shape, df.shape)
+df = pd.read_csv(os.path.join("../../../../data-raw",args["df"]+".csv"))
 
 for col_id, col in enumerate(df.columns.tolist()):
 	print(col_id, col)

@@ -66,6 +66,8 @@ if __name__ == "__main__":
 
         # Specific imports
 
+        from skimage.measure import label
+
         import javabridge as jv, bioformats as bf
         jv.start_vm(class_path=bf.JARS, max_heap_size='4G')
 
@@ -138,6 +140,16 @@ if __name__ == "__main__":
                     img_seg[img_seg!=cell_id] = 0
                     img_seg[img_seg==cell_id] = 1
 
+                    # Testing whether the nucleus has a unique component
+
+                    img_seg = label(img_seg)
+
+                    if img_seg.max() > 1:
+                        img_seg[img_seg!=np.argmax(np.bincount(img_seg.flat))] = 0
+                        img_seg[img_seg>0] = 1
+
+                    # Cropping the nucleus
+
                     pxl_z, pxl_y, pxl_x = np.nonzero(img_seg)
 
                     img_seg_crop = img_seg[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
@@ -148,13 +160,14 @@ if __name__ == "__main__":
                     # Save the image for interactive view
 
                     img_jpg = img_input.max(axis=0)
-                    img_jpg = (255.0*img_jpg/img_jpg.max()).astype(np.uint8)
+                    img_jpg = (255.*img_jpg/65535.).astype(np.uint8)
                     skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.jpg'),img_jpg)
 
                     # Feature extraction
 
                     feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots"])
-
+                    feat["cell_id"] = cell_name
+                    
                     # Metadata
 
                     meta = pd.DataFrame({
@@ -169,16 +182,8 @@ if __name__ == "__main__":
                     df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
                     df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
 
-                    df_meta.to_csv("df_meta.csv", index=False)
-                    df_feat.to_csv("df_feat.csv", index=False)
-
-        with open(os.path.join("../data-raw/NUCLEUS_meta.pkl"), "wb") as fp:
-            pickle.dump(df_meta, fp)
-        with open(os.path.join("../data-raw/NUCLEUS_feature.pkl"), "wb") as fp:
-            pickle.dump(df_feat, fp)
-
-        os.remove("df_meta.csv")
-        os.remove("df_feat.csv")
+                    df_meta.to_csv("../data-raw/NUCLEUS_meta.csv", index=False)
+                    df_feat.to_csv("../data-raw/NUCLEUS_feature.csv", index=False)
 
         print("Done!")
 
