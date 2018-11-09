@@ -87,15 +87,10 @@ if __name__ == "__main__":
         if not os.path.isdir("../engine/app/static/imgs/"):
             os.makedirs("../engine/app/static/imgs/")
 
-        # Load config file
-
-        with open("config.json","r") as fjson:
-            config_json = json.load(fjson)
-
-        print("Number of CZI files found:",len(config_json))
-
         # For each CZI
 
+        print("Number of CZI files found:",len(config_json))
+        
         Table = pd.DataFrame([])
 
         for config_czi in config_json:
