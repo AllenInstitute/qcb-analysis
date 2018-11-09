@@ -91,7 +91,8 @@ if __name__ == "__main__":
 
         print("Number of CZI files found:",len(config_json))
         
-        Table = pd.DataFrame([])
+        df_meta = pd.DataFrame([])
+        df_feat = pd.DataFrame([])
 
         for config_czi in config_json:
 
@@ -142,30 +143,42 @@ if __name__ == "__main__":
                     img_seg_crop = img_seg[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
                     img_raw_crop = img_raw[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
 
-                    img_input = img_seg_crop*img_raw_crop
+                    img_input = img_seg_crop * img_raw_crop
 
                     # Save the image for interactive view
 
-                    skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.jpg'),img_input.max(axis=0))
+                    img_jpg = img_input.max(axis=0)
+                    img_jpg = (255.0*img_jpg/img_jpg.max()).astype(np.uint8)
+                    skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.jpg'),img_jpg)
 
                     # Feature extraction
 
-                    df = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots"])
-
-                    # >>>>>>> split df in meta and features
+                    feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots"])
 
                     # Metadata
 
-                    df["czi"] = config_czi["raw_name"]
-                    df["series_id"] = series_id
-                    df["cell_id"] = cell_id
-                    df["condition"] = config_czi["czi_label"]
+                    meta = pd.DataFrame({
+                        "cell_id": cell_name,
+                        "czi": config_czi["raw_name"],
+                        "series_id": series_id,
+                        "cell_seg_id": cell_id,
+                        "condition": config_czi["czi_label"]}, index=[0])
 
                     print("\t\tSeries:", series_id, "Cell:", cell_id)
 
-                    Table = pd.concat([Table,df], axis=0, ignore_index=True)
+                    df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
+                    df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
 
-                    Table.to_csv("result.csv", index=False)
+                    df_meta.to_csv("df_meta.csv", index=False)
+                    df_feat.to_csv("df_feat.csv", index=False)
+
+        with open(os.path.join("../data-raw/NUCLEUS_meta.pkl"), "wb") as fp:
+            pickle.dump(df_meta, fp)
+        with open(os.path.join("../data-raw/NUCLEUS_feature.pkl"), "wb") as fp:
+            pickle.dump(df_feat, fp)
+
+        os.remove("df_meta.csv")
+        os.remove("df_feat.csv")
 
         print("Done!")
 
