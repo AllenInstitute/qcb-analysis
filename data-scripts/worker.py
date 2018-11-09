@@ -30,9 +30,9 @@ if __name__ == "__main__":
     with open(args["config"], "r") as fjson:
         config_json = json.load(fjson)
 
-    mem_ch = config_json["mem_channel"]
-    dna_ch = config_json["dna_channel"]
-    str_ch = config_json["str_channel"]
+    # mem_ch = config_json["mem_channel"]
+    # dna_ch = config_json["dna_channel"]
+    # str_ch = config_json["str_channel"]
 
     #
     # If download mode
