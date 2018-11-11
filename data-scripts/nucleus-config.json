@@ -3,7 +3,7 @@
         "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
         "raw_name": "20181005_R01_001.czi",
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
-        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01/archive/shape/",
+        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/archive/shape/",
         "ids_cell":
         [
             {"name": "20181005_R01_001-Scene-01-P14-A01_seg_0.ome.tif", "cell_id": [13,11,10,15,14,19,21,20,16,18,4]},
@@ -40,7 +40,7 @@
         "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
         "raw_name": "20181005_R01_002.czi",
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
-        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01/archive/shape/",
+        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/archive/shape/",
         "ids_cell":
         [
             {"name": "20181005_R01_002-Scene-01-P36-B01_seg_0.ome.tif", "cell_id": [140,137,146,144,145]},
@@ -72,7 +72,7 @@
         "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
         "raw_name": "20181005_R01_003.czi",
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
-        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01/archive/shape/",
+        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/archive/shape/",
         "ids_cell":
         [
             {"name": "20181005_R01_003-Scene-01-P82-A02_seg_0.ome.tif", "cell_id": [73,57,62,77,66,64,76,63,65,69,61,58,72,55,74]},
@@ -100,7 +100,7 @@
         "czi_label": "hiPSC-H2B-Control-Control-NA-ZSD0",
         "raw_name": "20181005_R02_001.czi",
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
-        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02/archive/shape/",
+        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/archive/shape/",
         "ids_cell":
         [
             {"name": "20181005_R02_001-Scene-01-P86-A02_seg_0.ome.tif" ,"cell_id": [1,8,52,20,4,70,63,9,17,31,11,22,32,16,40,55]},
@@ -118,7 +118,7 @@
         "czi_label": "hiPSC-H2B-Control-Control-NA-ZSD0",
         "raw_name": "20181005_R02_002.czi",
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
-        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02/archive/shape/",
+        "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/archive/shape/",
         "ids_cell":
         [
             {"name": "20181005_R02_002-Scene-01-P96-B02_seg_0.ome.tif" ,"cell_id": [43,12,42,11,27,21,13,17,15,22,16,28,7,14,20,3,19,41,8,40]},

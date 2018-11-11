@@ -141,11 +141,13 @@ if __name__ == "__main__":
                     img_seg[img_seg==cell_id] = 1
 
                     # Testing whether the nucleus has a unique component
+                    # Excluding pixels=0 during bincount
 
                     img_seg = label(img_seg)
 
                     if img_seg.max() > 1:
-                        img_seg[img_seg!=np.argmax(np.bincount(img_seg.flat))] = 0
+                        largest_cc = 1 + np.argmax(np.bincount(img_seg.flat)[1:])
+                        img_seg[img_seg!=largest_cc] = 0
                         img_seg[img_seg>0] = 1
 
                     # Cropping the nucleus
@@ -159,9 +161,9 @@ if __name__ == "__main__":
 
                     # Save the image for interactive view
 
-                    img_jpg = img_input.max(axis=0)
-                    img_jpg = (255.*img_jpg/65535.).astype(np.uint8)
-                    skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.jpg'),img_jpg)
+                    img_png = img_input.max(axis=0)
+                    img_png = img_png.astype(np.uint16)
+                    skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.png'),img_png)
 
                     # Feature extraction
 
