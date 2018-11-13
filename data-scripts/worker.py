@@ -163,9 +163,9 @@ if __name__ == "__main__":
 
                     # Rescale to isotropic volume
 
-                    nz, ny, nx = img_input.shape
-                    nz = np.int((pixel_size[2]/pixel_size[0])*nz)
-                    img_input = resize(image=img_input, output_shape=(nz,ny,nx), preserve_range=True, anti_aliasing=True, mode="constant")
+                    dim_z, dim_y, dim_x = img_input.shape
+                    dim_z = np.int((pixel_size[2]/pixel_size[0])*dim_z)
+                    img_input = resize(image=img_input, output_shape=(dim_z,dim_y,dim_x), preserve_range=True, anti_aliasing=True, mode="constant")
                     img_input = img_input.astype(np.int64)
 
                     # Save the image for interactive view
