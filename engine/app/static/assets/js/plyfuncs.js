@@ -97,6 +97,7 @@ var trace = {
 	type: 'table',
 	header: {values: [["id"],["x"],["y"]]},
 	cells: {values: [table_i,table_x, table_y]},
+	columnwidth: [600,100,100],
 };
 
 Plotly.plot(myTable, [trace], {margin: {l: 5, r: 5, b: 5, t: 5, pad: 0}});
@@ -122,7 +123,7 @@ function updateImgs() {
 				var img_name = myTable.data[0].cells.values[0][j]
 				var img = document.createElement("IMG");
 				// img.setAttribute("width", "128");
-				img.setAttribute("src","static/imgs/"+img_name+".png");
+				img.setAttribute("src","static/imgs/"+img_name+".jpg?" + new Date().getTime());
 				//img.setAttribute("src","https://cran.r-project.org/web/packages/plotly/readme/man/figures/plotly.png");
 				img.setAttribute("title",img_name);
 				document.getElementById('myDivImgs').appendChild(img);
