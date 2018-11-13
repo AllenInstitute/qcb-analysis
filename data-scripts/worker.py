@@ -18,21 +18,11 @@ if __name__ == "__main__":
                                             feature (feature extraction) \
                                             image (save cell images in static folder)\
                                             check (check dataframe produced by feature extraction)\
-                                            process (process tables for further analyzes)", required=True)
+                                            process (process tables for further analyzes)\
+                                            config (generate the config json file based on a csv table)", required=True)
     parser.add_argument("-c", "--config", help="Path to config json", required=True)
     parser.add_argument("-s", "--start", nargs="?", type=int, default=0, const=0, required=False)
     args = vars(parser.parse_args())
-
-    #
-    # Loading configuration form JSON file
-    #
-
-    with open(args["config"], "r") as fjson:
-        config_json = json.load(fjson)
-
-    # mem_ch = config_json["mem_channel"]
-    # dna_ch = config_json["dna_channel"]
-    # str_ch = config_json["str_channel"]
 
     #
     # If download mode
@@ -41,6 +31,13 @@ if __name__ == "__main__":
     if args["mode"] == "download":
 
         import datasetdatabase as dsdb
+
+        #
+        # Loading configuration form JSON file
+        #
+
+        with open(args["config"], "r") as fjson:
+            config_json = json.load(fjson)
 
         #
         # Multiprocessing
@@ -73,6 +70,13 @@ if __name__ == "__main__":
         jv.start_vm(class_path=bf.JARS, max_heap_size='4G')
 
         from aicsfeature.extractor import cell, dna, structure
+
+        #
+        # Loading configuration form JSON file
+        #
+
+        with open(args["config"], "r") as fjson:
+            config_json = json.load(fjson)
 
         def get_stack_from_series_id(czi_path, channel, series_id, dim):
 
@@ -206,6 +210,13 @@ if __name__ == "__main__":
     if args["mode"] == "image":
 
         #
+        # Loading configuration form JSON file
+        #
+
+        with open(args["config"], "r") as fjson:
+            config_json = json.load(fjson)
+
+        #
         # Loading metadata
         #
 
@@ -255,6 +266,13 @@ if __name__ == "__main__":
         import time
 
         #
+        # Loading configuration form JSON file
+        #
+
+        with open(args["config"], "r") as fjson:
+            config_json = json.load(fjson)
+
+        #
         # For each structure in the config file
         #
 
@@ -285,6 +303,13 @@ if __name__ == "__main__":
     if args["mode"] == "process":
 
         #
+        # Loading configuration form JSON file
+        #
+
+        with open(args["config"], "r") as fjson:
+            config_json = json.load(fjson)
+
+        #
         # Loading metadata
         #
 
@@ -310,3 +335,22 @@ if __name__ == "__main__":
                     df_full = df_full.join(df_str_fea)
 
         df_full.to_csv("../engine/data-processed/data.csv")
+
+    #
+    # If config mode
+    #
+
+    if args["mode"] == "config":
+
+        import glob
+
+        df = pd.read_csv(args["config"])
+
+        for index, czi in df.iterrows():
+
+            seg_path = czi["seg_path"]
+
+            filename = glob.glob(seg_path+'*.ome.tif')
+            filename.sort()
+
+            print(filename)
