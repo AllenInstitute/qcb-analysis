@@ -67,6 +67,7 @@ if __name__ == "__main__":
         # Specific imports
 
         from skimage.measure import label
+        from skimage.transform import resize
 
         import javabridge as jv, bioformats as bf
         jv.start_vm(class_path=bf.JARS, max_heap_size='4G')
@@ -103,6 +104,7 @@ if __name__ == "__main__":
             nx = pxl_info.SizeX
             ny = pxl_info.SizeY
             nz = pxl_info.SizeZ
+            pixel_size = config_czi["pixel_size"]
 
             print("CZI:", config_czi["raw_name"], (nz,ny,nx))
 
@@ -158,6 +160,13 @@ if __name__ == "__main__":
                     img_raw_crop = img_raw[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
 
                     img_input = img_seg_crop * img_raw_crop
+
+                    # Rescale to isotropic volume
+
+                    nz, ny, nx = img_input.shape
+                    nz = np.int((pixel_size[2]/pixel_size[0])*nz)
+                    img_input = resize(image=img_input, output_shape=(nz,ny,nx), preserve_range=True, anti_aliasing=True, mode="constant")
+                    img_input = img_input.astype(np.int64)
 
                     # Save the image for interactive view
 
