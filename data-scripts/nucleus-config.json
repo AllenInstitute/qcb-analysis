@@ -1,8 +1,9 @@
 [
     {
-        "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
+        "condition": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
         "raw_name": "20181005_R01_001.czi",
-	"pixel_size": [0.108,0.108,0.29],
+        "pixel_size_xy": 0.108,
+        "pixel_size_z": 0.29,
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/archive/shape/",
         "ids_cell":
@@ -34,13 +35,14 @@
             {"name": "20181005_R01_001-Scene-25-P29-B01_seg_0.ome.tif", "cell_id": [8,10,11,17,32,18,31,7,5,4]},
             {"name": "20181005_R01_001-Scene-26-P30-B01_seg_0.ome.tif", "cell_id": [97,98,104,109,111,99,119,108,106,118]}
         ],
-        "dna_channel": 0,
+        "str_channel": 0,
         "bfd_channel": 1
     },
     {
-        "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
+        "condition": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
         "raw_name": "20181005_R01_002.czi",
-	"pixel_size": [0.108,0.108,0.29],
+        "pixel_size_xy": 0.108,
+        "pixel_size_z": 0.29,
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/archive/shape/",
         "ids_cell":
@@ -67,13 +69,14 @@
             {"name": "20181005_R01_002-Scene-20-P44-C01_seg_0.ome.tif", "cell_id": [83,95,86,97,85,84,82,94,88]},
             {"name": "20181005_R01_002-Scene-21-P46-C01_seg_0.ome.tif", "cell_id": [12,11,3,10,1,8,6,7,9,23]}
         ],
-        "dna_channel": 0,
+        "str_channel": 0,
         "bfd_channel": 1
     },
     {
-        "czi_label": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
+        "condition": "hiPSC-H2B-TSA-50nM-5hrs-ZSD0",
         "raw_name": "20181005_R01_003.czi",
-	"pixel_size": [0.108,0.108,0.29],
+        "pixel_size_xy": 0.108,
+        "pixel_size_z": 0.29,
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/archive/shape/",
         "ids_cell":
@@ -96,13 +99,14 @@
             {"name": "20181005_R01_003-Scene-16-P61-B02_seg_0.ome.tif", "cell_id": [143,139,134,133,135,137,141,136,131,138,140]},
             {"name": "20181005_R01_003-Scene-17-P67-B02_seg_0.ome.tif", "cell_id": [4,15,17,3,9,12,11,10,14,20,2]}
         ],
-        "dna_channel": 0,
+        "str_channel": 0,
         "bfd_channel": 1
     },
     {
-        "czi_label": "hiPSC-H2B-Control-Control-NA-ZSD0",
+        "condition": "hiPSC-H2B-Control-Control-NA-ZSD0",
         "raw_name": "20181005_R02_001.czi",
-	"pixel_size": [0.108,0.108,0.29],
+        "pixel_size_xy": 0.108,
+        "pixel_size_z": 0.29,
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/archive/shape/",
         "ids_cell":
@@ -115,13 +119,14 @@
             {"name": "20181005_R02_001-Scene-06-P91-B02_seg_0.ome.tif" ,"cell_id": [103,123,105,99,95,96,85,113,93,102,106,121,108]},
             {"name": "20181005_R02_001-Scene-07-P92-B02_seg_0.ome.tif" ,"cell_id": [39,48,46,35,52,40,55,41,45]}
         ],
-        "dna_channel": 0,
+        "str_channel": 0,
         "bfd_channel": 1
     },
     {
-        "czi_label": "hiPSC-H2B-Control-Control-NA-ZSD0",
+        "condition": "hiPSC-H2B-Control-Control-NA-ZSD0",
         "raw_name": "20181005_R02_002.czi",
-	"pixel_size": [0.108,0.108,0.29],
+        "pixel_size_xy": 0.108,
+        "pixel_size_z": 0.29,
         "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005/",
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/archive/shape/",
         "ids_cell":
@@ -137,7 +142,7 @@
             {"name": "20181005_R02_002-Scene-09-P103-C02_seg_0.ome.tif" ,"cell_id": [80,65,76,67,71,77,41,53,62,52,50,38,54,70]},
             {"name": "20181005_R02_002-Scene-10-P104-C02_seg_0.ome.tif" ,"cell_id": [31,29,13,45,19,17,27,7,18,21,1,40,44,39,36,8,38,9,32,48,12,2,51]}
         ],
-        "dna_channel": 0,
+        "str_channel": 0,
         "bfd_channel": 1
     }
 ]

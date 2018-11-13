@@ -108,13 +108,14 @@ if __name__ == "__main__":
             nx = pxl_info.SizeX
             ny = pxl_info.SizeY
             nz = pxl_info.SizeZ
-            pixel_size = config_czi["pixel_size"]
+            pixel_size_xy = config_czi["pixel_size_xy"]
+            pixel_size_z = config_czi["pixel_size_z"]
 
             print("CZI:", config_czi["raw_name"], (nz,ny,nx))
 
             # For each series
 
-            for position in config_czi["ids_cell"]:
+            for position in config_czi["position"]:
 
                 # Parse series ID in the segmentation name
                 # First positiuon is 0, alhtough it is shown as Scene-01
@@ -125,9 +126,15 @@ if __name__ == "__main__":
                 loc = series_id.find("Scene")
 
                 # First positiuon is 0, alhtough it is shown as Scene-01
-                series_id = np.int(series_id[(loc+6):(loc+8)]) - 1
+                series_id = int(series_id.split("Scene")[1].split("-")[1]) - 1
 
-                img_raw = get_stack_from_series_id(czi_path=czi_path, channel=config_czi["dna_channel"], series_id=series_id, dim=(nz,ny,nx))
+                # Structure channel
+
+                str_channel = 0
+                if config_czi["minipipeline"] == "yes":
+                    str_channel = 1
+
+                img_raw = get_stack_from_series_id(czi_path=czi_path, channel=str_channel, series_id=series_id, dim=(nz,ny,nx))
 
                 # Load segmentation & clear 1st and last slice
 
@@ -168,7 +175,7 @@ if __name__ == "__main__":
                     # Rescale to isotropic volume
 
                     dim_z, dim_y, dim_x = img_input.shape
-                    dim_z = np.int((pixel_size[2]/pixel_size[0])*dim_z)
+                    dim_z = np.int((pixel_size_z/pixel_size_xy)*dim_z)
                     img_input = resize(image=img_input, output_shape=(dim_z,dim_y,dim_x), preserve_range=True, anti_aliasing=True, mode="constant")
                     img_input = img_input.astype(np.int64)
 
@@ -190,7 +197,7 @@ if __name__ == "__main__":
                         "czi": config_czi["raw_name"],
                         "series_id": series_id,
                         "cell_seg_id": cell_id,
-                        "condition": config_czi["czi_label"]}, index=[0])
+                        "condition": config_czi["condition"]}, index=[0])
 
                     print("\t\tSeries:", series_id, "Cell:", cell_id)
 
@@ -344,13 +351,49 @@ if __name__ == "__main__":
 
         import glob
 
-        df = pd.read_csv(args["config"])
+        #
+        # Load CSV file based on Jinaxu segmentation report in
+        # /allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/nucleus_meta.csv
+        #
+
+        df = pd.read_csv(args["config"], sep=";")
+
+        position = []
+
+        #
+        # For each multiposition image
+        #
 
         for index, czi in df.iterrows():
 
+            print(czi["experiment_id"])
+
             seg_path = czi["seg_path"]
 
-            filename = glob.glob(seg_path+'*.ome.tif')
-            filename.sort()
+            filenames = glob.glob(seg_path+'*.ome.tif')
+            filenames.sort()
 
-            print(filename)
+            #
+            # For each position
+            #
+
+            list_of_ome_tif_files = []
+
+            for fname in filenames:
+
+                #
+                # List cell ids here
+                #
+
+                img = skio.imread(fname)
+
+                cell_id = np.unique(img[img>0])
+
+                list_of_ome_tif_files.append({"name": fname, "cell_id": cell_id.tolist()})
+
+            position.append(list_of_ome_tif_files)
+
+        df["position"] = position
+
+        with open(args["config"].replace(".csv",".json"), "w") as fj:
+            json.dump(df.to_dict("records"), fj, indent=4)
