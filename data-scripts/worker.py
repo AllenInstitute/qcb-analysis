@@ -94,6 +94,12 @@ if __name__ == "__main__":
         if not os.path.isdir("../engine/app/static/imgs/"):
             os.makedirs("../engine/app/static/imgs/")
 
+        # Removing log file
+
+        try:
+            os.remove("log.json")
+        except: pass
+
         # For each CZI
 
         print("Number of CZI files found:",len(config_json))
@@ -134,78 +140,99 @@ if __name__ == "__main__":
                 if config_czi["minipipeline"] == "yes":
                     str_channel = 1
 
-                img_raw = get_stack_from_series_id(czi_path=czi_path, channel=str_channel, series_id=series_id, dim=(nz,ny,nx))
+                img_raw_ok = False
 
-                # Load segmentation & clear 1st and last slice
+                try:
 
-                seg_path = os.path.join(config_czi["seg_path"],position["name"])
-                img_seg_all = skio.imread(seg_path)
-                img_seg_all[ 0,:,:] = 0
-                img_seg_all[-1,:,:] = 0
+                    img_raw = get_stack_from_series_id(czi_path=czi_path, channel=str_channel, series_id=series_id, dim=(nz,ny,nx))
 
-                # Analyze each cell
+                    img_raw_ok = True
 
-                for cell_id in position["cell_id"]:
+                except:
 
-                    cell_name = position["name"].replace(".ome.tif","_cid_"+str(cell_id))
+                    # Log if not possible to read the raw data
 
-                    img_seg = img_seg_all.copy()
-                    img_seg[img_seg!=cell_id] = 0
-                    img_seg[img_seg==cell_id] = 1
+                    with open("log.json", "a") as flog:
+                        json.dump({
+                            "czi_path": czi_path,
+                            "position_name": position["name"],
+                            "channel": str_channel,
+                            "series_id": series_id,
+                            "dim": (nz,ny,nz)}, flog, indent=4)
+                    pass
 
-                    # Testing whether the nucleus has a unique component
-                    # Excluding pixels=0 during bincount
+                if img_raw_ok:
 
-                    img_seg = label(img_seg)
+                    # Load segmentation & clear 1st and last slice
 
-                    if img_seg.max() > 1:
-                        largest_cc = 1 + np.argmax(np.bincount(img_seg.flat)[1:])
-                        img_seg[img_seg!=largest_cc] = 0
-                        img_seg[img_seg>0] = 1
+                    seg_path = os.path.join(config_czi["seg_path"],position["name"])
+                    img_seg_all = skio.imread(seg_path)
+                    img_seg_all[ 0,:,:] = 0
+                    img_seg_all[-1,:,:] = 0
 
-                    # Cropping the nucleus
+                    # Analyze each cell
 
-                    pxl_z, pxl_y, pxl_x = np.nonzero(img_seg)
+                    for cell_id in position["cell_id"]:
 
-                    img_seg_crop = img_seg[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
-                    img_raw_crop = img_raw[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
+                        cell_name = position["name"].replace(".ome.tif","_cid_"+str(cell_id))
 
-                    img_input = img_seg_crop * img_raw_crop
+                        img_seg = img_seg_all.copy()
+                        img_seg[img_seg!=cell_id] = 0
+                        img_seg[img_seg==cell_id] = 1
 
-                    # Rescale to isotropic volume
+                        # Testing whether the nucleus has a unique component
+                        # Excluding pixels=0 during bincount
 
-                    dim_z, dim_y, dim_x = img_input.shape
-                    dim_z = np.int((pixel_size_z/pixel_size_xy)*dim_z)
-                    img_input = resize(image=img_input, output_shape=(dim_z,dim_y,dim_x), preserve_range=True, anti_aliasing=True, mode="constant")
-                    img_input = img_input.astype(np.int64)
+                        img_seg = label(img_seg)
 
-                    # Save the image for interactive view
+                        if img_seg.max() > 1:
+                            largest_cc = 1 + np.argmax(np.bincount(img_seg.flat)[1:])
+                            img_seg[img_seg!=largest_cc] = 0
+                            img_seg[img_seg>0] = 1
 
-                    img_png = img_input.max(axis=0)
-                    img_png = img_png.astype(np.uint16)
-                    skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.png'),img_png)
+                        # Cropping the nucleus
 
-                    # Feature extraction
+                        pxl_z, pxl_y, pxl_x = np.nonzero(img_seg)
 
-                    feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots"])
-                    feat["cell_id"] = cell_name
-                    
-                    # Metadata
+                        img_seg_crop = img_seg[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
+                        img_raw_crop = img_raw[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
 
-                    meta = pd.DataFrame({
-                        "cell_id": cell_name,
-                        "czi": config_czi["raw_name"],
-                        "series_id": series_id,
-                        "cell_seg_id": cell_id,
-                        "condition": config_czi["condition"]}, index=[0])
+                        img_input = img_seg_crop * img_raw_crop
 
-                    print("\t\tSeries:", series_id, "Cell:", cell_id)
+                        # Rescale to isotropic volume
 
-                    df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
-                    df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
+                        dim_z, dim_y, dim_x = img_input.shape
+                        dim_z = np.int((pixel_size_z/pixel_size_xy)*dim_z)
+                        img_input = resize(image=img_input, output_shape=(dim_z,dim_y,dim_x), preserve_range=True, anti_aliasing=True, mode="constant")
+                        img_input = img_input.astype(np.int64)
 
-                    df_meta.to_csv("../data-raw/NUCLEUS_meta.csv", index=False)
-                    df_feat.to_csv("../data-raw/NUCLEUS_feature.csv", index=False)
+                        # Save the image for interactive view
+
+                        img_png = img_input.max(axis=0)
+                        img_png = img_png.astype(np.uint16)
+                        skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.png'),img_png)
+
+                        # Feature extraction
+
+                        feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots"])
+                        feat["cell_id"] = cell_name
+                        
+                        # Metadata
+
+                        meta = pd.DataFrame({
+                            "cell_id": cell_name,
+                            "czi": config_czi["raw_name"],
+                            "series_id": series_id,
+                            "cell_seg_id": cell_id,
+                            "condition": config_czi["condition"]}, index=[0])
+
+                        print("\t\tSeries:", series_id, "Cell:", cell_id)
+
+                        df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
+                        df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
+
+                        df_meta.to_csv("../data-raw/NUCLEUS_meta.csv", index=False)
+                        df_feat.to_csv("../data-raw/NUCLEUS_feature.csv", index=False)
 
         print("Done!")
 
