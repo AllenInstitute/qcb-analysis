@@ -13,7 +13,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-01-P15-B01_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-01-P15-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-02-P11-B01_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-02-P11-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-03-P12-B01_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-03-P12-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -71,7 +71,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-04-P14_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-04-P14_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -87,7 +87,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-05-P13_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-05-P13_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -107,7 +107,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-06-P19_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-06-P19_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -123,7 +123,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-07-P16-C01_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-07-P16-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -140,7 +140,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-08-P17-C01_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-08-P17-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -156,7 +156,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/20180924_R04-Scene-09-P20-C01_seg_0.ome.tif",
+                "name": "20180924_R04-Scene-09-P20-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -192,7 +192,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-01-P14-A01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-01-P14-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -210,7 +210,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-02-P15-A01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-02-P15-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -229,7 +229,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-03-P13-A01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-03-P13-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -250,7 +250,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-04-P12-A01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-04-P12-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -267,7 +267,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-05-P16-A01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-05-P16-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -284,7 +284,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-06-P1-A01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-06-P1-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -307,7 +307,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-07-P11_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-07-P11_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -328,7 +328,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-08-P10_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-08-P10_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -341,7 +341,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-09-P9_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-09-P9_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -352,7 +352,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-10-P2_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-10-P2_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -365,7 +365,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-11-P3_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-11-P3_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -382,7 +382,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-12-P4_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-12-P4_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -402,7 +402,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-13-P8_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-13-P8_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -414,7 +414,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-14-P7_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-14-P7_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -429,7 +429,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-15-P5_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-15-P5_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -446,7 +446,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-16-P6_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-16-P6_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -462,7 +462,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-17-P25_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-17-P25_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -474,7 +474,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-18-P24_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-18-P24_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -487,7 +487,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-19-P17-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-19-P17-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -499,7 +499,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-20-P22-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-20-P22-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -517,7 +517,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-21-P19-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-21-P19-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -530,7 +530,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-22-P20-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-22-P20-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -542,7 +542,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-23-P21-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-23-P21-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -555,7 +555,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-24-P26-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-24-P26-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -573,7 +573,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-25-P29-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-25-P29-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -589,7 +589,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/20181005_R01_001-Scene-26-P30-B01_seg_0.ome.tif",
+                "name": "20181005_R01_001-Scene-26-P30-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -621,7 +621,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-01-P36-B01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-01-P36-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -633,7 +633,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-02-P31-B01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-02-P31-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -652,7 +652,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-03-P60-B02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-03-P60-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -671,7 +671,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-04-P34_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-04-P34_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -683,7 +683,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-05-P32_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-05-P32_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -700,7 +700,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-06-P58-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-06-P58-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -711,7 +711,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-07-P59-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-07-P59-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -726,7 +726,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-08-P57-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-08-P57-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -741,7 +741,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-09-P51-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-09-P51-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -755,7 +755,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-10-P52-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-10-P52-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -771,7 +771,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-11-P53-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-11-P53-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -792,7 +792,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-12-P56-C02_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-12-P56-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -812,7 +812,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-13-P50-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-13-P50-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -826,7 +826,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-14-P39-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-14-P39-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -845,7 +845,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-15-P48-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-15-P48-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -862,7 +862,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-16-P40-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-16-P40-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -880,7 +880,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-17-P43-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-17-P43-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -893,7 +893,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-18-P47-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-18-P47-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -904,7 +904,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-19-P42-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-19-P42-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -919,7 +919,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-20-P44-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-20-P44-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -931,7 +931,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/20181005_R01_002-Scene-21-P46-C01_seg_0.ome.tif",
+                "name": "20181005_R01_002-Scene-21-P46-C01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -962,7 +962,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-01-P82-A02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-01-P82-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -981,14 +981,14 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-02-P81-A02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-02-P81-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-03-P80-A02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-03-P80-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -999,7 +999,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-04-P79-A02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-04-P79-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1011,7 +1011,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-05-P84_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-05-P84_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1030,7 +1030,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-06-P85_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-06-P85_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1045,7 +1045,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-07-P78_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-07-P78_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1057,7 +1057,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-08-P74-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-08-P74-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1071,7 +1071,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-09-P72-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-09-P72-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1083,7 +1083,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-10-P71-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-10-P71-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1095,7 +1095,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-11-P76-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-11-P76-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1111,7 +1111,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-12-P70-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-12-P70-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1132,7 +1132,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-13-P64-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-13-P64-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1148,7 +1148,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-14-P63-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-14-P63-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1161,7 +1161,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-15-P66-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-15-P66-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1175,7 +1175,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-16-P61-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-16-P61-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1191,7 +1191,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/20181005_R01_003-Scene-17-P67-B02_seg_0.ome.tif",
+                "name": "20181005_R01_003-Scene-17-P67-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1222,7 +1222,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-01-P34-B02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-01-P34-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1241,7 +1241,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-02-P35-B02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-02-P35-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1264,7 +1264,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-03-P32-B02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-03-P32-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1291,7 +1291,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-04-P33-B02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-04-P33-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1314,7 +1314,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-05-P31_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-05-P31_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1334,7 +1334,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-06-P36-C02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-06-P36-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1353,7 +1353,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-07-P40-C02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-07-P40-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1378,7 +1378,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-08-P39-C02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-08-P39-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1407,7 +1407,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/20180817_R04-Scene-09-P37-C02_seg_0.ome.tif",
+                "name": "20180817_R04-Scene-09-P37-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1452,7 +1452,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/20180824_R03-Scene-1-P26-B03_seg_0.ome.tif",
+                "name": "20180824_R03-Scene-1-P26-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1483,7 +1483,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/20180824_R03-Scene-2-P30-B03_seg_0.ome.tif",
+                "name": "20180824_R03-Scene-2-P30-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1508,7 +1508,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/20180824_R03-Scene-3-P29-B03_seg_0.ome.tif",
+                "name": "20180824_R03-Scene-3-P29-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1532,7 +1532,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/20180824_R03-Scene-4-P27-B03_seg_0.ome.tif",
+                "name": "20180824_R03-Scene-4-P27-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1565,7 +1565,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/20180824_R03-Scene-5-P28-B03_seg_0.ome.tif",
+                "name": "20180824_R03-Scene-5-P28-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1603,7 +1603,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/20180924_R07-Scene-1-P45_seg_0.ome.tif",
+                "name": "20180924_R07-Scene-1-P45_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1620,7 +1620,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/20180924_R07-Scene-2-P44-B02_seg_0.ome.tif",
+                "name": "20180924_R07-Scene-2-P44-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1643,7 +1643,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/20180924_R07-Scene-3-P43-B02_seg_0.ome.tif",
+                "name": "20180924_R07-Scene-3-P43-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1665,7 +1665,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/20180924_R07-Scene-4-P41-B02_seg_0.ome.tif",
+                "name": "20180924_R07-Scene-4-P41-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1685,7 +1685,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/20180924_R07-Scene-5-P42_seg_0.ome.tif",
+                "name": "20180924_R07-Scene-5-P42_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1725,7 +1725,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-01-P38-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-01-P38-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1751,7 +1751,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-02-P37-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-02-P37-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1781,7 +1781,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-03-P39-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-03-P39-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1816,7 +1816,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-04-P40-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-04-P40-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1848,7 +1848,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-05-P36-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-05-P36-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1879,7 +1879,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-06-P31-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-06-P31-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1919,7 +1919,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-07-P32-B02_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-07-P32-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1951,7 +1951,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-08-P33_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-08-P33_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -1975,7 +1975,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-09-P35_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-09-P35_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2003,7 +2003,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/20180927_R04-Scene-10-P34_seg_0.ome.tif",
+                "name": "20180927_R04-Scene-10-P34_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2045,7 +2045,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-01-P42-A02_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-01-P42-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2068,7 +2068,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-02-P41-A02_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-02-P41-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2098,7 +2098,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-03-P43-A02_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-03-P43-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2123,7 +2123,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-04-P50-A02_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-04-P50-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2154,7 +2154,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-05-P49-A02_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-05-P49-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2182,7 +2182,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-06-P44_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-06-P44_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2209,7 +2209,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-07-P45_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-07-P45_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2231,7 +2231,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-08-P48_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-08-P48_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2259,7 +2259,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-09-P46_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-09-P46_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2277,7 +2277,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/20180927_R05-Scene-10-P47_seg_0.ome.tif",
+                "name": "20180927_R05-Scene-10-P47_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2313,7 +2313,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/20180928_R03-Scene-1-P12-C02_seg_0.ome.tif",
+                "name": "20180928_R03-Scene-1-P12-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2348,7 +2348,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/20180928_R03-Scene-2-P16-C02_seg_0.ome.tif",
+                "name": "20180928_R03-Scene-2-P16-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2377,7 +2377,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/20180928_R03-Scene-3-P13-C02_seg_0.ome.tif",
+                "name": "20180928_R03-Scene-3-P13-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2401,7 +2401,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/20180928_R03-Scene-4-P15-C02_seg_0.ome.tif",
+                "name": "20180928_R03-Scene-4-P15-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2432,7 +2432,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/20180928_R03-Scene-5-P14-C02_seg_0.ome.tif",
+                "name": "20180928_R03-Scene-5-P14-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2479,7 +2479,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/20180928_R04-Scene-1-P21_seg_0.ome.tif",
+                "name": "20180928_R04-Scene-1-P21_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2495,7 +2495,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/20180928_R04-Scene-2-P20_seg_0.ome.tif",
+                "name": "20180928_R04-Scene-2-P20_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2522,7 +2522,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/20180928_R04-Scene-3-P19-B02_seg_0.ome.tif",
+                "name": "20180928_R04-Scene-3-P19-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2542,7 +2542,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/20180928_R04-Scene-4-P18-B02_seg_0.ome.tif",
+                "name": "20180928_R04-Scene-4-P18-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2575,7 +2575,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/20180928_R04-Scene-5-P17-B02_seg_0.ome.tif",
+                "name": "20180928_R04-Scene-5-P17-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2618,7 +2618,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-01-P86-A02_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-01-P86-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2652,7 +2652,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-02-P87-A02_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-02-P87-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2685,7 +2685,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-03-P88-A02_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-03-P88-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2717,7 +2717,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-04-P89_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-04-P89_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2742,7 +2742,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-05-P90_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-05-P90_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2766,7 +2766,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-06-P91-B02_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-06-P91-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2790,7 +2790,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/20181005_R02_001-Scene-07-P92-B02_seg_0.ome.tif",
+                "name": "20181005_R02_001-Scene-07-P92-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2832,7 +2832,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-01-P96-B02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-01-P96-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2861,7 +2861,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-02-P97-B02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-02-P97-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2880,7 +2880,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-03-P98-B02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-03-P98-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2909,7 +2909,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-04-P99-B02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-04-P99-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2936,7 +2936,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-05-P100-B02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-05-P100-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2954,7 +2954,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-06-P101-C02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-06-P101-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -2977,7 +2977,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-07-P105-C02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-07-P105-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3002,7 +3002,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-08-P102-C02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-08-P102-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3018,7 +3018,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-09-P103-C02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-09-P103-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3049,7 +3049,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/20181005_R02_002-Scene-10-P104-C02_seg_0.ome.tif",
+                "name": "20181005_R02_002-Scene-10-P104-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3096,7 +3096,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-01-P3-A01_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-01-P3-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3112,7 +3112,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-02-P4-A01_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-02-P4-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3133,7 +3133,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-03-P5-A01_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-03-P5-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3156,7 +3156,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-04-P6-A01_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-04-P6-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3175,7 +3175,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-05-P18-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-05-P18-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3189,7 +3189,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-06-P8-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-06-P8-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3208,7 +3208,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-07-P7-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-07-P7-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3231,7 +3231,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-08-P12-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-08-P12-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3252,7 +3252,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-09-P13-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-09-P13-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3279,7 +3279,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-10-P9-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-10-P9-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3296,7 +3296,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-11-P16-A02_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-11-P16-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3316,7 +3316,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-12-P25-A03_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-12-P25-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3339,7 +3339,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-13-P24-A03_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-13-P24-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3359,7 +3359,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-14-P19-A03_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-14-P19-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3378,7 +3378,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-15-P27-A03_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-15-P27-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3399,7 +3399,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-16-P23-A03_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-16-P23-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3419,7 +3419,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-17-P26-A03_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-17-P26-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3436,7 +3436,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-18-P20_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-18-P20_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3454,7 +3454,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-19-P2_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-19-P2_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3474,7 +3474,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-20-P1_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-20-P1_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3490,7 +3490,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-21-P29_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-21-P29_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3507,7 +3507,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-22-P14_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-22-P14_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3529,7 +3529,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-23-P10_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-23-P10_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3543,7 +3543,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-24-P11_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-24-P11_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3564,7 +3564,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-25-P30_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-25-P30_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3580,7 +3580,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/20181026_R01-Scene-26-P15_seg_0.ome.tif",
+                "name": "20181026_R01-Scene-26-P15_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3613,7 +3613,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-01-P78_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-01-P78_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3635,7 +3635,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-02-P93-B02_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-02-P93-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3654,7 +3654,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-03-P92-B02_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-03-P92-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3674,7 +3674,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-04-P91-B02_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-04-P91-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3693,7 +3693,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-05-P90-B02_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-05-P90-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3715,7 +3715,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-06-P88-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-06-P88-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3748,7 +3748,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-07-P73-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-07-P73-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3773,7 +3773,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-08-P71-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-08-P71-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3803,7 +3803,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-09-P74-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-09-P74-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3830,7 +3830,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-10-P75-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-10-P75-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3851,7 +3851,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-11-P85-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-11-P85-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3872,7 +3872,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-12-P76-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-12-P76-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3890,7 +3890,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-13-P68-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-13-P68-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3924,7 +3924,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-14-P77-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-14-P77-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3950,7 +3950,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-15-P83-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-15-P83-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3981,7 +3981,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-16-P79-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-16-P79-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -3998,7 +3998,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-17-P67-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-17-P67-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4021,7 +4021,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-18-P82-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-18-P82-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4046,7 +4046,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-19-P66-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-19-P66-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4064,7 +4064,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/20181012_R02-Scene-20-P80-B03_seg_0.ome.tif",
+                "name": "20181012_R02-Scene-20-P80-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4102,7 +4102,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-01-P42_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-01-P42_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4124,7 +4124,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-02-P39_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-02-P39_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4142,7 +4142,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-03-P59-B01_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-03-P59-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4159,7 +4159,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-04-P60-B01_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-04-P60-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4183,7 +4183,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-05-P58-B01_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-05-P58-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4200,7 +4200,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-06-P55-B01_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-06-P55-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4222,7 +4222,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-07-P46-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-07-P46-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4245,7 +4245,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-08-P43-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-08-P43-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4263,7 +4263,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-09-P49-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-09-P49-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4289,7 +4289,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-10-P50-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-10-P50-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4310,7 +4310,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-11-P44-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-11-P44-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4336,7 +4336,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-12-P45-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-12-P45-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4359,7 +4359,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-13-P53-B02_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-13-P53-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4379,7 +4379,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-14-P31-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-14-P31-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4403,7 +4403,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-15-P32-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-15-P32-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4415,7 +4415,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-16-P41-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-16-P41-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4432,7 +4432,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-17-P40-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-17-P40-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4455,7 +4455,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-18-P36-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-18-P36-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4483,7 +4483,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-19-P37-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-19-P37-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4512,7 +4512,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-20-P33-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-20-P33-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4548,7 +4548,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-21-P38-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-21-P38-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4587,7 +4587,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/20181026_R02-Scene-22-P34-B03_seg_0.ome.tif",
+                "name": "20181026_R02-Scene-22-P34-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4628,7 +4628,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-01-P6-B02_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-01-P6-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4641,7 +4641,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-02-P1-B02_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-02-P1-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4661,7 +4661,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-03-P2-B02_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-03-P2-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4682,7 +4682,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-04-P3-B02_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-04-P3-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4707,7 +4707,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-05-P4-B02_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-05-P4-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4722,7 +4722,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-06-P5-B02_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-06-P5-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4748,7 +4748,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-07-P11-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-07-P11-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4763,7 +4763,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-08-P12-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-08-P12-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4787,7 +4787,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-09-P18-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-09-P18-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4801,7 +4801,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-10-P10-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-10-P10-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4824,7 +4824,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-11-P15-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-11-P15-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4850,7 +4850,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-12-P9-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-12-P9-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4874,7 +4874,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-13-P8-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-13-P8-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4897,7 +4897,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-14-P16-B03_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-14-P16-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4921,7 +4921,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-15-P20-B04_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-15-P20-B04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4938,7 +4938,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-16-P24-B04_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-16-P24-B04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4965,7 +4965,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-17-P19-B04_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-17-P19-B04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -4984,7 +4984,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-18-P23-B04_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-18-P23-B04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5002,7 +5002,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-19-P28-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-19-P28-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5019,7 +5019,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-20-P29-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-20-P29-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5046,7 +5046,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-21-P27-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-21-P27-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5065,7 +5065,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-22-P30-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-22-P30-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5090,7 +5090,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-23-P31-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-23-P31-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5116,7 +5116,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-24-P26-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-24-P26-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5137,7 +5137,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-25-P32-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-25-P32-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5162,7 +5162,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-26-P33-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-26-P33-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5182,7 +5182,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-27-P25-B05_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-27-P25-B05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5202,7 +5202,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-28-P36-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-28-P36-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5222,7 +5222,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-29-P37-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-29-P37-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5242,7 +5242,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-30-P34-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-30-P34-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5257,7 +5257,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-31-P35-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-31-P35-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5276,7 +5276,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-32-P38-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-32-P38-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5300,7 +5300,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-33-P39-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-33-P39-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5319,7 +5319,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R01/shape/20181016_R01-Scene-34-P40-B06_seg_0.ome.tif",
+                "name": "20181016_R01-Scene-34-P40-B06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5355,7 +5355,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-01-P58-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-01-P58-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5376,7 +5376,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-02-P59-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-02-P59-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5409,7 +5409,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-03-P60-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-03-P60-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5438,7 +5438,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-04-P61-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-04-P61-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5463,7 +5463,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-05-P57-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-05-P57-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5489,7 +5489,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-06-P62-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-06-P62-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5524,7 +5524,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-07-P67-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-07-P67-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5559,7 +5559,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-08-P63-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-08-P63-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5575,7 +5575,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-09-P69-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-09-P69-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5607,7 +5607,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-10-P66-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-10-P66-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5635,7 +5635,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-11-P70-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-11-P70-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5664,7 +5664,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-12-P64-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-12-P64-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5687,7 +5687,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-13-P65-C04_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-13-P65-C04_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5707,7 +5707,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-14-P54-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-14-P54-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5727,7 +5727,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-15-P55-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-15-P55-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5754,7 +5754,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-16-P48-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-16-P48-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5781,7 +5781,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-17-P53-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-17-P53-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5807,7 +5807,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-18-P49-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-18-P49-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5836,7 +5836,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-19-P56-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-19-P56-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5872,7 +5872,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-20-P50-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-20-P50-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5902,7 +5902,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-21-P52-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-21-P52-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5929,7 +5929,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-22-P51-C05_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-22-P51-C05_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5958,7 +5958,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-23-P46-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-23-P46-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -5992,7 +5992,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-24-P45-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-24-P45-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6021,7 +6021,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-25-P44-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-25-P44-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6046,7 +6046,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-26-P47-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-26-P47-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6069,7 +6069,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-27-P43-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-27-P43-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6098,7 +6098,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-28-P42-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-28-P42-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6126,7 +6126,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R02/shape/20181016_R02-Scene-29-P41-C06_seg_0.ome.tif",
+                "name": "20181016_R02-Scene-29-P41-C06_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6166,7 +6166,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-01-P85-C02_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-01-P85-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6194,7 +6194,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-02-P84-C02_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-02-P84-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6221,7 +6221,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-03-P86-C02_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-03-P86-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6245,7 +6245,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-04-P87-C02_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-04-P87-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6272,7 +6272,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-05-P88-C02_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-05-P88-C02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6294,7 +6294,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-06-P78-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-06-P78-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6326,7 +6326,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-07-P77-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-07-P77-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6349,7 +6349,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-08-P76-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-08-P76-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6376,7 +6376,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-09-P79-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-09-P79-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6404,7 +6404,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-10-P74-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-10-P74-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6427,7 +6427,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-11-P75-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-11-P75-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6463,7 +6463,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-12-P80-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-12-P80-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6487,7 +6487,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-13-P73-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-13-P73-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6514,7 +6514,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-14-P81-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-14-P81-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6538,7 +6538,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-15-P72-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-15-P72-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6561,7 +6561,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-16-P71-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-16-P71-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6580,7 +6580,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-17-P82-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-17-P82-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6616,7 +6616,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181016_R03/shape/20181016_R03-Scene-18-P83-C03_seg_0.ome.tif",
+                "name": "20181016_R03-Scene-18-P83-C03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6652,7 +6652,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-01-P1-A01_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-01-P1-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6671,7 +6671,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-02-P6-A01_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-02-P6-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6696,7 +6696,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-03-P2-A01_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-03-P2-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6724,7 +6724,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-04-P3-A01_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-04-P3-A01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6747,7 +6747,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-05-P13-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-05-P13-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6766,7 +6766,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-06-P14-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-06-P14-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6784,7 +6784,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-07-P10-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-07-P10-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6805,7 +6805,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-08-P17-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-08-P17-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6825,7 +6825,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-09-P16-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-09-P16-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6847,7 +6847,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-10-P18-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-10-P18-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6869,7 +6869,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-11-P11-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-11-P11-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6897,7 +6897,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-12-P12-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-12-P12-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6916,7 +6916,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-13-P7-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-13-P7-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6940,7 +6940,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-14-P8-A02_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-14-P8-A02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6968,7 +6968,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-15-P32-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-15-P32-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -6992,7 +6992,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-16-P38-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-16-P38-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7011,7 +7011,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-17-P30-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-17-P30-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7029,7 +7029,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-18-P37-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-18-P37-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7048,7 +7048,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-19-P39-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-19-P39-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7070,7 +7070,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-20-P29-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-20-P29-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7091,7 +7091,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-21-P28-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-21-P28-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7112,7 +7112,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-22-P40-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-22-P40-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7137,7 +7137,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-23-P36-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-23-P36-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7166,7 +7166,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-24-P27-A03_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-24-P27-A03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7186,7 +7186,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-25-P19_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-25-P19_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7206,7 +7206,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-26-P5_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-26-P5_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7222,7 +7222,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-27-P21_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-27-P21_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7241,7 +7241,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-28-P35_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-28-P35_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7261,7 +7261,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-29-P34_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-29-P34_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7282,7 +7282,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R03/shape/20181019_R03-Scene-30-P4_seg_0.ome.tif",
+                "name": "20181019_R03-Scene-30-P4_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7317,7 +7317,7 @@
         "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/",
         "position": [
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-01-P73-B01_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-01-P73-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7345,7 +7345,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-02-P77-B01_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-02-P77-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7370,7 +7370,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-03-P74-B01_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-03-P74-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7396,7 +7396,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-04-P75-B01_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-04-P75-B01_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7420,7 +7420,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-05-P72-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-05-P72-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7448,7 +7448,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-06-P57-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-06-P57-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7473,7 +7473,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-07-P70-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-07-P70-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7498,7 +7498,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-08-P66-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-08-P66-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7524,7 +7524,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-09-P69-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-09-P69-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7549,7 +7549,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-10-P58-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-10-P58-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7579,7 +7579,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-11-P67-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-11-P67-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7611,7 +7611,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-12-P71-B02_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-12-P71-B02_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7638,7 +7638,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-13-P41-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-13-P41-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7655,7 +7655,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-14-P48-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-14-P48-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7677,7 +7677,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-15-P42-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-15-P42-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7703,7 +7703,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-16-P47-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-16-P47-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7729,7 +7729,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-17-P56-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-17-P56-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7763,7 +7763,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-18-P44-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-18-P44-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7794,7 +7794,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-19-P51-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-19-P51-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,
@@ -7814,7 +7814,7 @@
                 ]
             },
             {
-                "name": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181019_R04/shape/20181019_R04-Scene-20-P43-B03_seg_0.ome.tif",
+                "name": "20181019_R04-Scene-20-P43-B03_seg_0.ome.tif",
                 "cell_id": [
                     1,
                     2,

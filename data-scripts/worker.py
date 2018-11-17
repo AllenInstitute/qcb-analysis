@@ -210,11 +210,11 @@ if __name__ == "__main__":
 
                         img_png = img_input.max(axis=0)
                         img_png = img_png.astype(np.uint16)
-                        skio.imsave(os.path.join('../engine/app/static/imgs',cell_name+'.png'),img_png)
+                        skio.imsave(os.path.join("../engine/app/static/imgs",cell_name+".png"),img_png)
 
                         # Feature extraction
 
-                        feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots"])
+                        feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots", "roundness"])
                         feat["cell_id"] = cell_name
                         
                         # Metadata
@@ -224,7 +224,11 @@ if __name__ == "__main__":
                             "czi": config_czi["raw_name"],
                             "series_id": series_id,
                             "cell_seg_id": cell_id,
-                            "condition": config_czi["condition"]}, index=[0])
+                            "condition": config_czi["condition"],
+                            "cell_type": config_czi["cell_type"],
+                            "structure": config_czi["structure"],
+                            "scope": config_czi["modality"],
+                            "minipipeline": config_czi["minipipeline"]}, index=[0])
 
                         print("\t\tSeries:", series_id, "Cell:", cell_id)
 
@@ -397,7 +401,7 @@ if __name__ == "__main__":
 
             seg_path = czi["seg_path"]
 
-            filenames = glob.glob(seg_path+'*.ome.tif')
+            filenames = glob.glob1(seg_path,"*.ome.tif")
             filenames.sort()
 
             #
@@ -412,7 +416,7 @@ if __name__ == "__main__":
                 # List cell ids here
                 #
 
-                img = skio.imread(fname)
+                img = skio.imread(os.path.join(seg_path,fname))
 
                 cell_id = np.unique(img[img>0])
 
