@@ -78,6 +78,20 @@ if __name__ == "__main__":
         with open(args["config"], "r") as fjson:
             config_json = json.load(fjson)
 
+        def get_orthogonal_projs(img):
+
+            nz = img.shape[0]
+            img_proj_xy = img.max(axis=0)
+            img_proj_xz = img.max(axis=1)
+            img_proj_yz = img.max(axis=2)
+            img_offset  = np.zeros((nz,nz), dtype=img.dtype)
+
+            img_proj = np.concatenate([
+                np.concatenate([img_proj_xy, img_proj_yz.T], axis=1),
+                np.concatenate([img_proj_xz,    img_offset], axis=1)], axis=0)
+
+            return img_proj
+
         def get_stack_from_series_id(czi_path, channel, series_id, dim):
 
             # Extraction a series from multi-position CZI
@@ -208,9 +222,8 @@ if __name__ == "__main__":
 
                         # Save the image for interactive view
 
-                        img_png = img_input.max(axis=0)
-                        img_png = img_png.astype(np.uint16)
-                        skio.imsave(os.path.join("../engine/app/static/imgs",cell_name+".png"),img_png)
+                        img_png = get_orthogonal_projs(img_input)
+                        skio.imsave(os.path.join("../engine/app/static/imgs",cell_name+".png"),img_png.astype(np.uint16))
 
                         # Feature extraction
 
