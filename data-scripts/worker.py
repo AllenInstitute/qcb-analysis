@@ -14,11 +14,8 @@ if __name__ == "__main__":
     #
 
     parser = argparse.ArgumentParser(description="Interface for downloading/exploring data from database and extracting features for QCB")
-    parser.add_argument("-m", "--mode", help="download (download metadata), \
-                                            feature (feature extraction) \
-                                            image (save cell images in static folder)\
-                                            check (check dataframe produced by feature extraction)\
-                                            process (process tables for further analyzes)\
+    parser.add_argument("-m", "--mode", help="feature (feature extraction) \
+                                            contrast (adjust the contrast of images of a particular dataset)\
                                             config (generate the config json file based on a csv table)", required=True)
     parser.add_argument("-d", "--dataset", nargs="?", type=str, default="", const="", required=False)
     parser.add_argument("-s", "--start", nargs="?", type=int, default=0, const=0, required=False)
@@ -285,3 +282,66 @@ if __name__ == "__main__":
 
         with open("config.json", "w") as fj:
             json.dump({"name": args["dataset"], "data": df.to_dict("records")}, fj, indent=4)
+
+    #
+    # If contrast mode
+    #
+
+    if args["mode"] == "contrast":
+
+        import glob
+
+        #
+        # Load processed CSV. This CSV does not include outliers.
+        #
+
+        df = pd.read_csv(os.path.join("../engine/data-processed/",args["dataset"]+".csv"), sep=";")
+
+        #
+        # For each cell
+        #
+
+        TARGET_MIN = 0.05;
+        TARGET_MAX = 0.95;
+
+        size_x, size_y = [], []
+        percentile_min, percentile_max = [], []
+
+        for index, cell in df.iterrows():
+
+            img = skio.imread(os.path.join("../engine/app/static/imgs/",cell["cell_id"]+".png"))
+
+            size_x.append(img.shape[1])
+            size_y.append(img.shape[0])
+
+            img = img[img>0].reshape(-1)
+
+            percentile_min.append(np.percentile(img, q=100*TARGET_MIN))
+            percentile_max.append(np.percentile(img, q=100*TARGET_MAX))
+
+        pct_min = np.min(percentile_min)
+        pct_max = np.max(percentile_max)
+
+        print("Percentiles:", pct_min, pct_max)
+
+        stack = np.zeros((len(size_y), np.max(size_y)+5, np.max(size_x)+5), dtype=np.uint8)
+
+        #
+        # Adjust contrast and save as jpg
+        #
+
+        for index, cell in df.iterrows():
+
+            img = skio.imread(os.path.join("../engine/app/static/imgs/",cell["cell_id"]+".png"))
+
+            img[(img>0)&(img<pct_min)] = pct_min
+            img[(img>0)&(img>pct_max)] = pct_max
+
+            img[img>0] = (255. * (img[img>0]-pct_min) / (pct_max-pct_min)).astype(np.uint8)
+            img[0,0] = 255
+
+            stack[index,:img.shape[0],:img.shape[1]] = img
+
+            skio.imsave(os.path.join("../engine/app/static/imgs/",cell["cell_id"]+".jpg"), img)
+
+        skio.imsave(os.path.join("../engine/app/static/imgs/stack.tif"), stack)

@@ -27,7 +27,7 @@ args = vars(parser.parse_args())
 # Feature extraction
 #
 
-df = pd.read_csv(os.path.join("../../../data-processed/",args["df"]+".csv"))
+df = pd.read_csv(os.path.join("../../../data-processed/",args["df"]+".csv"), sep=";")
 
 for col_id, col in enumerate(df.columns.tolist()):
 	print(col_id, col)

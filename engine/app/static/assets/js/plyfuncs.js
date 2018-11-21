@@ -38,7 +38,7 @@ for ( trace_id in DATA ) {
 		ids: DATA[trace_id].id,
 		type: 'scatter',
 		mode: 'markers',
-		marker: {size:3, opacity: 1.0}
+		marker: {size:5, opacity: 1.0}
 	};
 
 	var trace_density = {
