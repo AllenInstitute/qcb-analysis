@@ -1,7 +1,0 @@
-{
-	"driver": "postgres",
-	"host": "pg-aics-modeling-01.corp.alleninstitute.org",
-	"database": "pg_modeling",
-	"user": "rw",
-	"password": "3dzvuoFA"
- }

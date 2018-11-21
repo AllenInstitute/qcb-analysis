@@ -1,8 +1,0 @@
-experiment_id;cell_type;structure;modality;pixel_size_xy;pixel_size_z;condition;minipipeline;raw_name;raw_path;seg_path
-20181107_R04;cardiomyocyte;H2B;ZSD;0.108;0.29;TSA-50um;no;20181107_R04.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R04/shape/
-20181003_M01_001;cardiomyocyte;H2B;ZSD;0.108;0.29;Control;no;20181003_M01_001.czi;/allen/aics/assay-dev/MicroscopyData/Melissa/2018/20181003;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181003_M01_001/shape/
-20181107_R05;cardiomyocyte;H2B;ZSD;0.108;0.29;DMSO;no;20181107_R05.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R05/shape/
-20181107_R06;cardiomyocyte;H2B;ZSD;0.108;0.29;Control;no;20181107_R06.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R06/shape/
-20181107_R01;cardiomyocyte;CBX1;ZSD;0.108;0.29;TSA-50um;no;20181107_R01.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R01/shape/
-20181107_R02;cardiomyocyte;CBX1;ZSD;0.108;0.29;DMSO;no;20181107_R02.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R02/shape/
-20181107_R03;cardiomyocyte;CBX1;ZSD;0.108;0.29;none;no;20181107_R03.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R03/shape/

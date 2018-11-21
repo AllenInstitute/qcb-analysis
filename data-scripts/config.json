@@ -1,0 +1,103 @@
+{
+    "name": "NUCLEUS_CARDIO",
+    "data": [
+        {
+            "experiment_id": "20181107_R04",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "TSA-50um",
+            "minipipeline": "no",
+            "raw_name": "20181107_R04.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R04/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181003_M01_001",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "Control",
+            "minipipeline": "no",
+            "raw_name": "20181003_M01_001.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Melissa/2018/20181003",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181003_M01_001/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181107_R05",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "raw_name": "20181107_R05.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R05/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181107_R06",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "Control",
+            "minipipeline": "no",
+            "raw_name": "20181107_R06.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R06/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181107_R01",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "TSA-50um",
+            "minipipeline": "no",
+            "raw_name": "20181107_R01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R01/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181107_R02",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "raw_name": "20181107_R02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R02/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181107_R03",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "none",
+            "minipipeline": "no",
+            "raw_name": "20181107_R03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R03/shape/",
+            "position": []
+        }
+    ]
+}

@@ -20,40 +20,9 @@ if __name__ == "__main__":
                                             check (check dataframe produced by feature extraction)\
                                             process (process tables for further analyzes)\
                                             config (generate the config json file based on a csv table)", required=True)
-    parser.add_argument("-c", "--config", help="Path to config json", required=True)
+    parser.add_argument("-d", "--dataset", nargs="?", type=str, default="", const="", required=False)
     parser.add_argument("-s", "--start", nargs="?", type=int, default=0, const=0, required=False)
     args = vars(parser.parse_args())
-
-    #
-    # If download mode
-    #
-
-    if args["mode"] == "download":
-
-        import datasetdatabase as dsdb
-
-        #
-        # Loading configuration form JSON file
-        #
-
-        with open(args["config"], "r") as fjson:
-            config_json = json.load(fjson)
-
-        #
-        # Multiprocessing
-        #
-
-        os.environ["DSDB_PROCESS_LIMIT"] = "16"
-
-        #
-        # Loading metadata from database
-        #
-
-        prod = dsdb.DatasetDatabase(config=config_json["database"])
-        ds_meta = prod.get_dataset(name=config_json["meta"])
-
-        with open(os.path.join("../data-raw/",config_json["meta"]+".pkl"), "wb") as fp:
-            pickle.dump(ds_meta.ds,fp)
 
     #
     # If feature extraction mode
@@ -75,8 +44,11 @@ if __name__ == "__main__":
         # Loading configuration form JSON file
         #
 
-        with open(args["config"], "r") as fjson:
-            config_json = json.load(fjson)
+        with open("config.json", "r") as fjson:
+            config_full = json.load(fjson)
+        config_name = config_full["name"]
+        config_json = config_full["data"]
+        print("Processing dataset:",config_name)
 
         def get_orthogonal_projs(img):
 
@@ -248,144 +220,10 @@ if __name__ == "__main__":
                         df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
                         df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
 
-                        df_meta.to_csv(os.path.join("../data-raw/",args["config"].replace(".json","_meta.csv")), index=False)
-                        df_feat.to_csv(os.path.join("../data-raw/",args["config"].replace(".json","_feature.csv")), index=False)
+                        df_meta.to_csv(os.path.join("../data-raw/",config_name+"_meta.csv"), index=False)
+                        df_feat.to_csv(os.path.join("../data-raw/",config_name+"_feature.csv"), index=False)
 
         print("Done!")
-
-
-    #
-    # If image mode
-    #
-
-    if args["mode"] == "image":
-
-        #
-        # Loading configuration form JSON file
-        #
-
-        with open(args["config"], "r") as fjson:
-            config_json = json.load(fjson)
-
-        #
-        # Loading metadata
-        #
-
-        with open(os.path.join("../data-raw/",config_json["meta"]+".pkl"), "rb") as fp:
-            df_meta = pickle.load(fp)
-
-        df_meta = df_meta.set_index(config_json["id"])
-
-        #
-        # Checking whether static/imgs exist
-        #
-
-        if not os.path.isdir("../engine/app/static/imgs/"):
-            os.makedirs("../engine/app/static/imgs/")
-
-        #
-        # Creates an image with custom colors
-        #
-
-        def fix_cell_color(img):
-            for i in [str_ch,dna_ch,mem_ch]:
-                for j in [str_ch,dna_ch,mem_ch]:
-                    if i != j:
-                        img[img[:,:,i]>0,j] = 0
-            img[np.all(img==0,axis=str_ch),:] = 255
-            return img
-
-        def get_cell_image(cell_img_path):
-            img = skio.imread(cell_img_path)
-            img = np.max(img,axis=mem_ch)
-            img = np.swapaxes(img,dna_ch,str_ch)
-            img = img[:,:,:3]
-            img = fix_cell_color(img)
-            return img
-
-        for row in tqdm(range(df_meta.shape[0])):
-            cid = df_meta.index[row]
-            img = get_cell_image(os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"]))
-            skio.imsave(os.path.join('../engine/app/static/imgs',cid+'.jpg'),img)
-
-    #
-    # If check mode
-    #
-
-    if args["mode"] == "check":
-
-        import time
-
-        #
-        # Loading configuration form JSON file
-        #
-
-        with open(args["config"], "r") as fjson:
-            config_json = json.load(fjson)
-
-        #
-        # For each structure in the config file
-        #
-
-        report = pd.DataFrame([])
-        for struct in config_json["run"]:
-
-            #
-            # Finding all cell with that structure
-            #
-
-            mod_date = time.ctime(os.path.getmtime(os.path.join("../data-raw/",struct["save_as"])))
-
-            with open(os.path.join("../data-raw/",struct["save_as"]), "rb") as fp:
-                df = pickle.load(fp)
-
-            print("\n## "+struct["save_as"]+" ##\n")
-            print(df.head())
-
-            report = report.append({"name": struct["save_as"].replace(".pkl",""), "rows": df.shape[0], "cols": df.shape[1], "modified": mod_date}, sort=True, ignore_index=True)
-
-        report[["cols","rows"]] = report[["cols","rows"]].astype(np.int)
-        print(report[["name","cols","rows","modified"]])
-
-    #
-    # If process mode
-    #
-
-    if args["mode"] == "process":
-
-        #
-        # Loading configuration form JSON file
-        #
-
-        with open(args["config"], "r") as fjson:
-            config_json = json.load(fjson)
-
-        #
-        # Loading metadata
-        #
-
-        with open(os.path.join("../data-raw/",config_json["meta"]+".pkl"), "rb") as fp:
-            df_full = pickle.load(fp)
-
-        df_full = df_full.set_index(config_json["id"])
-
-        #
-        # Loading features
-        #
-
-        for struct in config_json["run"]:
-
-            if struct["status"] == "on":
-
-                #
-                # Finding all cell with that structure
-                #
-
-                with open(os.path.join("../data-raw/",struct["save_as"]), "rb") as fp:
-                    df_str_fea = pickle.load(fp)
-                    df_full = df_full.join(df_str_fea)
-
-        df_full.to_csv("../engine/data-processed/data.csv")
 
     #
     # If config mode
@@ -395,12 +233,18 @@ if __name__ == "__main__":
 
         import glob
 
+        # Removing existing config file
+
+        try:
+            os.remove("config.json")
+        except: pass
+
         #
         # Load CSV file based on Jinaxu segmentation report in
         # /allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/nucleus_meta.csv
         #
 
-        df = pd.read_csv(args["config"], sep=";")
+        df = pd.read_csv(os.path.join("dataset/",args["dataset"]+".csv"), sep=";")
 
         position = []
 
@@ -410,7 +254,7 @@ if __name__ == "__main__":
 
         for index, czi in df.iterrows():
 
-            print(czi["experiment_id"])
+            print("Loading ", czi["experiment_id"], "...")
 
             seg_path = czi["seg_path"]
 
@@ -439,5 +283,5 @@ if __name__ == "__main__":
 
         df["position"] = position
 
-        with open(args["config"].replace(".csv",".json"), "w") as fj:
-            json.dump(df.to_dict("records"), fj, indent=4)
+        with open("config.json", "w") as fj:
+            json.dump({"name": args["dataset"], "data": df.to_dict("records")}, fj, indent=4)
