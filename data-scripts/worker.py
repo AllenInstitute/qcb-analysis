@@ -248,8 +248,8 @@ if __name__ == "__main__":
                         df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
                         df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
 
-                        df_meta.to_csv("../data-raw/NUCLEUS_meta.csv", index=False)
-                        df_feat.to_csv("../data-raw/NUCLEUS_feature.csv", index=False)
+                        df_meta.to_csv(os.path.join("../data-raw/",args["config"].replace(".json","_meta.csv")), index=False)
+                        df_feat.to_csv(os.path.join("../data-raw/",args["config"].replace(".json","_feature.csv")), index=False)
 
         print("Done!")
 
