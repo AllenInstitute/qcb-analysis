@@ -344,4 +344,4 @@ if __name__ == "__main__":
 
             skio.imsave(os.path.join("../engine/app/static/imgs/",cell["cell_id"]+".jpg"), img)
 
-        skio.imsave(os.path.join("../engine/app/static/imgs/stack.tif"), stack)
+        #skio.imsave(os.path.join("../engine/app/static/imgs/stack.tif"), stack)

@@ -38,7 +38,7 @@ for ( trace_id in DATA ) {
 		ids: DATA[trace_id].id,
 		type: 'scatter',
 		mode: 'markers',
-		marker: {size:5, opacity: 1.0}
+		marker: {size:10, opacity: 1.0}
 	};
 
 	var trace_density = {
@@ -52,11 +52,10 @@ for ( trace_id in DATA ) {
 		type: 'histogram2dcontour'
 	};
 
-
 	var layout = {
 		title: 'QCB Analysis',
-		xaxis: {title: LABX, range:[xmin,xmax]},
-		yaxis: {title: LABY, range:[ymin,ymax]},
+		xaxis: {title: LABX, range:[xmin,xmax], titlefont: {size: 24}, tickfont: {size: 18}},
+		yaxis: {title: LABY, range:[ymin,ymax], titlefont: {size: 24}, tickfont: {size: 18}},
 		hovermode: 'closest',
 		dragmode: 'lasso'
 		// shapes: [{
@@ -97,7 +96,7 @@ var trace = {
 	type: 'table',
 	header: {values: [["id"],["x"],["y"]]},
 	cells: {values: [table_i,table_x, table_y]},
-	columnwidth: [600,100,100],
+	columnwidth: [400,200,200],
 };
 
 Plotly.plot(myTable, [trace], {margin: {l: 5, r: 5, b: 5, t: 5, pad: 0}});
