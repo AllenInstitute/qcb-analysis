@@ -255,7 +255,7 @@ if __name__ == "__main__":
 
             seg_path = czi["seg_path"]
 
-            filenames = glob.glob1(seg_path,"*.ome.tif")
+            filenames = glob.glob1(seg_path, czi["raw_name"].replace(".czi","") + "*.ome.tif")
             filenames.sort()
 
             #
@@ -276,9 +276,11 @@ if __name__ == "__main__":
 
                 list_of_ome_tif_files.append({"name": fname, "cell_id": cell_id.tolist()})
 
+            position.append(list_of_ome_tif_files)
+
             if len(list_of_ome_tif_files) > 0:
 
-                position.append(list_of_ome_tif_files)
+                print("\tNumber of files found:", len(list_of_ome_tif_files))
 
             else:
 
