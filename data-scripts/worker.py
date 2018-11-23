@@ -106,16 +106,25 @@ if __name__ == "__main__":
 
             for position in config_czi["position"]:
 
-                # Parse series ID in the segmentation name
-                # First positiuon is 0, alhtough it is shown as Scene-01
 
+                # Images from 880 microscope are single position, while
+                # images from ZSD is multiposition and require us to
+                # parse the seg file name to find the series id
+                
                 print("\tSeries:",position["name"])
 
-                series_id = position["name"]
-                loc = series_id.find("Scene")
+                if config_czi["modality"] == 880:
 
-                # First positiuon is 0, alhtough it is shown as Scene-01
-                series_id = int(series_id.split("Scene")[1].split("-")[1]) - 1
+                    series_id = 0
+
+                else:
+
+                    series_id = position["name"]
+                    loc = series_id.find("Scene")
+
+                    # Parse series ID in the segmentation name
+                    # First positiuon is 0, alhtough it is shown as Scene-01
+                    series_id = int(series_id.split("Scene")[1].split("-")[1]) - 1
 
                 # Structure channel
 
@@ -153,15 +162,36 @@ if __name__ == "__main__":
                     img_seg_all[ 0,:,:] = 0
                     img_seg_all[-1,:,:] = 0
 
+                    # 880 images have been downsampled for segmentation
+
+                    if config_czi["xy_upsample_seg"] > 1.0:
+
+                        print("\tUpsampling segmentation, original:", img_seg_all.shape, ", target:", nz,ny,ny, ", factor reported:", config_czi["xy_upsample_seg"])
+
+                        img_seg_all_dtype = img_seg_all.dtype
+                        img_seg_all = resize(image = img_seg_all,
+                            output_shape = (nz, ny, nx),
+                            order = 0,
+                            preserve_range = True,
+                            anti_aliasing = False,
+                            mode = "constant")
+                        img_seg_all = img_seg_all.astype(img_seg_all_dtype)
+
                     # Analyze each cell
 
+                    print("\tProcessing cell:")
+
                     for cell_id in position["cell_id"]:
+
+                        print("\t\t",cell_id)
 
                         cell_name = position["name"].replace(".ome.tif","_cid_"+str(cell_id))
 
                         img_seg = img_seg_all.copy()
                         img_seg[img_seg!=cell_id] = 0
                         img_seg[img_seg==cell_id] = 1
+
+                        print("\t\t\tTesting object connectivity")
 
                         # Testing whether the nucleus has a unique component
                         # Excluding pixels=0 during bincount
@@ -175,6 +205,8 @@ if __name__ == "__main__":
 
                         # Cropping the nucleus
 
+                        print("\t\t\tCropping ROI")
+
                         pxl_z, pxl_y, pxl_x = np.nonzero(img_seg)
 
                         img_seg_crop = img_seg[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
@@ -184,6 +216,8 @@ if __name__ == "__main__":
 
                         # Rescale to isotropic volume
 
+                        print("\t\t\tRescale z direction")
+
                         dim_z, dim_y, dim_x = img_input.shape
                         dim_z = np.int((pixel_size_z/pixel_size_xy)*dim_z)
                         img_input = resize(image=img_input, output_shape=(dim_z,dim_y,dim_x), preserve_range=True, anti_aliasing=True, mode="constant")
@@ -191,10 +225,14 @@ if __name__ == "__main__":
 
                         # Save the image for interactive view
 
+                        print("\t\t\tSaving orthogonal projections:", cell_name)
+
                         img_png = get_orthogonal_projs(img_input)
                         skio.imsave(os.path.join("../engine/app/static/imgs",cell_name+".png"),img_png.astype(np.uint16))
 
                         # Feature extraction
+
+                        print("\t\t\tExtracting features...")
 
                         feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots", "roundness"])
                         feat["cell_id"] = cell_name
@@ -211,8 +249,6 @@ if __name__ == "__main__":
                             "structure": config_czi["structure"],
                             "scope": config_czi["modality"],
                             "minipipeline": config_czi["minipipeline"]}, index=[0])
-
-                        print("\t\tSeries:", series_id, "Cell:", cell_id)
 
                         df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
                         df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)

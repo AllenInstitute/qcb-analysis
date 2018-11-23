@@ -1,0 +1,3 @@
+cell_id,czi,series_id,cell_seg_id,condition,cell_type,structure,scope,minipipeline
+20181023_J01_010_Out_seg_0_cid_1,20181023_J01_010_Out.czi,0,1,TSA-50nm,hiPS,CBX1,880,no
+20181023_J01_010_Out_seg_0_cid_2,20181023_J01_010_Out.czi,0,2,TSA-50nm,hiPS,CBX1,880,no

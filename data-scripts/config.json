@@ -669,7 +669,7 @@
             "condition": "TSA-50nm",
             "minipipeline": "no",
             "raw_name": "20181106_J01_001-020_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181106",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": []
         },
