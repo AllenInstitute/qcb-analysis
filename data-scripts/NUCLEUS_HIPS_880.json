@@ -668,10 +668,24 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
-            "raw_name": "20181106_J01_001-020_Out.czi",
+            "raw_name": "20181106_J01_020_Out.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
-            "position": []
+            "position": [
+                {
+                    "name": "20181106_J01_020_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                }
+            ]
         },
         {
             "date": 20181016,
@@ -882,10 +896,26 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
-            "raw_name": "20181106_J02_001-015_Out.czi",
+            "raw_name": "20181106_J02_015_Out.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_DMSO_1/shape/",
-            "position": []
+            "position": [
+                {
+                    "name": "20181106_J02_015_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ]
         },
         {
             "date": 20181106,
@@ -895,12 +925,35 @@
             "pixel_size_xy": 0.05,
             "pixel_size_z": 0.22,
             "xy_upsample_seg": 2,
-            "condition": "DMSO",
+            "condition": "Control",
             "minipipeline": "no",
-            "raw_name": "20181106_J03_001-015_Out.czi",
+            "raw_name": "20181106_J03_015_Out.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
-            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_DMSO_1/shape/",
-            "position": []
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181106_J03_015_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,850 @@
+{
+    "name": "NUCLEUS_CARDIO",
+    "data": [
+        {
+            "experiment_id": "20181107_R04",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "TSA-50um",
+            "minipipeline": "no",
+            "raw_name": "20181107_R04.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R04/shape/",
+            "position": [
+                {
+                    "name": "20181107_R04-Scene-01-P51-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-02-P52-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-03-P53-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-04-P62-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-05-P54-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-06-P63-B04_seg_0.ome.tif",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181107_R04-Scene-07-P70-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-08-P61-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-09-P55-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-10-P60-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-11-P58-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-12-P64-B04_seg_0.ome.tif",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181107_R04-Scene-13-P57-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-14-P59-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-15-P56-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-16-P65-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-17-P69-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-18-P66-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-19-P68-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R04-Scene-20-P67-B04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181003_M01_001",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "Control",
+            "minipipeline": "no",
+            "raw_name": "20181003_M01_001.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Melissa/2018/20181003",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181003_M01_001/shape/",
+            "position": [
+                {
+                    "name": "20181003_M01_001-Scene-1-P1_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181003_M01_001-Scene-2-P2_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181003_M01_001-Scene-3-P3_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181003_M01_001-Scene-4-P4_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181003_M01_001-Scene-5-P29-E03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181003_M01_001-Scene-6-P30-E03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181003_M01_001-Scene-7-P28-E03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181107_R05",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "raw_name": "20181107_R05.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R05/shape/",
+            "position": [
+                {
+                    "name": "20181107_R05-Scene-01-P82-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-02-P80-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-03-P78-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-04-P72-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-05-P74-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-06-P71-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-07-P77-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-08-P83-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-09-P73-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-10-P75-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-11-P84-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R05-Scene-12-P85-B05_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181107_R06",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "Control",
+            "minipipeline": "no",
+            "raw_name": "20181107_R06.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R06/shape/",
+            "position": [
+                {
+                    "name": "20181107_R06-Scene-01-P100-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-02-P86-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-03-P99-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-04-P98-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-05-P87-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-06-P93-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-07-P92-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-08-P97-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-09-P94-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-10-P96-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-11-P91-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-12-P95-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R06-Scene-13-P90-C04_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181107_R01",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "TSA-50um",
+            "minipipeline": "no",
+            "raw_name": "20181107_R01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R01/shape/",
+            "position": [
+                {
+                    "name": "20181107_R01-Scene-01-P6-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-02-P5-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-03-P20-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-04-P1-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-05-P3-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-06-P4-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-07-P2-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-08-P7-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-09-P17-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-10-P16-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-11-P12-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-12-P11-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-13-P15-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-14-P18-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-15-P10-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-16-P13-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-17-P14-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-18-P8-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-19-P19-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R01-Scene-20-P9-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181107_R02",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "raw_name": "20181107_R02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R02/shape/",
+            "position": [
+                {
+                    "name": "20181107_R02-Scene-01-P26-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-02-P25-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-03-P24-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-04-P23-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-05-P22-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-06-P27-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-07-P21-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-08-P28-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-09-P29-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-10-P35-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-11-P31-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-12-P32-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-13-P34-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R02-Scene-14-P33-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181107_R03",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "condition": "Control",
+            "minipipeline": "no",
+            "raw_name": "20181107_R03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R03/shape/",
+            "position": [
+                {
+                    "name": "20181107_R03-Scene-01-P45-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-02-P44-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-03-P43-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-04-P47-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-05-P41-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-06-P40-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-07-P50-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-08-P36-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-09-P37-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181107_R03-Scene-10-P39-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

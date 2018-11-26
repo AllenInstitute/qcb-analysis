@@ -1,5 +1,6 @@
 import os
 import json
+import errno
 import pickle
 import argparse
 import numpy as np
@@ -17,9 +18,39 @@ if __name__ == "__main__":
     parser.add_argument("-m", "--mode", help="feature (feature extraction) \
                                             contrast (adjust the contrast of images of a particular dataset)\
                                             config (generate the config json file based on a csv table)", required=True)
+    parser.add_argument("-c", "--config", nargs="?", type=str, default="", const="", required=False)
     parser.add_argument("-d", "--dataset", nargs="?", type=str, default="", const="", required=False)
     parser.add_argument("-s", "--start", nargs="?", type=int, default=0, const=0, required=False)
     args = vars(parser.parse_args())
+
+    #
+    # Auxiliar functions
+    #
+
+    def get_orthogonal_projs(img):
+
+        nz = img.shape[0]
+        img_proj_xy = img.max(axis=0)
+        img_proj_xz = img.max(axis=1)
+        img_proj_yz = img.max(axis=2)
+        img_offset  = np.zeros((nz,nz), dtype=img.dtype)
+
+        img_proj = np.concatenate([
+            np.concatenate([img_proj_xy, img_proj_yz.T], axis=1),
+            np.concatenate([img_proj_xz,    img_offset], axis=1)], axis=0)
+
+        return img_proj
+
+    def get_stack_from_series_id(czi_path, channel, series_id, dim):
+
+        # Extraction a series from multi-position CZI
+
+        img_raw = []
+        for slice in range(dim[0]):
+            img_raw.append(bf.load_image(path=czi_path, series=series_id, c=channel, z=slice, t=0, rescale=False))
+        img_raw = np.array(img_raw).reshape(*dim)
+
+        return img_raw
 
     #
     # If feature extraction mode
@@ -41,36 +72,11 @@ if __name__ == "__main__":
         # Loading configuration form JSON file
         #
 
-        with open("config.json", "r") as fjson:
+        with open(args["config"]+".json", "r") as fjson:
             config_full = json.load(fjson)
         config_name = config_full["name"]
         config_json = config_full["data"]
         print("Processing dataset:",config_name)
-
-        def get_orthogonal_projs(img):
-
-            nz = img.shape[0]
-            img_proj_xy = img.max(axis=0)
-            img_proj_xz = img.max(axis=1)
-            img_proj_yz = img.max(axis=2)
-            img_offset  = np.zeros((nz,nz), dtype=img.dtype)
-
-            img_proj = np.concatenate([
-                np.concatenate([img_proj_xy, img_proj_yz.T], axis=1),
-                np.concatenate([img_proj_xz,    img_offset], axis=1)], axis=0)
-
-            return img_proj
-
-        def get_stack_from_series_id(czi_path, channel, series_id, dim):
-
-            # Extraction a series from multi-position CZI
-
-            img_raw = []
-            for slice in range(dim[0]):
-                img_raw.append(bf.load_image(path=czi_path, series=series_id, c=channel, z=slice, t=0, rescale=False))
-            img_raw = np.array(img_raw).reshape(*dim)
-
-            return img_raw
 
         # Checking whether static/imgs exist
 
@@ -289,6 +295,19 @@ if __name__ == "__main__":
 
             print("Loading ", czi["raw_name"], "...")
 
+            #
+            # Checking if the CZI file exist
+            #
+
+            czi_path = os.path.join(czi["raw_path"], czi["raw_name"])
+
+            if not os.path.isfile(czi_path):
+                raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), os.path.join(czi["raw_path"], czi["raw_name"]))
+
+            #
+            # Looking for corresponding segmentation files
+            #
+
             seg_path = czi["seg_path"]
 
             filenames = glob.glob1(seg_path, czi["raw_name"].replace(".czi","") + "*.ome.tif")
@@ -324,7 +343,7 @@ if __name__ == "__main__":
 
         df["position"] = position
 
-        with open("config.json", "w") as fj:
+        with open(args["dataset"]+".json", "w") as fj:
             json.dump({"name": args["dataset"], "data": df.to_dict("records")}, fj, indent=4)
 
     #
