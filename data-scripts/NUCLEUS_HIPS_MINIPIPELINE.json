@@ -1,0 +1,1186 @@
+{
+    "name": "NUCLEUS_HIPS_MINIPIPELINE",
+    "data": [
+        {
+            "date": 20181026,
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "raw_name": "20181026_R01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181026",
+            "seg_path": "/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181026_R01/nuc_cell_segmentation",
+            "position": [
+                {
+                    "name": "20181026_R01-Scene-01-P3-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-02-P4-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181026_R01-Scene-03-P5-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        7,
+                        8,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-04-P6-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-05-P18-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181026_R01-Scene-06-P8-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-07-P7-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        3,
+                        4,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-08-P12-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-09-P13-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-10-P9-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-11-P16-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-12-P25-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-13-P24-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-14-P19-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-15-P27-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-16-P23-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-17-P26-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        4,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-18-P20.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-19-P2.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-20-P1.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        4,
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-21-P29.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-22-P14.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        4,
+                        5,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-23-P10.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-24-P11.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-25-P30.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-26-P15.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20181012,
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
+            "minipipeline": "yes",
+            "raw_name": "20181012_R02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181012_R02/nuc_cell_segmentation",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-01-P78.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        4,
+                        7,
+                        8,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-02-P93-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-03-P92-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181012_R02-Scene-04-P91-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        7,
+                        8,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-05-P90-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        6,
+                        10,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-06-P88-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        6,
+                        8,
+                        9,
+                        12,
+                        13,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-07-P73-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        6,
+                        7,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-08-P71-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        6
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-09-P74-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-10-P75-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        3,
+                        4,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-11-P85-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        7,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-12-P76-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        8,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-13-P68-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        8,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-14-P77-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        4,
+                        5,
+                        9,
+                        11,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-15-P83-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        4,
+                        5,
+                        6,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-16-P79-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-17-P67-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        7,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-18-P82-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-19-P66-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181012_R02-Scene-20-P80-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        4,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20181026,
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
+            "minipipeline": "yes",
+            "raw_name": "20181026_R02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181026",
+            "seg_path": "/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181026_R02/nuc_cell_segmentation",
+            "position": [
+                {
+                    "name": "20181026_R02-Scene-01-P42.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        5,
+                        7,
+                        8,
+                        9,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-02-P39.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-03-P59-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-04-P60-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        7,
+                        8,
+                        9,
+                        10,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-05-P58-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        6,
+                        8,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-06-P55-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-07-P46-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-08-P43-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-09-P49-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        4,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-10-P50-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        5,
+                        6,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-11-P44-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        5,
+                        7,
+                        8,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-12-P45-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        8
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-13-P53-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-14-P31-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        6,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-15-P32-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-16-P41-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        7,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-17-P40-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-18-P36-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-19-P37-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        5,
+                        7,
+                        9,
+                        10,
+                        13,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-20-P33-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        5,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-21-P38-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        7,
+                        10,
+                        12,
+                        14,
+                        15,
+                        16,
+                        18,
+                        20,
+                        21
+                    ]
+                },
+                {
+                    "name": "20181026_R02-Scene-22-P34-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20181019,
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "raw_name": "20181019_R03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181019",
+            "seg_path": "/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181019_R03/nuc_cell_segmentation",
+            "position": [
+                {
+                    "name": "20181019_R03-Scene-01-P1-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-02-P6-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        4,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-03-P2-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-04-P3-A01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-05-P13-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-06-P14-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-07-P10-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        3,
+                        4,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-08-P17-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-09-P16-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-10-P18-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-11-P11-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        6,
+                        8,
+                        12,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-12-P12-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-13-P7-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        4,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-14-P8-A02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-15-P32-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        6,
+                        8,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-16-P38-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        4,
+                        6,
+                        9,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-17-P30-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-18-P37-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-19-P39-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-20-P29-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-21-P28-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        4,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-22-P40-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        6,
+                        7,
+                        9,
+                        10,
+                        11,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-23-P36-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181019_R03-Scene-24-P27-A03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        4,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-25-P19.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-26-P5.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-27-P21.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-28-P35.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        4,
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-29-P34.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R03-Scene-30-P4.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        9
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20181019,
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
+            "minipipeline": "yes",
+            "raw_name": "20181019_R04.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181019",
+            "seg_path": "/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181019_R04/nuc_cell_segmentation",
+            "position": [
+                {
+                    "name": "20181019_R04-Scene-01-P73-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        9,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-02-P77-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        3,
+                        5,
+                        6,
+                        7,
+                        11,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-03-P74-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-04-P75-B01.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        7,
+                        8,
+                        9,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-05-P72-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-06-P57-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-07-P70-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-08-P66-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        9,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-09-P69-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        4,
+                        5,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-10-P58-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        6,
+                        10,
+                        14,
+                        16,
+                        19
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-11-P67-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        5
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-12-P71-B02.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        5,
+                        7,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-13-P41-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-14-P48-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        4,
+                        8,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-15-P42-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        8,
+                        10,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-16-P47-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        8
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-17-P56-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        2,
+                        4,
+                        7,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-18-P44-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        3,
+                        9,
+                        13,
+                        15,
+                        16,
+                        18
+                    ]
+                },
+                {
+                    "name": "20181019_R04-Scene-19-P51-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": []
+                },
+                {
+                    "name": "20181019_R04-Scene-20-P43-B03.czi_nucWholeIndexImageScale.tiff",
+                    "cell_id": [
+                        6,
+                        9
+                    ]
+                }
+            ]
+        }
+    ]
+}
