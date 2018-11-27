@@ -205,7 +205,7 @@ if __name__ == "__main__":
 
                         print("\t\t",cell_id)
 
-                        cell_name = position["name"].replace(".czi_nucWholeIndexSegScale.tiff","_cid_"+str(cell_id))
+                        cell_name = position["name"].replace(".czi_nucWholeIndexImageScale.tiff","_cid_"+str(cell_id))
 
                         img_dna_seg = img_dna_seg_all.copy()
                         img_dna_seg[img_dna_seg!=cell_id] = 0

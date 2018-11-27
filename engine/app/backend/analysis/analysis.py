@@ -44,7 +44,7 @@ factor_name = args["color"]
 
 factor = np.unique(df[factor_name].values)
 
-print(factor)
+print("Counts:", df[factor_name].value_counts())
 
 for fac in factor:
 
