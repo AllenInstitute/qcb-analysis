@@ -10,30 +10,36 @@ DATASET_NAME <- "NUCLEUS_HIPS_MINIPIPELINE"
 
 setwd(ROOT_FOLDER)
 
+list_of_files <- list.files(path=".", pattern=paste(DATASET_NAME,"*",sep=""))
+
 #
 # Loading data
 #
 
-Table_meta <- data.frame(read.table(paste(DATASET_NAME,"_meta.csv", sep=""), header=T, sep=","))
-dim(Table_meta)
-levels(Table_meta$condition)
-names(Table_meta)
+Table_raw <- list()
+for (fname in list_of_files) {
+  tmp <- data.frame(read.table(fname, header=T, sep=","))
+  cell_id <- tmp$cell_id
+  tmp <- tmp[,-which(names(tmp)=="cell_id")]
+  Table_raw[[fname]] <- tmp
+}
+Table_raw <- do.call(cbind, Table_raw)
 
-Table_features <- data.frame(read.table(paste(DATASET_NAME,"_dna_feature.csv", sep=""), header=T, sep=","))
-dim(Table_features)
-
-Table_raw <- cbind(Table_meta,Table_features[,-ncol(Table_features)])
+for (i in seq(1,ncol(Table_raw),1)) {
+    names(Table_raw)[i] <- gsub(pattern="NUCLEUS_HIPS_MINIPIPELINE_.*.csv.", replacement="", x=names(Table_raw)[i])
+}
+Table_raw$cell_id <- cell_id
 
 #
 # Creating new features
 #
 
 Table_raw <- within(Table_raw, group <- paste(structure,condition))
-Table_raw <- within(Table_raw, dna_io_intensity_ratio <- dna_io_intensity_outer_mean/dna_io_intensity_mid_mean)
-Table_raw <- within(Table_raw, dna_io_intensity_ratio_slice <- dna_io_intensity_outer_slice_mean/dna_io_intensity_mid_slice_mean)
-Table_raw <- within(Table_raw, dna_intensity_sum <- dna_volume*dna_intensity_mean)
-Table_raw <- within(Table_raw, dna_bright_spots_intensity_mean_norm <- dna_bright_spots_intensity_mean/dna_intensity_mean)
-Table_raw <- within(Table_raw, dna_bright_spots_xy_rad <- sqrt(dna_bright_spots_xy_cross_sec_area_mean/pi))
+Table_raw <- within(Table_raw, str_io_intensity_ratio <- str_io_intensity_outer_mean/str_io_intensity_mid_mean)
+Table_raw <- within(Table_raw, str_io_intensity_ratio_slice <- str_io_intensity_outer_slice_mean/str_io_intensity_mid_slice_mean)
+Table_raw <- within(Table_raw, str_intensity_sum <- str_volume*str_intensity_mean)
+Table_raw <- within(Table_raw, str_bright_spots_intensity_mean_norm <- str_bright_spots_intensity_mean/str_intensity_mean)
+Table_raw <- within(Table_raw, str_bright_spots_xy_rad <- sqrt(str_bright_spots_xy_cross_sec_area_mean/pi))
 
 Table_raw$date <- unlist(lapply(Table_raw$czi, function(x) strsplit(as.character(x),"_")[[1]][1]))
 Table_raw$date <- paste("D", Table_raw$date, sep="")
@@ -89,4 +95,6 @@ Table <- subset(Table, outlier=="no")
 
 write.table(x=Table, file=paste(ROOT_FOLDER,"../engine/data-processed/",DATASET_NAME,".csv",sep=""), row.names=F, sep=";")
 
-ggplot(Table) + geom_point(aes(dna_volume,dna_intensity_mean,col=outlier))
+ggplot(Table) + geom_point(aes(cell_volume,dna_volume,col=condition)) + scale_color_brewer(palette="Dark2") 
+
+table(Table$group)

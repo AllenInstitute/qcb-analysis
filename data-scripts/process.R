@@ -28,7 +28,6 @@ Table_raw <- cbind(Table_meta,Table_features[,-ncol(Table_features)])
 # Creating new features
 #
 
-Table_raw <- within(Table_raw, group <- paste(structure,condition))
 Table_raw <- within(Table_raw, dna_io_intensity_ratio <- dna_io_intensity_outer_mean/dna_io_intensity_mid_mean)
 Table_raw <- within(Table_raw, dna_io_intensity_ratio_slice <- dna_io_intensity_outer_slice_mean/dna_io_intensity_mid_slice_mean)
 Table_raw <- within(Table_raw, dna_intensity_sum <- dna_volume*dna_intensity_mean)
@@ -37,6 +36,7 @@ Table_raw <- within(Table_raw, dna_bright_spots_xy_rad <- sqrt(dna_bright_spots_
 
 Table_raw$date <- unlist(lapply(Table_raw$czi, function(x) strsplit(as.character(x),"_")[[1]][1]))
 Table_raw$date <- paste("D", Table_raw$date, sep="")
+Table_raw <- within(Table_raw, group <- paste(structure,condition,date))
 
 should_not_be_used <- c("20180924_R07.czi","20180927_R04.czi","20180927_R05.czi","20180928_R03.czi","20180928_R04.czi",
                         "20181106_J01_020_Out.czi", "20181106_J02_015_Out.czi", "20181106_J03_015_Out.czi")
@@ -89,4 +89,4 @@ Table <- subset(Table, outlier=="no")
 
 write.table(x=Table, file=paste(ROOT_FOLDER,"../engine/data-processed/",DATASET_NAME,".csv",sep=""), row.names=F, sep=";")
 
-ggplot(Table) + geom_point(aes(dna_volume,dna_intensity_mean,col=outlier))
+ggplot(Table) + geom_point(aes(str_texture_haralick_contrast,str_texture_haralick_contrast,col=outlier))
