@@ -1,0 +1,3291 @@
+{
+    "name": "NUCLEUS_HIPS_H2B+TSA",
+    "data": [
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-01-P12-A01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-01-P12-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-02-P13-A01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-02-P13-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-03-P14-A01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-03-P14-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-04-P15-A01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-04-P15-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-05-P1-A01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-05-P1-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-06-P36-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-06-P36-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-07-P37-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-07-P37-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-08-P19-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-08-P19-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-09-P35-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-09-P35-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-10-P18-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-10-P18-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-11-P17-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-11-P17-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-12-P21-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-12-P21-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-13-P38-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-13-P38-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-14-P34-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-14-P34-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-15-P40-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-15-P40-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-16-P24-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-16-P24-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-17-P33-A02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-17-P33-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-18-P11.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-18-P11_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-19-P10.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-19-P10_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R01-Scene-20-P25.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R01/shape/",
+            "position": [
+                {
+                    "name": "20181012_R01-Scene-20-P25_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-01-P78.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-01-P78_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-02-P93-B02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-02-P93-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-03-P92-B02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-03-P92-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-04-P91-B02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-04-P91-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-05-P90-B02.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-05-P90-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-06-P88-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-06-P88-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-07-P73-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-07-P73-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-08-P71-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-08-P71-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-09-P74-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-09-P74-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-10-P75-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-10-P75-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-11-P85-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-11-P85-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-12-P76-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-12-P76-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-13-P68-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-13-P68-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-14-P77-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-14-P77-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-15-P83-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-15-P83-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-16-P79-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-16-P79-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-17-P67-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-17-P67-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-18-P82-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-18-P82-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-19-P66-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-19-P66-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181012_R02",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "yes",
+            "raw_name": "20181012_R02-Scene-20-P80-B03.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Liya/2018/20181012",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/",
+            "position": [
+                {
+                    "name": "20181012_R02-Scene-20-P80-B03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20180924_R04",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20180924_R04.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180924",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R04/shape/",
+            "position": [
+                {
+                    "name": "20180924_R04-Scene-01-P15-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-02-P11-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-03-P12-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-04-P14_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-05-P13_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-06-P19_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-07-P16-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-08-P17-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20180924_R04-Scene-09-P20-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181005_R01_001",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181005_R01_001.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_001/shape/",
+            "position": [
+                {
+                    "name": "20181005_R01_001-Scene-01-P14-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-02-P15-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-03-P13-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-04-P12-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-05-P16-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-06-P1-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-07-P11_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-08-P10_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-09-P9_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-10-P2_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-11-P3_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-12-P4_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-13-P8_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-14-P7_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-15-P5_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-16-P6_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-17-P25_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-18-P24_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-19-P17-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-20-P22-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-21-P19-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-22-P20-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-23-P21-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-24-P26-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-25-P29-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181005_R01_001-Scene-26-P30-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181005_R01_002",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181005_R01_002.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_002/shape/",
+            "position": [
+                {
+                    "name": "20181005_R01_002-Scene-01-P36-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-02-P31-B01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-03-P60-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-04-P34_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-05-P32_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-06-P58-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-07-P59-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-08-P57-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-09-P51-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-10-P52-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-11-P53-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-12-P56-C02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-13-P50-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-14-P39-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-15-P48-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-16-P40-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-17-P43-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-18-P47-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-19-P42-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-20-P44-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_002-Scene-21-P46-C01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181005_R01_003",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181005_R01_003.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R01_003/shape/",
+            "position": [
+                {
+                    "name": "20181005_R01_003-Scene-01-P82-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-02-P81-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-03-P80-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-04-P79-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-05-P84_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-06-P85_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-07-P78_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-08-P74-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-09-P72-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-10-P71-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-11-P76-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-12-P70-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-13-P64-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-14-P63-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-15-P66-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-16-P61-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181005_R01_003-Scene-17-P67-B02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181026_R01",
+            "cell_type": "hiPS",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50nm",
+            "minipipeline": "yes",
+            "force_single_scene": "no",
+            "raw_name": "20181026_R01.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181026",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R01/shape/",
+            "position": [
+                {
+                    "name": "20181026_R01-Scene-01-P3-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-02-P4-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-03-P5-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-04-P6-A01_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-05-P18-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-06-P8-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-07-P7-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-08-P12-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-09-P13-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-10-P9-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-11-P16-A02_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-12-P25-A03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-13-P24-A03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-14-P19-A03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-15-P27-A03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-16-P23-A03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-17-P26-A03_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-18-P20_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-19-P2_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-20-P1_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-21-P29_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-22-P14_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-23-P10_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-24-P11_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-25-P30_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "name": "20181026_R01-Scene-26-P15_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        }
+    ]
+}

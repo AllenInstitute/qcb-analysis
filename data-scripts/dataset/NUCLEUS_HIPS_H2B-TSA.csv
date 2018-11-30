@@ -1,0 +1,12 @@
+experiment_id;cell_type;structure;modality;pixel_size_xy;pixel_size_z;xy_upsample_seg;condition;minipipeline;force_single_scene;raw_name;raw_path;seg_path
+20180817_R04;hiPS;H2B;ZSD;0.108;0.29;1;Control;no;no;20180817_R04.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180817;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180817_R04/shape/
+20180824_R03;hiPS;H2B;ZSD;0.108;0.29;1;Control;no;no;20180824_R03.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180824;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180824_R03/shape/
+20181005_R02_001;hiPS;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20181005_R02_001.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_001/shape/
+20181005_R02_002;hiPS;H2B;ZSD;0.108;0.29;1;Control;no;no;20181005_R02_002.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181005;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181005_R02_002/shape/
+20181012_R02;hiPS;H2B;ZSD;0.108;0.29;1;Control;yes;no;20181012_R02.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181012;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181012_R02/shape/
+20181026_R02;hiPS;H2B;ZSD;0.108;0.29;1;Control;yes;no;20181026_R02.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181026;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181026_R02/shape/
+20180924_R07;hiPS;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20180924_R07.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180924;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180924_R07/shape/
+20180927_R04;hiPS;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20180927_R04.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180927;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R04/shape/
+20180927_R05;hiPS;H2B;ZSD;0.108;0.29;1;Control;no;no;20180927_R05.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180927;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180927_R05/shape/
+20180928_R03;hiPS;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20180928_R03.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180928;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R03/shape/
+20180928_R04;hiPS;H2B;ZSD;0.108;0.29;1;Control;no;no;20180928_R04.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20180928;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20180928_R04/shape/
