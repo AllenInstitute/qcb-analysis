@@ -2,14 +2,16 @@
     "name": "NUCLEUS_CARDIO",
     "data": [
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "TSA-50um",
-            "condition": "no",
+            "experiment_id": "20181107_R04",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50um",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181107_R04.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R04/shape/",
@@ -157,14 +159,16 @@
             ]
         },
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "Control",
-            "condition": "no",
+            "experiment_id": "20181003_M01_001",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181003_M01_001.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Melissa/2018/20181003",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181003_M01_001/shape/",
@@ -233,14 +237,16 @@
             ]
         },
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "DMSO",
-            "condition": "no",
+            "experiment_id": "20181107_R05",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181107_R05.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R05/shape/",
@@ -350,179 +356,32 @@
             ]
         },
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "DMSO",
-            "condition": "no",
+            "experiment_id": "20181114_R10",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181114_R010.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114",
-            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R010/shape/",
-            "position": [
-                {
-                    "name": "20181114_R010-Scene-01-P362-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-02-P361-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-03-P365-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-04-P364-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-05-P363-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3,
-                        4
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-06-P366-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-07-P367-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-08-P368-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-09-P369-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-10-P370-E08_seg_0.ome.tif",
-                    "cell_id": []
-                },
-                {
-                    "name": "20181114_R010-Scene-11-P371-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-12-P372-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3,
-                        4
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-13-P373-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-14-P374-E08_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-15-P375_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-16-P377_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-17-P380_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-18-P379_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3,
-                        4
-                    ]
-                },
-                {
-                    "name": "20181114_R010-Scene-19-P378_seg_0.ome.tif",
-                    "cell_id": [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5
-                    ]
-                }
-            ]
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R10/shape/",
+            "position": []
         },
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "TSA-50um",
-            "condition": "no",
+            "experiment_id": "20181114_R08",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50um",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181114_R08.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R08/shape/",
@@ -827,14 +686,16 @@
             ]
         },
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "Control",
-            "condition": "no",
+            "experiment_id": "20181114_R09",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181114_R09.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R09/shape/",
@@ -994,14 +855,16 @@
             ]
         },
         {
-            "experiment_id": "H2B",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "Control",
-            "condition": "no",
+            "experiment_id": "20181107_R06",
+            "cell_type": "cardiomyocyte",
+            "structure": "H2B",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181107_R06.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R06/shape/",
@@ -1115,14 +978,16 @@
             ]
         },
         {
-            "experiment_id": "CBX1",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "TSA-50um",
-            "condition": "no",
+            "experiment_id": "20181107_R01",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50um",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181107_R01.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R01/shape/",
@@ -1279,14 +1144,16 @@
             ]
         },
         {
-            "experiment_id": "CBX1",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "DMSO",
-            "condition": "no",
+            "experiment_id": "20181107_R02",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181107_R02.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R02/shape/",
@@ -1402,14 +1269,16 @@
             ]
         },
         {
-            "experiment_id": "CBX1",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "none",
-            "condition": "no",
+            "experiment_id": "20181107_R03",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX1",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "none",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181107_R03.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R03/shape/",
@@ -1496,14 +1365,16 @@
             ]
         },
         {
-            "experiment_id": "CBX2",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "TSA-50um",
-            "condition": "no",
+            "experiment_id": "20181114_R05",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX2",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "TSA-50um",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181114_R05.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R05/shape/",
@@ -1797,14 +1668,16 @@
             ]
         },
         {
-            "experiment_id": "CBX3",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "Control",
-            "condition": "no",
+            "experiment_id": "20181114_R06",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX3",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181114_R06.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R06/shape/",
@@ -2025,14 +1898,16 @@
             ]
         },
         {
-            "experiment_id": "CBX4",
-            "cell_type": "ZSD",
-            "structure": 0.10800000000000001,
-            "modality": 0.29,
-            "pixel_size_xy": 1,
-            "pixel_size_z": "DMSO",
-            "condition": "no",
+            "experiment_id": "20181114_R07",
+            "cell_type": "cardiomyocyte",
+            "structure": "CBX4",
+            "modality": "ZSD",
+            "pixel_size_xy": 0.10800000000000001,
+            "pixel_size_z": 0.29,
+            "xy_upsample_seg": 1,
+            "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181114_R07.czi",
             "raw_path": "/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R07/shape/",

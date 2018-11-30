@@ -1,8 +1,8 @@
-experiment_id;cell_type;structure;modality;pixel_size_xy;pixel_size_z;condition;minipipeline;raw_name;raw_path;seg_path
+experiment_id;cell_type;structure;modality;pixel_size_xy;pixel_size_z;xy_upsample_seg;condition;minipipeline;force_single_scene;raw_name;raw_path;seg_path
 20181107_R04;cardiomyocyte;H2B;ZSD;0.108;0.29;1;TSA-50um;no;no;20181107_R04.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R04/shape/
 20181003_M01_001;cardiomyocyte;H2B;ZSD;0.108;0.29;1;Control;no;no;20181003_M01_001.czi;/allen/aics/assay-dev/MicroscopyData/Melissa/2018/20181003;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181003_M01_001/shape/
 20181107_R05;cardiomyocyte;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20181107_R05.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R05/shape/
-20181114_R10;cardiomyocyte;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20181114_R010.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R010/shape/
+20181114_R10;cardiomyocyte;H2B;ZSD;0.108;0.29;1;DMSO;no;no;20181114_R010.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R10/shape/
 20181114_R08;cardiomyocyte;H2B;ZSD;0.108;0.29;1;TSA-50um;no;no;20181114_R08.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R08/shape/
 20181114_R09;cardiomyocyte;H2B;ZSD;0.108;0.29;1;Control;no;no;20181114_R09.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181114;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181114_R09/shape/
 20181107_R06;cardiomyocyte;H2B;ZSD;0.108;0.29;1;Control;no;no;20181107_R06.czi;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181107;/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/20181107_R06/shape/
