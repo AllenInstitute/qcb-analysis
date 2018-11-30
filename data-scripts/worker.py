@@ -130,7 +130,9 @@ if __name__ == "__main__":
 
                     # Parse series ID in the segmentation name
                     # First positiuon is 0, alhtough it is shown as Scene-01
-                    series_id = int(series_id.split("Scene")[1].split("-")[1]) - 1
+                    series_id = 0
+                    if config_czi["force_single_scene"] == "yes":
+                        series_id = int(series_id.split("Scene")[1].split("-")[1]) - 1
 
                 # Structure channel
 

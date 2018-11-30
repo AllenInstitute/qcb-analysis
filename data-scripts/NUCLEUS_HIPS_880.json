@@ -2,7 +2,7 @@
     "name": "NUCLEUS_HIPS_880",
     "data": [
         {
-            "date": 20181023,
+            "experiment_id": "20181023_J01_010_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -11,8 +11,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181023_J01_010_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181023",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -33,7 +34,7 @@
             ]
         },
         {
-            "date": 20181023,
+            "experiment_id": "20181023_J01_011_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -42,8 +43,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181023_J01_011_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181023",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -63,7 +65,7 @@
             ]
         },
         {
-            "date": 20181023,
+            "experiment_id": "20181023_J01_012_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -72,8 +74,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181023_J01_012_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181023",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -93,7 +96,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J02_010_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -102,8 +105,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J02_010_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -126,7 +130,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J02_011_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -135,8 +139,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J02_011_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -161,7 +166,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J02_012_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -170,8 +175,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J02_012_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -195,7 +201,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J02_013_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -204,8 +210,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J02_013_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
             "position": [
                 {
@@ -228,7 +235,7 @@
             ]
         },
         {
-            "date": 20181023,
+            "experiment_id": "20181023_J02_011_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -237,8 +244,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181023_J02_011_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181023",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
             "position": [
                 {
@@ -265,7 +273,7 @@
             ]
         },
         {
-            "date": 20181023,
+            "experiment_id": "20181023_J02_012_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -274,8 +282,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181023_J02_012_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181023",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
             "position": [
                 {
@@ -297,7 +306,7 @@
             ]
         },
         {
-            "date": 20181023,
+            "experiment_id": "20181023_J02_013_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -306,8 +315,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181023_J02_013_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181023",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
             "position": [
                 {
@@ -330,7 +340,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J03_010_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -339,8 +349,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J03_010_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
             "position": [
                 {
@@ -363,7 +374,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J03_011_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -372,8 +383,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J03_011_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
             "position": [
                 {
@@ -400,7 +412,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J03_012_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -409,8 +421,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J03_012_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
             "position": [
                 {
@@ -433,7 +446,7 @@
             ]
         },
         {
-            "date": 20181026,
+            "experiment_id": "20181026_J03_013_Out",
             "cell_type": "hiPS",
             "structure": "CBX1",
             "modality": 880,
@@ -442,8 +455,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181026_J03_013_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181026",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
             "position": [
                 {
@@ -470,7 +484,1788 @@
             ]
         },
         {
-            "date": 20181016,
+            "experiment_id": "20181109_J02_001_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_001_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_001_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_002_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_002_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_002_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_003_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_003_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_003_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_004_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_004_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_004_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_005_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_005_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_005_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_006_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_006_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_006_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_007_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_007_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_007_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_008_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_008_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_008_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_009_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_009_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_009_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_010_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_010_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_010_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_011_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_011_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_011_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_012_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_012_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_012_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_013_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_013_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_013_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_014_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_014_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_014_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J02_015_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "DMSO",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J02_015_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_DMSO_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J02_015_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_001_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_001_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_001_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_002_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_002_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_002_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_003_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_003_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_003_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_004_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_004_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_004_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_005_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_005_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": []
+        },
+        {
+            "experiment_id": "20181109_J03_006_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_006_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_006_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_007_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_007_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_007_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_008_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_008_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_008_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_009_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_009_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_009_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_010_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_010_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_010_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_011_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_011_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_011_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_012_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_012_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_012_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_013_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_013_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_013_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_014_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_014_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_014_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J03_015_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "Control",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J03_015_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_No_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J03_015_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_001_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_001_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_001_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_002_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_002_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_002_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_003_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_003_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_003_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_004_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_004_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_004_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_005_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_005_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_005_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_006_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_006_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_006_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_007_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_007_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_007_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_008_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_008_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_008_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_009_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_009_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_009_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_010_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_010_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_010_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_011_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_011_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_011_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_012_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_012_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_012_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_013_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_013_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_013_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_014_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_014_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_014_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_015_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_015_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_015_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_016_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_016_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_016_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_017_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_017_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_017_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_018_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_018_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_018_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_019_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_019_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_019_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181109_J01_020_Out",
+            "cell_type": "hiPS",
+            "structure": "CBX1",
+            "modality": 880,
+            "pixel_size_xy": 0.05,
+            "pixel_size_z": 0.22,
+            "xy_upsample_seg": 2,
+            "condition": "TSA-50nm",
+            "minipipeline": "no",
+            "force_single_scene": "no",
+            "raw_name": "20181109_J01_020_Out.czi",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_CBX1/",
+            "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_CBX1_TSA_1/shape/",
+            "position": [
+                {
+                    "name": "20181109_J01_020_Out_seg_0.ome.tif",
+                    "cell_id": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                    ]
+                }
+            ]
+        },
+        {
+            "experiment_id": "20181016_C03_010_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -479,8 +2274,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181016_C03_010_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181016",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -505,7 +2301,7 @@
             ]
         },
         {
-            "date": 20181016,
+            "experiment_id": "20181016_C03_011_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -514,8 +2310,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181016_C03_011_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181016",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -534,7 +2331,7 @@
             ]
         },
         {
-            "date": 20181016,
+            "experiment_id": "20181016_C03_012_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -543,8 +2340,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181016_C03_012_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181016",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -567,7 +2365,7 @@
             ]
         },
         {
-            "date": 20181019,
+            "experiment_id": "20181019_C06_008_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -576,8 +2374,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181019_C06_008_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181019",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -601,7 +2400,7 @@
             ]
         },
         {
-            "date": 20181019,
+            "experiment_id": "20181019_C06_009_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -610,8 +2409,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181019_C06_009_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181019",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -631,7 +2431,7 @@
             ]
         },
         {
-            "date": 20181019,
+            "experiment_id": "20181019_C06_010_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -640,8 +2440,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181019_C06_010_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181019",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -659,7 +2460,7 @@
             ]
         },
         {
-            "date": 20181106,
+            "experiment_id": "20181106_J01_020_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -668,8 +2469,9 @@
             "xy_upsample_seg": 2,
             "condition": "TSA-50nm",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181106_J01_020_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_TSA_1/shape/",
             "position": [
                 {
@@ -688,7 +2490,7 @@
             ]
         },
         {
-            "date": 20181016,
+            "experiment_id": "20181016_C04_009_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -697,8 +2499,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181016_C04_009_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181016",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_No_1/shape/",
             "position": [
                 {
@@ -719,7 +2522,7 @@
             ]
         },
         {
-            "date": 20181016,
+            "experiment_id": "20181016_C04_010_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -728,8 +2531,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181016_C04_010_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181016",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_No_1/shape/",
             "position": [
                 {
@@ -752,7 +2556,7 @@
             ]
         },
         {
-            "date": 20181016,
+            "experiment_id": "20181016_C04_011_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -761,8 +2565,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181016_C04_011_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181016",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_No_1/shape/",
             "position": [
                 {
@@ -790,7 +2595,7 @@
             ]
         },
         {
-            "date": 20181019,
+            "experiment_id": "20181019_C05_013_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -799,8 +2604,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181019_C05_013_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181019",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_DMSO_1/shape/",
             "position": [
                 {
@@ -823,7 +2629,7 @@
             ]
         },
         {
-            "date": 20181019,
+            "experiment_id": "20181019_C05_014_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -832,8 +2638,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181019_C05_014_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181019",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_DMSO_1/shape/",
             "position": [
                 {
@@ -855,7 +2662,7 @@
             ]
         },
         {
-            "date": 20181019,
+            "experiment_id": "20181019_C05_015_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -864,8 +2671,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181019_C05_015_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Caroline/2018/20181019",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_DMSO_1/shape/",
             "position": [
                 {
@@ -887,7 +2695,7 @@
             ]
         },
         {
-            "date": 20181106,
+            "experiment_id": "20181106_J02_015_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -896,8 +2704,9 @@
             "xy_upsample_seg": 2,
             "condition": "DMSO",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181106_J02_015_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_DMSO_1/shape/",
             "position": [
                 {
@@ -918,7 +2727,7 @@
             ]
         },
         {
-            "date": 20181106,
+            "experiment_id": "20181106_J03_015_Out",
             "cell_type": "hiPS",
             "structure": "H2B",
             "modality": 880,
@@ -927,8 +2736,9 @@
             "xy_upsample_seg": 2,
             "condition": "Control",
             "minipipeline": "no",
+            "force_single_scene": "no",
             "raw_name": "20181106_J03_015_Out.czi",
-            "raw_path": "/allen/aics/assay-dev/MicroscopyData/Jamie/2018/20181106",
+            "raw_path": "/allen/aics/assay-dev/MicroscopyOtherData/Caroline/Airyscan_Testing_Info/processing_H2B/",
             "seg_path": "/allen/aics/assay-dev/MicroscopyOtherData/Jianxu/Nucleus/segmentation/880_HIPSC_H2B_No_1/shape/",
             "position": [
                 {
