@@ -100,18 +100,21 @@ detect_outliers <- function(Table_or, fac_var, num_var, nsigma) {
 }
 
 Table <- Table_raw
-Table$outlier <- FALSE
 
-out1 <- detect_outliers(Table_or=Table, fac_var="condition", num_var="dna_volume", nsigma=2)
-out2 <- detect_outliers(Table_or=Table, fac_var="group", num_var="dna_intensity_max", nsigma=2)
-out3 <- detect_outliers(Table_or=Table, fac_var="condition", num_var="dna_roundness_roughness_xy", nsigma=3)
-Table$outlier <- ifelse(out1 + out2 + out3 > 0, "yes", "no")
-Table <- subset(Table, outlier=="no")
+Table$outlier <- "no"
+Table$outlier <- ifelse(
+  detect_outliers(Table_or=Table, fac_var="group", num_var="dna_volume", nsigma=2) > 0,
+  "yes", "no")
+
+#Table <- subset(Table, outlier=="no")
 
 #
 # Save processed table
 #
 
-write.table(x=Table, file=paste(ROOT_FOLDER,"../engine/data-processed/",DATASET_NAME,"_set2.csv",sep=""), row.names=F, sep=";")
+write.table(x=Table, file=paste(ROOT_FOLDER,"../engine/data-processed/",DATASET_NAME,"_",CONFIG_PLOT,".csv",sep=""), row.names=F, sep=";")
 
-ggplot(Table) + geom_point(aes(dna_volume,dna_intensity_mean,col=group))
+table(Table_raw$group)
+table(Table$group)
+
+ggplot(Table) + geom_point(aes(dna_volume,dna_intensity_mean,col=outlier))
