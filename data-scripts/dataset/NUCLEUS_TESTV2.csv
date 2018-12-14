@@ -1,0 +1,3 @@
+cell_type;channel;structure;suffix;modality;pixel_size_xy;pixel_size_z;upsample_xy;upsample_z;condition;czi_name;position;czi_path;seg_path;seg_suffix;feature
+hiPSC;1;H2B;str;ZSD;0.108;0.29;1;1;Control;20181012_R02;1:6;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181012;/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181012_R02/nuc_cell_segmentation;nucWholeIndexImageScale;TBD
+hiPSC;1;H2B;str;ZSD;0.108;0.29;1;1;Control;20181026_R02;1;/allen/aics/assay-dev/MicroscopyData/Ruian/2018/20181026;/allen/aics/assay-dev/MiniPipelineImageProcessing/NucleusCellSegmentationResults/delivery_form/20181026_R02/nuc_cell_segmentation;nucWholeIndexImageScale;TBD

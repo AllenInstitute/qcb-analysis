@@ -9,7 +9,7 @@ PIXEL_SIZE <- 0.108
 
 COLOR_PALLETE <- "Dark2"
 
-ROOT_FOLDER <- "/Users/viana/projects/qcb/data-raw/"
+ROOT_FOLDER <- "/home/matheus.viana/projects/qcb/qcb-analysis/data-raw/"
 
 setwd(ROOT_FOLDER)
 
@@ -73,7 +73,8 @@ is_different <- function(Table, num_var,fac_var) {
     }
   }
   print(num_var)
-  print(paste(comp_names,p.adjust(comp_pvals)<0.05))
+  comp_pvals <- p.adjust(comp_pvals)
+  print(paste(comp_names, paste(comp_pvals, comp_pvals<0.05)))
 }
 
 #
@@ -94,7 +95,7 @@ for (cond in conditions) {
 # Pre process the table and create variable
 #
 
-table_full <- within(table_full, group <- paste(structure, condition))
+table_full <- within(table_full, group <- paste(structure, condition, czi))
 table_full <- within(table_full, dna_volume <- (PIXEL_SIZE**3)*dna_volume)
 table_full <- within(table_full, dna_io_intensity_ratio <- dna_io_intensity_outer_mean/dna_io_intensity_mid_mean)
 table_full <- within(table_full, dna_io_intensity_ratio_slice <- dna_io_intensity_outer_slice_mean/dna_io_intensity_mid_slice_mean)
@@ -106,7 +107,15 @@ table_full <- within(table_full, dna_bright_spots_intensity_mean_norm <- dna_bri
 
 table(table_full$group)
 
-write.table(x=table_full, file=paste(ROOT_FOLDER,"../engine/data-processed/HIPS_ZSD_",CONFIG_PLOT,".csv", sep=""), row.names=F, sep=";")
+write.table(x=table_full, file=paste(ROOT_FOLDER,"../engine/data-processed/CARDIO_ZSD_RAW.csv", sep=""), row.names=F, sep=";")
+
+ggplot(table_full) +
+  geom_bar(aes(group, fill=condition)) +
+  facet_grid(vars(structure),vars(cell_type), scales="free_y") +
+  theme_bw() +
+  theme(legend.position="none", axis.text.x=element_text(angle=30, hjust=1)) +
+  scale_fill_brewer(palette=COLOR_PALLETE) +
+  xlab("")
 
 ##################################################
 #--------------------- PLOTS ---------------------
@@ -117,17 +126,20 @@ write.table(x=table_full, file=paste(ROOT_FOLDER,"../engine/data-processed/HIPS_
 #
 
 ggplot(table_full) +
-  geom_boxplot(aes(condition, dna_volume, fill=condition)) +
-  facet_wrap(~structure) +
+  geom_boxplot(aes(group, dna_volume, fill=condition)) +
+  facet_wrap(~structure, scale="free") +
   theme_bw() +
   theme(legend.position="none", axis.text.x=element_text(angle=30, hjust=1)) +
-  scale_fill_brewer(palette=COLOR_PALLETE)
+  scale_fill_brewer(palette=COLOR_PALLETE, drop=TRUE)
 
-is_different(Table=subset(table_full, structure="H2B"), num_var="dna_volume", fac_var="condition")
+q<-subset(table_full, (structure=="H2B") & (condition!="TSA-50um") )
+q$czi <- factor(q$czi)
+
+is_different(Table=q, num_var="dna_volume", fac_var="czi")
 is_different(Table=subset(table_full, structure="CBX1"), num_var="dna_volume", fac_var="condition")
 
 ggplot(table_full) +
-  geom_boxplot(aes(condition, dna_intensity_mean, fill=condition)) +
+  geom_boxplot(aes(group, dna_intensity_mean, fill=condition)) +
   facet_wrap(~structure, scales="free") +
   theme_bw() +
   theme(legend.position="none", axis.text.x=element_text(angle=30, hjust=1)) +

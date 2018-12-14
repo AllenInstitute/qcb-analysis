@@ -1,0 +1,370 @@
+rm(list=ls())
+library(grid)
+library(stringr)
+library(ggplot2)
+library(reshape2)
+library(gridExtra)
+
+COLOR_PALLETE <- "Dark2"
+
+ROOT_FOLDER <- "/home/matheus.viana/projects/qcb/qcb-analysis/engine/data-processed/"
+
+setwd(ROOT_FOLDER)
+
+#
+# Functions
+#
+
+get_single_texture_feature_table <- function(table_full, feature_name, pixel_size, first_distance_only=FALSE) {
+  
+  table_feature <- table_full[,grep(pattern = "texture", x = names(table_full))]
+  
+  npixels = as.character(table_feature$dna_texture_distance_used[1])
+  npixels <- gsub(pattern = "\\[", replacement = "", x = npixels)
+  npixels <- gsub(pattern = "\\]", replacement = "", x = npixels)
+  npixels <- as.numeric(unlist(strsplit(npixels, split=",")))
+  
+  subTable <- table_feature[,which(names(table_feature)==feature_name)]
+  subTable <- as.character(subTable)
+  subTable <- gsub(pattern = "\\[", replacement = "", x = subTable)
+  subTable <- gsub(pattern = "\\]", replacement = "", x = subTable)
+  subTable <- data.frame(str_split_fixed(string = subTable, pattern = ",", length(npixels)), stringsAsFactors=F)
+  subTable <- as.data.frame(apply(subTable, MARGIN = 2, as.numeric))
+  
+  names(subTable) <- npixels
+  
+  aggTable <- NULL
+  for (g in unique(table_full$group)) {
+    
+    subTable_long <- melt(subTable[which(table_full$group==g),])
+    
+    names(subTable_long) <- c("npixels", "feature")
+
+    if (first_distance_only) {
+
+      subTable_long <- subset(subTable_long, npixels==npixels[1])
+      
+      aggTable <- rbind(aggTable, data.frame(subTable_long,
+                                            structure=strsplit(g," ")[[1]][1],
+                                            condition=strsplit(g," ")[[1]][2],
+                                            cell_type=strsplit(g," ")[[1]][3],
+                                            group=g))
+      
+    } else {
+
+      aggTable <- rbind(aggTable, data.frame(aggregate(feature~npixels, data=subTable_long, FUN=mean),
+                                             sd=aggregate(.~npixels, data=subTable_long, FUN=sd)[,2],
+                                             count=aggregate(.~npixels, data=subTable_long, FUN=length)[,2],
+                                             structure=strsplit(g," ")[[1]][1],
+                                             condition=strsplit(g," ")[[1]][2],
+                                             cell_type=strsplit(g," ")[[1]][3]))
+    }
+    
+  }
+  
+  aggTable$npixels <- as.numeric(as.character(aggTable$npixels))
+  
+  aggTable <- within(aggTable, distance<-pixel_size*npixels)
+  
+  return (aggTable)
+}
+
+table_full = data.frame(read.table("ZSD_set2.csv", sep=";", header=T, stringsAsFactors=FALSE))
+
+table_full$cell_type[which(table_full$cell_type=="hiPS")] <- "hiPSC"
+
+table_full$structure <- factor(table_full$structure, levels=c("H2B","CBX1"))
+table_full$cell_type <- factor(table_full$cell_type, levels=c("hiPSC","cardiomyocyte"))
+
+#
+# Number of cells in each population
+#
+
+table(table_full$group)
+
+ggplot(table_full) +
+  geom_bar(aes(condition, fill=condition)) +
+  facet_grid(vars(structure),vars(cell_type), scales="free_y") +
+  theme_bw() +
+  theme(legend.position="none", axis.text.x=element_text(angle=30, hjust=1)) +
+  scale_fill_brewer(palette=COLOR_PALLETE) +
+  xlab("")
+
+##################################################
+# PART I
+##################################################
+
+table_history <- subset(table_full, cell_type=="hiPSC")
+
+#
+# Size and intensity
+#
+
+f1 <- ggplot(table_history, aes(condition, dna_volume, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("nuclear volume (um3)")
+
+f2 <- ggplot(table_history, aes(condition, dna_intensity_mean, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("avg. nuclear intensity")
+
+f3 <- ggplot(table_history, aes(condition, dna_intensity_sum, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("integrated intensity")
+
+pdf(file="part1-plot1.pdf", width=8, height=3)
+  grid.arrange(f1,f2,f3, ncol=3)
+dev.off()
+
+#
+# Brigth Spots
+#
+
+f1 <- ggplot(table_history, aes(condition, dna_bright_spots_number, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("# bright spots")
+
+f2 <- ggplot(table_history, aes(condition, dna_bright_spots_intensity_mean, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("avg. bright spots intensity")
+
+f3 <- ggplot(table_history, aes(condition, dna_bright_spots_intensity_mean_norm, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("avg. norm bright spots intensity")
+
+pdf(file="part1-plot2.pdf", width=8, height=3)
+  grid.arrange(f1,f2,f3, ncol=3)
+dev.off()
+
+#
+# IO Intensity
+#
+
+pdf(file="part1-plot3.pdf", width=2.66, height=3)
+ggplot(table_history, aes(condition, dna_io_intensity_ratio_slice, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#DF252A","#F79898","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("ring intensity ratio (center slice only)")
+dev.off()
+
+#
+# Texture Feature
+#
+
+texture_table_history <- get_single_texture_feature_table(table_full=table_history, feature_name="dna_texture_haralick_entropy", pixel_size=0.108, first_distance_only=TRUE)
+  
+texture_table_history$condition <- factor(texture_table_history$condition, levels=c("Control","TSA"))
+
+pdf(file="part1-plot4.pdf", width=2.66, height=3)
+ggplot(texture_table_history, aes(condition, feature, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=.75, preserve="single"),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=.75, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#2B76AF","#A6CCE1","#DF252A","#F79898","white")) +
+  xlab("") + ylab("texture entropy")
+dev.off()
+
+##################################################
+# PART II
+##################################################
+
+table_history <- subset(table_full, cell_type!="hiPSC" | condition!="TSA")
+
+#
+# Size
+#
+
+fig1 <- ggplot(table_history, aes(structure, dna_volume, fill=group)) +
+  geom_boxplot(position = position_dodge(width=0.8),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge(width=0.8)) +
+  facet_wrap(~cell_type, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#FBBF76","#3C9F3C","#2B76AF","#B2DE8F","white","white")) +
+  xlab("") + ylab("nuclear volume (um3)")
+
+gt = ggplot_gtable(ggplot_build(fig1))
+gt$widths[1] = unit(10,"pt")
+gt$widths[5] = unit(80,"pt")
+grid.draw(gt)
+
+pdf(file="part2-plot1.pdf", width=4, height=3)
+  grid.draw(gt)
+dev.off()
+
+#
+# Intensity
+#
+
+table_history <- subset(table_full, structure=="CBX1")
+table_history <- subset(table_history, cell_type!="hiPSC" | condition!="TSA")
+
+fig1 <- ggplot(table_history, aes(structure, dna_intensity_mean, fill=group)) +
+  geom_boxplot(position = position_dodge(width=0.8),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge(width=0.8)) +
+  facet_wrap(~cell_type, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#FBBF76","white")) +
+  xlab("") + ylab("avg. nuclear intensity")
+
+gt = ggplot_gtable(ggplot_build(fig1))
+gt$widths[1] = unit(10,"pt")
+gt$widths[5] = unit(40,"pt")
+
+pdf(file="part2-plot2.pdf", width=2.33, height=3)
+grid.draw(gt)
+dev.off()
+
+fig1 <- ggplot(table_history, aes(structure, dna_intensity_sum, fill=group)) +
+  geom_boxplot(position = position_dodge(width=0.8),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge(width=0.8)) +
+  facet_wrap(~cell_type, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#FBBF76","white")) +
+  xlab("") + ylab("integrated intensity")
+
+gt = ggplot_gtable(ggplot_build(fig1))
+gt$widths[1] = unit(10,"pt")
+gt$widths[5] = unit(40,"pt")
+
+pdf(file="part2-plot3.pdf", width=2.5, height=3)
+grid.draw(gt)
+dev.off()
+
+#
+# Bright Spots
+#
+
+table_history <- subset(table_full, cell_type!="cardiomyocyte" | condition!="TSA")
+
+fig1 <- ggplot(table_history, aes(cell_type, dna_bright_spots_number, fill=group)) +
+  geom_boxplot(position = position_dodge2(preserve="single", width=1),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=0.75)) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#F79898","#3C9F3C","#2B76AF","#A6CCE1","white","white")) +
+  xlab("") + ylab("# bright spots") + ylim(0,40)
+
+pdf(file="part2-plot4.pdf", width=4, height=3)
+  fig1
+dev.off()
+
+table_history <- subset(table_full, structure=="CBX1")
+table_history <- subset(table_history, cell_type!="cardiomyocyte" | condition!="TSA")
+
+fig1 <- ggplot(table_history, aes(structure, dna_bright_spots_intensity_mean, fill=group)) +
+  geom_boxplot(position = position_dodge(width=0.8),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge(width=0.8)) +
+  facet_wrap(~cell_type, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#F79898","white")) +
+  xlab("") + ylab("avg. bright spots intensity")
+
+gt = ggplot_gtable(ggplot_build(fig1))
+gt$widths[1] = unit(10,"pt")
+gt$widths[5] = unit(85,"pt")
+
+pdf(file="part2-plot5.pdf", width=2.5, height=3)
+grid.draw(gt)
+dev.off()
+
+fig1 <- ggplot(table_history, aes(structure, dna_bright_spots_intensity_mean_norm, fill=group)) +
+  geom_boxplot(position = position_dodge(width=0.8),outlier.size = 0.5) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge(width=0.8)) +
+  facet_wrap(~cell_type, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#F79898","white")) +
+  xlab("") + ylab("avg. norm bright spots intensity") + ylim(1,4)
+
+gt = ggplot_gtable(ggplot_build(fig1))
+gt$widths[1] = unit(10,"pt")
+gt$widths[5] = unit(85,"pt")
+
+pdf(file="part2-plot6.pdf", width=2.3, height=3)
+grid.draw(gt)
+dev.off()
+
+#
+# IO Intensity
+#
+
+table_history <- subset(table_full, cell_type!="cardiomyocyte" | condition!="TSA")
+
+fig1 <- ggplot(table_history, aes(cell_type, dna_io_intensity_ratio_slice, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=1, preserve="single"), outlier.size = 0.5, width=1) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=1, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#FC802B","#DF252A","#F79898","#3C9F3C","#2B76AF","#A6CCE1")) +
+  xlab("") + ylab("ring intensity ratio (center slice only)") + ylim(0.6,1.1)
+
+pdf(file="part2-plot7.pdf", width=4, height=3)
+  fig1
+dev.off()
+
+#
+# Texture
+#
+
+table_history <- subset(table_full, cell_type!="cardiomyocyte" | condition!="TSA")
+
+texture_table_history <- get_single_texture_feature_table(table_full=table_history, feature_name="dna_texture_haralick_entropy", pixel_size=0.108, first_distance_only=TRUE)
+
+texture_table_history$condition <- factor(texture_table_history$condition, levels=c("Control","TSA"))
+
+fig1 <- ggplot(texture_table_history, aes(cell_type, feature, fill=group)) +
+  geom_boxplot(position = position_dodge2(width=1, preserve="single"),outlier.size = 0.5, width=1) +
+  stat_summary(fun.y = mean, geom="point", position = position_dodge2(width=1, preserve="single")) +
+  facet_wrap(~structure, strip.position = "top", scales = "free_x") +
+  theme_bw() +
+  theme(legend.position="none", panel.spacing = unit(0, "lines"), strip.background = element_blank(), strip.placement = "outside") +
+  scale_fill_manual(values=c("#2B76AF","#A6CCE1","#DF252A","#F79898","#3C9F3C","#FC802B")) +
+  xlab("") + ylab("texture entropy") + ylim(9,14)
+
+pdf(file="part2-plot8.pdf", width=4, height=3)
+  fig1
+dev.off()
+
+
