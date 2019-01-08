@@ -11,7 +11,7 @@ from skimage import io as skio
 from colorama import init, Fore
 init(autoreset=True)
 
-from worker_tools import make_pdf_report
+from worker_tools import *
 
 if __name__ == "__main__":
 
@@ -24,90 +24,6 @@ if __name__ == "__main__":
     parser.add_argument("-c", "--config", nargs="?", type=str, default="", const="", required=False)
     parser.add_argument("-d", "--dataset", nargs="?", type=str, default="", const="", required=False)
     args = vars(parser.parse_args())
-
-    # Auxiliar functions
-
-    def get_orthogonal_projs(img):
-
-        nz = img.shape[0]
-        img_proj_xy = img.max(axis=0)
-        img_proj_xz = img.max(axis=1)
-        img_proj_yz = img.max(axis=2)
-        img_offset  = np.zeros((nz,nz), dtype=img.dtype)
-
-        img_proj = np.concatenate([
-            np.concatenate([img_proj_xy, img_proj_yz.T], axis=1),
-            np.concatenate([img_proj_xz,    img_offset], axis=1)], axis=0)
-
-        return img_proj
-
-    def get_image_dimension(czi_path):
-
-        '''
-            This function assumes that all images in the CZI file
-            have same dimension and therefore, we only need to
-            retrieve the dimensions of the 1st image.
-        '''
-
-        pxl_info = bf.OMEXML(bf.get_omexml_metadata(czi_path)).image(0).Pixels
-        nx = pxl_info.SizeX
-        ny = pxl_info.SizeY
-        nz = pxl_info.SizeZ
-
-        return (nz, ny, nx)
-
-    def get_stack_from_series_id(czi_path, channel, series_id, dim):
-
-        '''
-            Extracts a z-stack (position) from multi-position CZI
-            Slice-by-slice is required in the current bio-format
-            package
-        '''
-
-        img_raw = []
-        for slice in range(dim[0]):
-            img_raw.append(bf.load_image(path=czi_path, series=series_id, c=channel, z=slice, t=0, rescale=False))
-        img_raw = np.array(img_raw).reshape(*dim)
-
-        return img_raw
-
-    def get_list_valid_positions(text):
-
-        '''
-            Valid positions can be provided as list [1,2,3...] or
-            sequence 1:10, or a single position. Or it can also be
-            a string:
-                force0 - it is always going to map to first position
-                any - any position is valid
-        '''
-
-        list_of_positions = None
-
-        if str(text).isdigit():
-
-            list_of_positions = [int(text)]
-        
-        elif ":" in text:
-
-            i = np.int(text.split(":")[0])
-            j = np.int(text.split(":")[1])
-
-            list_of_positions = np.arange(i,j+1,1).tolist()
-
-        elif "," in text:
-
-            list_of_positions = list(map(int, text.split(",")))
-
-        elif "force0" == text:
-
-            list_of_positions = -1
-
-        return list_of_positions
-
-    def print_log(text, log_file):
-        print(text)
-        with open(log_file, "a") as flog:
-            flog.write(text+"\n")
 
     #
     # If config mode
@@ -266,3 +182,217 @@ if __name__ == "__main__":
     # Create a report
 
     make_pdf_report(file_name=args["dataset"])
+
+    #
+    # If feature extraction mode
+    #
+
+    if args["mode"] == "feature":
+
+        # Specific imports
+
+        from skimage.measure import label
+        from skimage.transform import resize
+
+        import javabridge as jv, bioformats as bf
+        jv.start_vm(class_path=bf.JARS, max_heap_size='4G')
+
+        from aicsfeature.extractor import cell, dna, structure
+
+        #
+        # Loading configuration form JSON file
+        #
+
+        with open(args["config"]+".json", "r") as fjson:
+            config_full = json.load(fjson)
+        config_name = config_full["name"]
+        config_json = config_full["data"]
+        print("Processing dataset:",config_name)
+
+        # Checking whether static/imgs exist
+
+        if not os.path.isdir("../engine/app/static/imgs/"):
+            os.makedirs("../engine/app/static/imgs/")
+
+        # Removing log file
+
+        try:
+            os.remove("log.json")
+        except: pass
+
+        # For each CZI
+
+        print("Number of CZI files found:",len(config_json))
+        
+        df_meta = pd.DataFrame([])
+        df_feat = pd.DataFrame([])
+
+        for config_czi in config_json:
+
+            czi_path = os.path.join(config_czi["raw_path"],config_czi["raw_name"])
+            pxl_info = bf.OMEXML(bf.get_omexml_metadata(czi_path)).image(0).Pixels
+            nx = pxl_info.SizeX
+            ny = pxl_info.SizeY
+            nz = pxl_info.SizeZ
+            pixel_size_xy = config_czi["pixel_size_xy"]
+            pixel_size_z = config_czi["pixel_size_z"]
+
+            print("CZI:", config_czi["raw_name"], (nz,ny,nx))
+
+            # For each series
+
+            for position in config_czi["position"]:
+
+
+                # Images from 880 microscope are single position, while
+                # images from ZSD is multiposition and require us to
+                # parse the seg file name to find the series id
+                
+                print("\tSeries:",position["name"])
+
+                if config_czi["modality"] == 880:
+
+                    series_id = 0
+
+                else:
+
+                    series_id = position["name"]
+
+                    # Parse series ID in the segmentation name
+                    # First positiuon is 0, alhtough it is shown as Scene-01
+                    if config_czi["force_single_scene"] == "yes":
+                        series_id = 0
+                    else:
+                        series_id = int(series_id.split("Scene")[1].split("-")[1]) - 1
+
+                # Structure channel
+
+                str_channel = 0
+                if config_czi["minipipeline"] == "yes":
+                    str_channel = 1
+
+                img_raw_ok = False
+
+                try:
+
+                    img_raw = get_stack_from_series_id(czi_path=czi_path, channel=str_channel, series_id=series_id, dim=(nz,ny,nx))
+
+                    img_raw_ok = True
+
+                except:
+
+                    # Log if not possible to read the raw data
+
+                    with open("log.json", "a") as flog:
+                        json.dump({
+                            "czi_path": czi_path,
+                            "position_name": position["name"],
+                            "channel": str_channel,
+                            "series_id": series_id,
+                            "dim": (nz,ny,nz)}, flog, indent=4)
+                    pass
+
+                if img_raw_ok:
+
+                    # Load segmentation & clear 1st and last slice
+
+                    seg_path = os.path.join(config_czi["seg_path"],position["name"])
+                    img_seg_all = skio.imread(seg_path)
+                    img_seg_all[ 0,:,:] = 0
+                    img_seg_all[-1,:,:] = 0
+
+                    # 880 images have been downsampled for segmentation
+
+                    if config_czi["xy_upsample_seg"] > 1.0:
+
+                        print("\tUpsampling segmentation, original:", img_seg_all.shape, ", target:", nz,ny,ny, ", factor reported:", config_czi["xy_upsample_seg"])
+
+                        img_seg_all_dtype = img_seg_all.dtype
+                        img_seg_all = resize(image = img_seg_all,
+                            output_shape = (nz, ny, nx),
+                            order = 0,
+                            preserve_range = True,
+                            anti_aliasing = False,
+                            mode = "constant")
+                        img_seg_all = img_seg_all.astype(img_seg_all_dtype)
+
+                    # Analyze each cell
+
+                    print("\tProcessing cell:")
+
+                    for cell_id in position["cell_id"]:
+
+                        print("\t\t",cell_id)
+
+                        cell_name = position["name"].replace(".ome.tif","_cid_"+str(cell_id))
+
+                        img_seg = img_seg_all.copy()
+                        img_seg[img_seg!=cell_id] = 0
+                        img_seg[img_seg==cell_id] = 1
+
+                        print("\t\t\tTesting object connectivity")
+
+                        # Testing whether the nucleus has a unique component
+                        # Excluding pixels=0 during bincount
+
+                        img_seg = label(img_seg)
+
+                        if img_seg.max() > 1:
+                            largest_cc = 1 + np.argmax(np.bincount(img_seg.flat)[1:])
+                            img_seg[img_seg!=largest_cc] = 0
+                            img_seg[img_seg>0] = 1
+
+                        # Cropping the nucleus
+
+                        print("\t\t\tCropping ROI")
+
+                        pxl_z, pxl_y, pxl_x = np.nonzero(img_seg)
+
+                        img_seg_crop = img_seg[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
+                        img_raw_crop = img_raw[pxl_z.min():(pxl_z.max()+1),pxl_y.min():(pxl_y.max()+1),pxl_x.min():(pxl_x.max()+1)]
+
+                        img_input = img_seg_crop * img_raw_crop
+
+                        # Rescale to isotropic volume
+
+                        print("\t\t\tRescale z direction")
+
+                        dim_z, dim_y, dim_x = img_input.shape
+                        dim_z = np.int((pixel_size_z/pixel_size_xy)*dim_z)
+                        img_input = resize(image=img_input, output_shape=(dim_z,dim_y,dim_x), preserve_range=True, anti_aliasing=True, mode="constant")
+                        img_input = img_input.astype(np.int64)
+
+                        # Save the image for interactive view
+
+                        print("\t\t\tSaving orthogonal projections:", cell_name)
+
+                        img_png = get_orthogonal_projs(img_input)
+                        skio.imsave(os.path.join("../engine/app/static/imgs",cell_name+".png"),img_png.astype(np.uint16))
+
+                        # Feature extraction
+
+                        print("\t\t\tExtracting features...")
+
+                        feat = dna.get_features(img=img_input, extra_features=["io_intensity", "bright_spots", "roundness"])
+                        feat["cell_id"] = cell_name
+                        
+                        # Metadata
+
+                        meta = pd.DataFrame({
+                            "cell_id": cell_name,
+                            "czi": config_czi["raw_name"],
+                            "series_id": series_id,
+                            "cell_seg_id": cell_id,
+                            "condition": config_czi["condition"],
+                            "cell_type": config_czi["cell_type"],
+                            "structure": config_czi["structure"],
+                            "scope": config_czi["modality"],
+                            "minipipeline": config_czi["minipipeline"]}, index=[0])
+
+                        df_meta = pd.concat([df_meta,meta], axis=0, ignore_index=True)
+                        df_feat = pd.concat([df_feat,feat], axis=0, ignore_index=True)
+
+                        df_meta.to_csv(os.path.join("../data-raw/",config_name+"_meta.csv"), index=False)
+                        df_feat.to_csv(os.path.join("../data-raw/",config_name+"_feature.csv"), index=False)
+
+        print("Done!")
