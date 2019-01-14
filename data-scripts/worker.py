@@ -158,6 +158,10 @@ if __name__ == "__main__":
 
         df_meta = df_meta.set_index(config_json["id"])
 
+        mem_ch = config_json["mem_channel"]
+        dna_ch = config_json["dna_channel"]
+        str_ch = config_json["str_channel"]
+
         """
             Checking whether static/imgs exist
         """
