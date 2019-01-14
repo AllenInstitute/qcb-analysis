@@ -74,8 +74,8 @@ for fac in factor:
 	subDATA = dict()
 	subDATA["x"] = df[xvar][ids].values.tolist()
 	subDATA["y"] = df[yvar][ids].values.tolist()
-	subDATA["label"] = [fac] * ncells
-	subDATA["name"]  = fac
+	subDATA["label"] = ["M"+str(fac)] * ncells
+	subDATA["name"]  = "M"+str(fac)
 	subDATA["id"]  = df["cell_id"][ids].values.tolist()
 
 	DATA.append(subDATA)

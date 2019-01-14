@@ -30,10 +30,6 @@ if __name__ == "__main__":
     with open(args["config"], "r") as fjson:
         config_json = json.load(fjson)
 
-    mem_ch = config_json["mem_channel"]
-    dna_ch = config_json["dna_channel"]
-    str_ch = config_json["str_channel"]
-
     """
         If download mode
     """
@@ -64,7 +60,7 @@ if __name__ == "__main__":
 
     if args["mode"] == "feature":
 
-        from aicsfeature.extractor import cell, dna, structure
+        from aicsfeature import extractor
 
         #
         # Loading metadata
@@ -109,29 +105,36 @@ if __name__ == "__main__":
 
                     if row >= args["start"]:
 
+                        #
+                        # Load images
+                        #
+
                         cid = df_meta_struct.index[row]
-                        seg_path = os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
-                        raw_path = os.path.join(config_json["cell_info"],cid,config_json["seg_prefix"])
+                        seg_path = os.path.join(config_json["cell_info"], cid, config_json["seg_prefix"])
+                        raw_path = os.path.join(config_json["cell_info"], cid, config_json["seg_prefix"])
                         SEG = skio.imread(seg_path)
                         RAW = skio.imread(raw_path)
+
+                        #
+                        # Images to be used
+                        #
+
+                        str_ch = struct["channel"]
+                        input_img = RAW[str_ch,:,:,:]
+                        input_mask = SEG[str_ch,:,:,:]
+                        input_mask2 = None if "channel2" not in struct else SEG[struct["channel2"],:,:,:]
 
                         #
                         # Feature extraction for each cell
                         #
 
-                        if struct["structure_name"] == "cell":
-                            df_features = df_features.append(cell.get_features(img=RAW[mem_ch,:,:,:]*SEG[mem_ch,:,:,:]),
-                                ignore_index=True, sort=True)
+                        df_features_cell = extractor.get_features(input_img=input_img, input_mask=input_mask, info=struct["info"], input_mask2=input_mask2)
 
-                        elif struct["structure_name"] == "dna":
-                            df_features = df_features.append(dna.get_features(img=RAW[dna_ch,:,:,:]*SEG[dna_ch,:,:,:]),
-                                ignore_index=True, sort=True)
-                        else:
-                            df_features = df_features.append(structure.get_features(img=RAW[str_ch,:,:,:]*SEG[str_ch,:,:,:],
-                                extra_features=struct["extra_features"]),
-                                ignore_index=True, sort=True)
-            
-                df_features.index = df_meta_struct.index
+                        df_features = df_features.append(df_features_cell, ignore_index=True, sort=True)
+
+                if not args["start"]:
+
+                    df_features.index = df_meta_struct.index
 
                 #
                 # Save as pickle
