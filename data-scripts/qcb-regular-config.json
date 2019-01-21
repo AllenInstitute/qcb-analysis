@@ -7,10 +7,11 @@
    "mem_channel":1,
    "dna_channel":0,
    "str_channel":2,
+   "ruian": "FBL is pretty high up on that list. Besides that, I think it's good to first have major organelle markers like golgi, sec and lamin. Segmentations for strutures like tubulin, actin, actinin, myosin and ZO1 are not as accurate therefore difficult to analyze.",
    "run":[  
       {  
          "structure_name":"cell",
-         "status":"on",
+         "status":"off",
          "channel": 1,
          "info":{  
             "mode":"icc",
@@ -33,7 +34,7 @@
       },
       {  
          "structure_name":"dna",
-         "status":"on",
+         "status":"off",
          "channel": 0,
          "info":{  
             "mode":"icc",
@@ -83,6 +84,57 @@
          },
          "description":"Features extracted from QCB images of TUBA1B-tagged microtubules",
          "save_as":"QCB_TUBA1B_feature.pkl"
+      },
+      {  
+         "structure_name":"TOM20",
+         "status":"off",
+         "channel": 2,
+         "channel2": 1,
+         "info":{  
+            "mode":"pcc",
+            "prefix":"tom20",
+            "shape":{  
+               "default":0
+            },
+            "roundness":{  
+               "default":0
+            },
+            "position":{  
+               "default":0
+            },
+            "intensity":{  
+               "default":0
+            },
+            "skeleton":{  
+               "default":0
+            }
+         },
+         "description":"Features extracted from QCB images of TOMM20-tagged mitochondria",
+         "save_as":"QCB_TOM20_feature.pkl"
+      },
+      {  
+         "structure_name":"FBL",
+         "status":"on",
+         "channel": 2,
+         "channel2": 1,
+         "info":{  
+            "mode":"pcc",
+            "prefix":"fbl",
+            "shape":{  
+               "default":0
+            },
+            "roundness":{  
+               "default":0
+            },
+            "position":{  
+               "default":0
+            },
+            "intensity":{  
+               "default":0
+            }
+         },
+         "description":"Features extracted from QCB images of FBL-tagged nucleolus",
+         "save_as":"QCB_FBL_feature.pkl"
       },
       {  
          "structure_name":"cell",
